@@ -1,0 +1,2819 @@
+35910|35910|A|Document.xml
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see https://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="0.19R22914 (Git)" FileVersion="1">
+    <Properties Count="15" TransientCount="3">
+        <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+        <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+        <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+        <Property name="Comment" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Company" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="CreatedBy" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="CreationDate" type="App::PropertyString" status="16777217">
+            <String value="2020-11-15T14:28:45Z"/>
+        </Property>
+        <Property name="Id" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Label" type="App::PropertyString" status="1">
+            <String value="EndCap2020"/>
+        </Property>
+        <Property name="LastModifiedBy" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+            <String value="2021-01-03T20:41:21Z"/>
+        </Property>
+        <Property name="License" type="App::PropertyString" status="1">
+            <String value="All rights reserved"/>
+        </Property>
+        <Property name="LicenseURL" type="App::PropertyString" status="1">
+            <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+        </Property>
+        <Property name="Material" type="App::PropertyMap" status="1">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="Meta" type="App::PropertyMap" status="1">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="ShowHidden" type="App::PropertyBool" status="1">
+            <Bool value="false"/>
+        </Property>
+        <Property name="TipName" type="App::PropertyString" status="83886080">
+            <String value=""/>
+        </Property>
+        <Property name="Uid" type="App::PropertyUUID" status="16777217">
+            <Uuid value="9581746c-1a69-461a-9022-018e52b6f22d"/>
+        </Property>
+    </Properties>
+    <Objects Count="11" Dependencies="1">
+        <ObjectDeps Name="EndCap2020" Count="5">
+            <Dep Name="Pad"/>
+            <Dep Name="Origin"/>
+            <Dep Name="LCS_0"/>
+            <Dep Name="Sketch"/>
+            <Dep Name="Pad"/>
+        </ObjectDeps>
+        <ObjectDeps Name="Origin" Count="6">
+            <Dep Name="X_Axis"/>
+            <Dep Name="Y_Axis"/>
+            <Dep Name="Z_Axis"/>
+            <Dep Name="XY_Plane"/>
+            <Dep Name="XZ_Plane"/>
+            <Dep Name="YZ_Plane"/>
+        </ObjectDeps>
+        <ObjectDeps Name="X_Axis" Count="0"/>
+        <ObjectDeps Name="Y_Axis" Count="0"/>
+        <ObjectDeps Name="Z_Axis" Count="0"/>
+        <ObjectDeps Name="XY_Plane" Count="0"/>
+        <ObjectDeps Name="XZ_Plane" Count="0"/>
+        <ObjectDeps Name="YZ_Plane" Count="0"/>
+        <ObjectDeps Name="LCS_0" Count="1">
+            <Dep Name="X_Axis"/>
+        </ObjectDeps>
+        <ObjectDeps Name="Sketch" Count="1">
+            <Dep Name="XY_Plane"/>
+        </ObjectDeps>
+        <ObjectDeps Name="Pad" Count="2">
+            <Dep Name="Sketch"/>
+            <Dep Name="EndCap2020"/>
+        </ObjectDeps>
+        <Object type="PartDesign::Body" name="EndCap2020" id="1693" />
+        <Object type="App::Origin" name="Origin" id="1694" />
+        <Object type="App::Line" name="X_Axis" id="1695" />
+        <Object type="App::Line" name="Y_Axis" id="1696" />
+        <Object type="App::Line" name="Z_Axis" id="1697" />
+        <Object type="App::Plane" name="XY_Plane" id="1698" />
+        <Object type="App::Plane" name="XZ_Plane" id="1699" />
+        <Object type="App::Plane" name="YZ_Plane" id="1700" />
+        <Object type="PartDesign::CoordinateSystem" name="LCS_0" id="1701" />
+        <Object type="Sketcher::SketchObject" name="Sketch" id="1702" />
+        <Object type="PartDesign::Pad" name="Pad" id="1703" />
+    </Objects>
+    <ObjectData Count="11">
+        <Object name="EndCap2020" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="App::OriginGroupExtension" name="OriginGroupExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="10" TransientCount="1">
+                <_Property name="_GroupTouched" type="App::PropertyBool" status="100663424"/>
+                <Property name="BaseFeature" type="App::PropertyLink">
+                    <Link value=""/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Group" type="App::PropertyLinkList">
+                    <LinkList count="3">
+                        <Link value="LCS_0"/>
+                        <Link value="Sketch"/>
+                        <Link value="Pad"/>
+                    </LinkList>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="EndCap2020"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Origin" type="App::PropertyLink" status="67108864">
+                    <Link value="Origin"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape.brp"/>
+                </Property>
+                <Property name="Tip" type="App::PropertyLink">
+                    <Link value="Pad"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Origin" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="App::GeoFeatureGroupExtension" name="GeoFeatureGroupExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="5" TransientCount="2">
+                <_Property name="Group" type="App::PropertyLinkList" status="16"/>
+                <_Property name="_GroupTouched" type="App::PropertyBool" status="100663296"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Origin"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="OriginFeatures" type="App::PropertyLinkList" status="67108864">
+                    <LinkList count="6">
+                        <Link value="X_Axis"/>
+                        <Link value="Y_Axis"/>
+                        <Link value="Z_Axis"/>
+                        <Link value="XY_Plane"/>
+                        <Link value="XZ_Plane"/>
+                        <Link value="YZ_Plane"/>
+                    </LinkList>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="X_Axis">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="X_Axis"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="X_Axis"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Y_Axis">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Y_Axis"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000000" Q3="0.5000000000000001" A="2.0943951023931953" Ox="0.5773502691896258" Oy="0.5773502691896258" Oz="0.5773502691896258"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="Y_Axis"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Z_Axis">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Z_Axis"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.5000000000000001" Q1="0.5000000000000001" Q2="0.5000000000000001" Q3="-0.4999999999999998" A="4.1887902047863905" Ox="0.5773502691896258" Oy="0.5773502691896258" Oz="0.5773502691896258"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="Z_Axis"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="XY_Plane">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="XY_Plane"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="XY_Plane"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="XZ_Plane">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="XZ_Plane"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.7071067811865476" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="0.7071067811865475" A="1.5707963267948968" Ox="1.0000000000000000" Oy="0.0000000000000000" Oz="0.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="XZ_Plane"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="YZ_Plane">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="YZ_Plane"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000000" Q3="0.5000000000000001" A="2.0943951023931953" Ox="0.5773502691896258" Oy="0.5773502691896258" Oz="0.5773502691896258"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="YZ_Plane"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="LCS_0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtension" name="AttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="12" TransientCount="0">
+                <Property name="AttacherType" type="App::PropertyString" status="8">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="LCS_0"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="2"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388612">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape1.brp"/>
+                </Property>
+                <Property name="Support" type="App::PropertyLinkSubList">
+                    <LinkSubList count="1">
+                        <Link obj="X_Axis" sub=""/>
+                    </LinkSubList>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Sketch" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtension" name="AttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="15" TransientCount="0">
+                <Property name="AttacherType" type="App::PropertyString" status="8">
+                    <String value="Attacher::AttachEnginePlane"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Constraints" type="Sketcher::PropertyConstraintList">
+                    <ConstraintList count="20">
+                        <Constrain Name="" Type="2" Value="0.0000000000000000" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="2" Value="0.0000000000000000" First="2" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="3" Value="0.0000000000000000" First="1" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="3" Value="0.0000000000000000" First="3" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="12" Value="0.0000000000000000" First="3" FirstPos="0" Second="2" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="5" Value="-1.5707963267948966" First="3" FirstPos="1" Second="4" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="5" Value="-1.5707963267948966" First="2" FirstPos="2" Second="4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="5" Value="-1.5707963267948966" First="2" FirstPos="1" Second="5" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="5" Value="-1.5707963267948966" First="1" FirstPos="2" Second="5" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="5" Value="-1.5707963267948966" First="1" FirstPos="1" Second="6" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="5" Value="-1.5707963267948966" First="0" FirstPos="2" Second="6" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="5" Value="-1.5707963267948966" First="0" FirstPos="1" Second="7" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="5" Value="-1.5707963267948966" First="3" FirstPos="2" Second="7" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="12" Value="0.0000000000000000" First="7" FirstPos="0" Second="4" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="12" Value="0.0000000000000000" First="4" FirstPos="0" Second="5" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="12" Value="0.0000000000000000" First="5" FirstPos="0" Second="6" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.0000000000000000" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="11" Value="1.5000000000000000" First="4" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="3.9109752178192139" LabelPosition="10.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="7" Value="10.0000000000000000" First="3" FirstPos="1" Second="-1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="1.2591708898544312" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="7" Value="10.0000000000000000" First="-1" FirstPos="1" Second="1" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="1.2591708898544312" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                        <Constrain Name="" Type="8" Value="10.0000000000000000" First="-1" FirstPos="1" Second="2" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="1.8784623146057129" LabelPosition="0.0000000000000000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                    </ConstraintList>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ExternalGeometry" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="Geometry" type="Part::PropertyGeometryList" status="8192">
+                    <GeometryList count="8">
+                        <Geometry  type="Part::GeomLineSegment">
+                            <Construction value="0"/>
+                            <LineSegment StartX="-8.5000000000000000" StartY="-10.0000000000000000" StartZ="0.0000000000000000" EndX="8.5000000000000000" EndY="-10.0000000000000000" EndZ="0.0000000000000000"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomLineSegment">
+                            <Construction value="0"/>
+                            <LineSegment StartX="10.0000000000000000" StartY="-8.5000000000000000" StartZ="0.0000000000000000" EndX="10.0000000000000000" EndY="8.5000000000000000" EndZ="0.0000000000000000"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomLineSegment">
+                            <Construction value="0"/>
+                            <LineSegment StartX="8.5000000000000000" StartY="10.0000000000000000" StartZ="0.0000000000000000" EndX="-8.5000000000000000" EndY="10.0000000000000000" EndZ="0.0000000000000000"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomLineSegment">
+                            <Construction value="0"/>
+                            <LineSegment StartX="-10.0000000000000000" StartY="8.5000000000000000" StartZ="0.0000000000000000" EndX="-10.0000000000000000" EndY="-8.5000000000000000" EndZ="0.0000000000000000"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomArcOfCircle">
+                            <Construction value="0"/>
+                            <ArcOfCircle CenterX="-8.5000000000000000" CenterY="8.5000000000000000" CenterZ="0.0000000000000000" NormalX="0.0000000000000000" NormalY="0.0000000000000000" NormalZ="1.0000000000000000" AngleXU="-0.0000000000000000" Radius="1.5000000000000000" StartAngle="1.5707963267948966" EndAngle="3.1415926535897927"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomArcOfCircle">
+                            <Construction value="0"/>
+                            <ArcOfCircle CenterX="8.5000000000000000" CenterY="8.5000000000000000" CenterZ="0.0000000000000000" NormalX="0.0000000000000000" NormalY="0.0000000000000000" NormalZ="1.0000000000000000" AngleXU="-0.0000000000000000" Radius="1.5000000000000000" StartAngle="0.0000000000000000" EndAngle="1.5707963267948961"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomArcOfCircle">
+                            <Construction value="0"/>
+                            <ArcOfCircle CenterX="8.5000000000000000" CenterY="-8.5000000000000000" CenterZ="0.0000000000000000" NormalX="0.0000000000000000" NormalY="0.0000000000000000" NormalZ="1.0000000000000000" AngleXU="-0.0000000000000000" Radius="1.5000000000000000" StartAngle="4.7123889803846897" EndAngle="6.2831853071795862"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomArcOfCircle">
+                            <Construction value="0"/>
+                            <ArcOfCircle CenterX="-8.5000000000000000" CenterY="-8.5000000000000000" CenterZ="0.0000000000000000" NormalX="0.0000000000000000" NormalY="0.0000000000000000" NormalZ="1.0000000000000000" AngleXU="-0.0000000000000000" Radius="1.5000000000000000" StartAngle="3.1415926535897936" EndAngle="4.7123889803846897"/>
+                        </Geometry>
+                    </GeometryList>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Sketch"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="5"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388612">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape2.brp"/>
+                </Property>
+                <Property name="Support" type="App::PropertyLinkSubList">
+                    <LinkSubList count="1">
+                        <Link obj="XY_Plane" sub=""/>
+                    </LinkSubList>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Pad">
+            <Properties Count="20" TransientCount="1">
+                <_Property name="_Body" type="App::PropertyLinkHidden" status="251658241"/>
+                <Property name="AddSubShape" type="Part::PropertyPartShape">
+                    <Part file="PartShape3.brp"/>
+                </Property>
+                <Property name="AllowMultiFace" type="App::PropertyBool">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="BaseFeature" type="App::PropertyLink" status="8">
+                    <Link value=""/>
+                </Property>
+                <Property name="Direction" type="App::PropertyVector">
+                    <PropertyVector valueX="1.0000000000000000" valueY="1.0000000000000000" valueZ="1.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Pad"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Length" type="App::PropertyLength">
+                    <Float value="1.5000000000000000"/>
+                </Property>
+                <Property name="Length2" type="App::PropertyLength">
+                    <Float value="100.0000000000000000"/>
+                </Property>
+                <Property name="Midplane" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Offset" type="App::PropertyLength">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388620">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Profile" type="App::PropertyLinkSub">
+                    <LinkSub value="Sketch" count="0">
+                    </LinkSub>
+                </Property>
+                <Property name="Refine" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Reversed" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape4.brp"/>
+                </Property>
+                <Property name="Type" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="UpToFace" type="App::PropertyLinkSub">
+                    <LinkSub value="" count="0">
+                    </LinkSub>
+                </Property>
+                <Property name="UseCustomVector" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+    </ObjectData>
+</Document>
+
+15319|15319|A|PartShape.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 16
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  2 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  4 1 5 1 6 -1 0
+2  2 -1 6 1 5 -1 4 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 1.500000000000000 
+2  4 1 5 1 6 -1 9 1 0
+2  2 -1 9 -1 6 1 5 -1 4 -1 0
+2  6 1 5 -1 4 -1 0
+2  9 -1 6 1 5 -1 4 -1 0
+2  6 -1 0
+2  4 1 5 1 0
+2  6 -1 9 1 0
+Curve2ds 16
+1 4.71238898038468967 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 4.71238898038468967 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 6.28318530717958623 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 1.57079632679489611 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 1.57079632679489656 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 3.14159265358979267 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 3.14159265358979356 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+Curves 24
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 8.50000000000000000 -10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 -8.50000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 -10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 10
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000071 0.00000000000000033 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000071 0.00000000000000033 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+Triangulations 0
+
+TShapes 62
+Ve
+0.000000100000000
+-8.500000000000000 -10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-8.500000000000000 -10.000000000000000 1.500000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  1 0 0.000000000000000 1.500000000000000
+2  1 2 0 0.000000000000000 1.500000000000000
+4 G1 1 0 2 0
+0
+
+0101000
++62 3 -61 3 *
+Ve
+0.000000100000000
+8.500000000000000 -10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+8.500000000000000 -10.000000000000000 1.500000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  2 0 0.000000000000000 1.500000000000000
+2  2 3 0 0.000000000000000 1.500000000000000
+4 G1 1 0 3 0
+0
+
+0101000
++59 3 -58 3 *
+Ed
+ 0.000000100000000 1 1 0
+1  3 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++62 8 -59 8 *
+Ed
+ 0.000000100000000 1 1 0
+1  4 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++61 11 -58 11 *
+Wi
+
+0101100
++60 0 -57 0 -56 7 +55 10 *
+Fa
+0  0.000000100000000 1 0
+
+0101000
++54 0 *
+Ve
+0.000000100000000
+10.000000000000000 -8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+10.000000000000000 -8.500000000000000 1.500000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  5 0 0.000000000000000 1.500000000000000
+2  3 3 0 0.000000000000000 1.500000000000000
+4 G1 3 0 4 0
+0
+
+0101000
++52 3 -51 3 *
+Ed
+ 0.000000100000000 1 1 0
+1  6 0 4.712388980384690 6.283185307179586
+2  4 3 12 4.712388980384690 6.283185307179586
+0
+
+0101000
++59 8 -52 8 *
+Ed
+ 0.000000100000000 1 1 0
+1  7 0 4.712388980384690 6.283185307179586
+2  5 3 13 4.712388980384690 6.283185307179586
+0
+
+0101000
++58 11 -51 11 *
+Wi
+
+0101100
++57 0 -50 0 -49 7 +48 10 *
+Fa
+0  0.000000100000000 3 0
+
+0101000
++47 0 *
+Ve
+0.000000100000000
+10.000000000000000 8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+10.000000000000000 8.500000000000000 1.500000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  8 0 0.000000000000000 1.500000000000000
+2  6 5 0 0.000000000000000 1.500000000000000
+4 G1 4 0 5 0
+0
+
+0101000
++45 3 -44 3 *
+Ed
+ 0.000000100000000 1 1 0
+1  9 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++52 8 -45 8 *
+Ed
+ 0.000000100000000 1 1 0
+1  10 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++51 11 -44 11 *
+Wi
+
+0101100
++50 0 -43 0 -42 7 +41 10 *
+Fa
+0  0.000000100000000 4 0
+
+0101000
++40 0 *
+Ve
+0.000000100000000
+8.500000000000000 10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+8.500000000000000 10.000000000000000 1.500000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  11 0 0.000000000000000 1.500000000000000
+2  7 5 0 0.000000000000000 1.500000000000000
+4 G1 5 0 6 0
+0
+
+0101000
++38 3 -37 3 *
+Ed
+ 0.000000100000000 1 1 0
+1  12 0 0.000000000000000 1.570796326794896
+2  8 5 12 0.000000000000000 1.570796326794896
+0
+
+0101000
++45 8 -38 8 *
+Ed
+ 0.000000100000000 1 1 0
+1  13 0 0.000000000000000 1.570796326794896
+2  9 5 13 0.000000000000000 1.570796326794896
+0
+
+0101000
++44 11 -37 11 *
+Wi
+
+0101100
++43 0 -36 0 -35 7 +34 10 *
+Fa
+0  0.000000100000000 5 0
+
+0101000
++33 0 *
+Ve
+0.000000100000000
+-8.500000000000000 10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-8.500000000000000 10.000000000000000 1.500000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  14 0 0.000000000000000 1.500000000000000
+2  10 7 0 0.000000000000000 1.500000000000000
+4 G1 6 0 7 0
+0
+
+0101000
++31 3 -30 3 *
+Ed
+ 0.000000100000000 1 1 0
+1  15 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++38 8 -31 8 *
+Ed
+ 0.000000100000000 1 1 0
+1  16 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++37 11 -30 11 *
+Wi
+
+0101100
++36 0 -29 0 -28 7 +27 10 *
+Fa
+0  0.000000100000000 6 0
+
+0101000
++26 0 *
+Ve
+0.000000100000000
+-10.000000000000000 8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-10.000000000000000 8.500000000000000 1.500000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  17 0 0.000000000000000 1.500000000000000
+2  11 7 0 0.000000000000000 1.500000000000000
+4 G1 7 0 8 0
+0
+
+0101000
++24 3 -23 3 *
+Ed
+ 0.000000100000000 1 1 0
+1  18 0 1.570796326794897 3.141592653589793
+2  12 7 12 1.570796326794897 3.141592653589793
+0
+
+0101000
++31 8 -24 8 *
+Ed
+ 0.000000100000000 1 1 0
+1  19 0 1.570796326794897 3.141592653589793
+2  13 7 13 1.570796326794897 3.141592653589793
+0
+
+0101000
++30 11 -23 11 *
+Wi
+
+0101100
++29 0 -22 0 -21 7 +20 10 *
+Fa
+0  0.000000100000000 7 0
+
+0101000
++19 0 *
+Ve
+0.000000100000000
+-10.000000000000000 -8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-10.000000000000000 -8.500000000000000 1.500000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  20 0 0.000000000000000 1.500000000000000
+2  14 2 0 0.000000000000000 1.500000000000000
+4 G1 8 0 2 0
+0
+
+0101000
++17 3 -16 3 *
+Ed
+ 0.000000100000000 1 1 0
+1  21 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++24 8 -17 8 *
+Ed
+ 0.000000100000000 1 1 0
+1  22 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++23 11 -16 11 *
+Wi
+
+0101100
++22 0 -15 0 -14 7 +13 10 *
+Fa
+0  0.000000100000000 8 0
+
+0101000
++12 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  23 0 3.141592653589794 4.712388980384690
+2  15 2 12 3.141592653589794 4.712388980384690
+0
+
+0101000
++17 8 -62 8 *
+Ed
+ 0.000000100000000 1 1 0
+1  24 0 3.141592653589794 4.712388980384690
+2  16 2 13 3.141592653589794 4.712388980384690
+0
+
+0101000
++16 11 -61 11 *
+Wi
+
+0101100
++15 0 -60 0 -10 7 +9 10 *
+Fa
+0  0.000000100000000 2 0
+
+0101000
++8 0 *
+Wi
+
+0101100
++56 0 +49 0 +42 0 +35 0 +28 0 +21 0 +14 0 +10 0 *
+Fa
+0  0.000000100000000 9 0
+
+0101000
++6 15 *
+Wi
+
+0101100
++55 0 +48 0 +41 0 +34 0 +27 0 +20 0 +13 0 +9 0 *
+Fa
+0  0.000000100000000 10 0
+
+0101000
++4 15 *
+Sh
+
+0101100
++53 0 +46 0 +39 0 +32 0 +25 0 +18 0 +11 0 +7 0 +5 14 -3 16 
+*
+So
+
+0100000
+-2 0 *
+
++1 1 
+663|663|A|PartShape1.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 1
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+Curve2ds 0
+Curves 0
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 1
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+Triangulations 0
+
+TShapes 1
+Fa
+1  0.000000100000000 1 0
+
+1111000
+*
+
++1 1 
+12191|12191|A|PartShape2.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 17
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  2 1 3 -1 4 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 10.000000000000000 
+2  6 -1 2 1 3 -1 4 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  8 1 9 -1 4 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 1.500000000000000 
+2  11 -1 8 1 9 -1 4 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  13 1 14 -1 4 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 1.500000000000000 
+2  16 -1 13 1 14 -1 4 -1 0
+Curve2ds 24
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+Curves 8
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 12
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+Triangulations 0
+
+TShapes 17
+Ve
+0.000000100000000
+-8.500000000000000 -10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+8.500000000000000 -10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  1 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++17 0 -16 0 *
+Ve
+0.000000100000000
+10.000000000000000 -8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  2 0 4.712388980384690 6.283185307179586
+2  1 1 5 4.712388980384690 6.283185307179586
+2  2 1 7 4.712388980384690 6.283185307179586
+2  3 2 10 4.712388980384690 6.283185307179586
+2  4 2 12 4.712388980384690 6.283185307179586
+2  5 3 15 4.712388980384690 6.283185307179586
+2  6 3 17 4.712388980384690 6.283185307179586
+0
+
+0101000
++16 0 -14 0 *
+Ve
+0.000000100000000
+10.000000000000000 8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  3 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++14 0 -12 0 *
+Ve
+0.000000100000000
+8.500000000000000 10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  4 0 0.000000000000000 1.570796326794896
+2  7 4 5 0.000000000000000 1.570796326794896
+2  8 4 7 0.000000000000000 1.570796326794896
+2  9 5 10 0.000000000000000 1.570796326794896
+2  10 5 12 0.000000000000000 1.570796326794896
+2  11 6 15 0.000000000000000 1.570796326794896
+2  12 6 17 0.000000000000000 1.570796326794896
+0
+
+0101000
++12 0 -10 0 *
+Ve
+0.000000100000000
+-8.500000000000000 10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  5 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++10 0 -8 0 *
+Ve
+0.000000100000000
+-10.000000000000000 8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  6 0 1.570796326794897 3.141592653589793
+2  13 7 5 1.570796326794897 3.141592653589793
+2  14 7 7 1.570796326794897 3.141592653589793
+2  15 8 10 1.570796326794897 3.141592653589793
+2  16 8 12 1.570796326794897 3.141592653589793
+2  17 9 15 1.570796326794897 3.141592653589793
+2  18 9 17 1.570796326794897 3.141592653589793
+0
+
+0101000
++8 0 -6 0 *
+Ve
+0.000000100000000
+-10.000000000000000 -8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  7 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++6 0 -4 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  8 0 3.141592653589794 4.712388980384690
+2  19 10 5 3.141592653589794 4.712388980384690
+2  20 10 7 3.141592653589794 4.712388980384690
+2  21 11 10 3.141592653589794 4.712388980384690
+2  22 11 12 3.141592653589794 4.712388980384690
+2  23 12 15 3.141592653589794 4.712388980384690
+2  24 12 17 3.141592653589794 4.712388980384690
+0
+
+0101000
++4 0 -17 0 *
+Wi
+
+0101100
++15 0 +13 0 +11 0 +9 0 +7 0 +5 0 +3 0 +2 0 *
+
++1 1 
+17030|17030|A|PartShape3.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 21
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  1 1 2 1 3 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 1.500000000000000 
+2  1 1 2 1 3 -1 5 1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  7 1 8 -1 1 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 10.000000000000000 
+2  10 -1 7 1 8 -1 1 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  12 1 13 -1 1 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 1.500000000000000 
+2  15 -1 12 1 13 -1 1 -1 0
+2  3 1 2 -1 1 -1 0
+2  5 -1 3 1 2 -1 1 -1 0
+2  3 -1 0
+2  1 1 2 1 0
+2  3 -1 5 1 0
+Curve2ds 32
+1 4.71238898038468967 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 4.71238898038468967 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 6.28318530717958623 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 1.57079632679489611 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 1.57079632679489656 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 3.14159265358979267 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 3.14159265358979356 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+Curves 16
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 8.50000000000000000 -10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 -8.50000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 -10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 17
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 -1.00000000000000000 
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 0.00000000000000071 0.00000000000000033 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+Triangulations 0
+
+TShapes 44
+Ve
+0.000000100000000
+-8.500000000000000 -10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  1 0 0.000000000000000 1.500000000000000
+2  1 2 0 0.000000000000000 1.500000000000000
+4 G1 1 0 2 0
+0
+
+0101000
++44 4 -44 6 *
+Ve
+0.000000100000000
+8.500000000000000 -10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  2 0 0.000000000000000 1.500000000000000
+2  2 3 0 0.000000000000000 1.500000000000000
+4 G1 1 0 3 0
+0
+
+0101000
++42 4 -42 6 *
+Ed
+ 0.000000100000000 1 1 0
+1  3 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++44 0 -42 0 *
+Wi
+
+0101100
++43 0 -41 0 -40 4 +40 6 *
+Fa
+0  0.000000100000000 1 0
+
+0111000
++39 0 *
+Ve
+0.000000100000000
+10.000000000000000 -8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  4 0 0.000000000000000 1.500000000000000
+2  3 3 0 0.000000000000000 1.500000000000000
+4 G1 3 0 4 0
+0
+
+0101000
++37 4 -37 6 *
+Ed
+ 0.000000100000000 1 1 0
+1  5 0 4.712388980384690 6.283185307179586
+2  4 5 9 4.712388980384690 6.283185307179586
+2  5 5 11 4.712388980384690 6.283185307179586
+2  6 6 14 4.712388980384690 6.283185307179586
+2  7 6 16 4.712388980384690 6.283185307179586
+2  8 3 17 4.712388980384690 6.283185307179586
+2  9 3 18 4.712388980384690 6.283185307179586
+0
+
+0101000
++42 0 -37 0 *
+Wi
+
+0101100
++41 0 -36 0 -35 4 +35 6 *
+Fa
+0  0.000000100000000 3 0
+
+0111000
++34 0 *
+Ve
+0.000000100000000
+10.000000000000000 8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  6 0 0.000000000000000 1.500000000000000
+2  10 7 0 0.000000000000000 1.500000000000000
+4 G1 4 0 7 0
+0
+
+0101000
++32 4 -32 6 *
+Ed
+ 0.000000100000000 1 1 0
+1  7 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++37 0 -32 0 *
+Wi
+
+0101100
++36 0 -31 0 -30 4 +30 6 *
+Fa
+0  0.000000100000000 4 0
+
+0111000
++29 0 *
+Ve
+0.000000100000000
+8.500000000000000 10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  8 0 0.000000000000000 1.500000000000000
+2  11 7 0 0.000000000000000 1.500000000000000
+4 G1 7 0 8 0
+0
+
+0101000
++27 4 -27 6 *
+Ed
+ 0.000000100000000 1 1 0
+1  9 0 0.000000000000000 1.570796326794896
+2  12 9 9 0.000000000000000 1.570796326794896
+2  13 9 11 0.000000000000000 1.570796326794896
+2  14 10 14 0.000000000000000 1.570796326794896
+2  15 10 16 0.000000000000000 1.570796326794896
+2  16 7 17 0.000000000000000 1.570796326794896
+2  17 7 18 0.000000000000000 1.570796326794896
+0
+
+0101000
++32 0 -27 0 *
+Wi
+
+0101100
++31 0 -26 0 -25 4 +25 6 *
+Fa
+0  0.000000100000000 7 0
+
+0111000
++24 0 *
+Ve
+0.000000100000000
+-8.500000000000000 10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  10 0 0.000000000000000 1.500000000000000
+2  18 11 0 0.000000000000000 1.500000000000000
+4 G1 8 0 11 0
+0
+
+0101000
++22 4 -22 6 *
+Ed
+ 0.000000100000000 1 1 0
+1  11 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++27 0 -22 0 *
+Wi
+
+0101100
++26 0 -21 0 -20 4 +20 6 *
+Fa
+0  0.000000100000000 8 0
+
+0111000
++19 0 *
+Ve
+0.000000100000000
+-10.000000000000000 8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  12 0 0.000000000000000 1.500000000000000
+2  19 11 0 0.000000000000000 1.500000000000000
+4 G1 11 0 12 0
+0
+
+0101000
++17 4 -17 6 *
+Ed
+ 0.000000100000000 1 1 0
+1  13 0 1.570796326794897 3.141592653589793
+2  20 13 9 1.570796326794897 3.141592653589793
+2  21 13 11 1.570796326794897 3.141592653589793
+2  22 14 14 1.570796326794897 3.141592653589793
+2  23 14 16 1.570796326794897 3.141592653589793
+2  24 11 17 1.570796326794897 3.141592653589793
+2  25 11 18 1.570796326794897 3.141592653589793
+0
+
+0101000
++22 0 -17 0 *
+Wi
+
+0101100
++21 0 -16 0 -15 4 +15 6 *
+Fa
+0  0.000000100000000 11 0
+
+0111000
++14 0 *
+Ve
+0.000000100000000
+-10.000000000000000 -8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  14 0 0.000000000000000 1.500000000000000
+2  26 2 0 0.000000000000000 1.500000000000000
+4 G1 12 0 2 0
+0
+
+0101000
++12 4 -12 6 *
+Ed
+ 0.000000100000000 1 1 0
+1  15 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++17 0 -12 0 *
+Wi
+
+0101100
++16 0 -11 0 -10 4 +10 6 *
+Fa
+0  0.000000100000000 12 0
+
+0111000
++9 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  16 0 3.141592653589794 4.712388980384690
+2  27 15 9 3.141592653589794 4.712388980384690
+2  28 15 11 3.141592653589794 4.712388980384690
+2  29 16 14 3.141592653589794 4.712388980384690
+2  30 16 16 3.141592653589794 4.712388980384690
+2  31 2 17 3.141592653589794 4.712388980384690
+2  32 2 18 3.141592653589794 4.712388980384690
+0
+
+0101000
++12 0 -44 0 *
+Wi
+
+0101100
++11 0 -43 0 -7 4 +7 6 *
+Fa
+0  0.000000100000000 2 0
+
+0111000
++6 0 *
+Wi
+
+0101100
++40 0 +35 0 +30 0 +25 0 +20 0 +15 0 +10 0 +7 0 *
+Fa
+0  0.000000100000000 17 0
+
+0111000
++4 20 *
+Sh
+
+0101100
++38 0 +33 0 +28 0 +23 0 +18 0 +13 0 +8 0 +5 0 +3 19 -3 21 
+*
+So
+
+1100000
+-2 0 *
+
++1 0 
+17255|17255|A|PartShape4.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 22
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  2 1 3 1 4 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 1.500000000000000 
+2  2 1 3 1 4 -1 6 1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  8 1 9 -1 2 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 10.000000000000000 
+2  11 -1 8 1 9 -1 2 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+2  13 1 14 -1 2 -1 0
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 1.500000000000000 
+2  16 -1 13 1 14 -1 2 -1 0
+2  4 1 3 -1 2 -1 0
+2  6 -1 4 1 3 -1 2 -1 0
+2  4 -1 0
+2  2 1 3 1 0
+2  4 -1 6 1 0
+Curve2ds 32
+1 4.71238898038468967 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 4.71238898038468967 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 6.28318530717958623 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 1.57079632679489611 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 1.57079632679489656 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 3.14159265358979267 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 3.14159265358979356 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -1.50000000000000000 1.00000000000000000 0.00000000000000000 
+Curves 16
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 8.50000000000000000 -10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 -8.50000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+1 -10.00000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.50000000000000000
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 17
+1 -8.50000000000000000 -10.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 10.00000000000000000 -8.50000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 8.50000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 -10.00000000000000000 8.50000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 -1.00000000000000000 
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+2 -8.50000000000000000 -8.50000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 -0.00000000000000000 1.50000000000000000
+1 0.00000000000000071 0.00000000000000033 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+Triangulations 0
+
+TShapes 44
+Ve
+0.000000100000000
+-8.500000000000000 -10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  1 0 0.000000000000000 1.500000000000000
+2  1 2 0 0.000000000000000 1.500000000000000
+4 G1 1 0 2 0
+0
+
+0101000
++44 5 -44 7 *
+Ve
+0.000000100000000
+8.500000000000000 -10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  2 0 0.000000000000000 1.500000000000000
+2  2 3 0 0.000000000000000 1.500000000000000
+4 G1 1 0 3 0
+0
+
+0101000
++42 5 -42 7 *
+Ed
+ 0.000000100000000 1 1 0
+1  3 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++44 0 -42 0 *
+Wi
+
+0101100
++43 0 -41 0 -40 5 +40 7 *
+Fa
+0  0.000000100000000 1 0
+
+0101000
++39 0 *
+Ve
+0.000000100000000
+10.000000000000000 -8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  4 0 0.000000000000000 1.500000000000000
+2  3 3 0 0.000000000000000 1.500000000000000
+4 G1 3 0 4 0
+0
+
+0101000
++37 5 -37 7 *
+Ed
+ 0.000000100000000 1 1 0
+1  5 0 4.712388980384690 6.283185307179586
+2  4 5 10 4.712388980384690 6.283185307179586
+2  5 5 12 4.712388980384690 6.283185307179586
+2  6 6 15 4.712388980384690 6.283185307179586
+2  7 6 17 4.712388980384690 6.283185307179586
+2  8 3 18 4.712388980384690 6.283185307179586
+2  9 3 19 4.712388980384690 6.283185307179586
+0
+
+0101000
++42 0 -37 0 *
+Wi
+
+0101100
++41 0 -36 0 -35 5 +35 7 *
+Fa
+0  0.000000100000000 3 0
+
+0101000
++34 0 *
+Ve
+0.000000100000000
+10.000000000000000 8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  6 0 0.000000000000000 1.500000000000000
+2  10 7 0 0.000000000000000 1.500000000000000
+4 G1 4 0 7 0
+0
+
+0101000
++32 5 -32 7 *
+Ed
+ 0.000000100000000 1 1 0
+1  7 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++37 0 -32 0 *
+Wi
+
+0101100
++36 0 -31 0 -30 5 +30 7 *
+Fa
+0  0.000000100000000 4 0
+
+0101000
++29 0 *
+Ve
+0.000000100000000
+8.500000000000000 10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  8 0 0.000000000000000 1.500000000000000
+2  11 7 0 0.000000000000000 1.500000000000000
+4 G1 7 0 8 0
+0
+
+0101000
++27 5 -27 7 *
+Ed
+ 0.000000100000000 1 1 0
+1  9 0 0.000000000000000 1.570796326794896
+2  12 9 10 0.000000000000000 1.570796326794896
+2  13 9 12 0.000000000000000 1.570796326794896
+2  14 10 15 0.000000000000000 1.570796326794896
+2  15 10 17 0.000000000000000 1.570796326794896
+2  16 7 18 0.000000000000000 1.570796326794896
+2  17 7 19 0.000000000000000 1.570796326794896
+0
+
+0101000
++32 0 -27 0 *
+Wi
+
+0101100
++31 0 -26 0 -25 5 +25 7 *
+Fa
+0  0.000000100000000 7 0
+
+0101000
++24 0 *
+Ve
+0.000000100000000
+-8.500000000000000 10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  10 0 0.000000000000000 1.500000000000000
+2  18 11 0 0.000000000000000 1.500000000000000
+4 G1 8 0 11 0
+0
+
+0101000
++22 5 -22 7 *
+Ed
+ 0.000000100000000 1 1 0
+1  11 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++27 0 -22 0 *
+Wi
+
+0101100
++26 0 -21 0 -20 5 +20 7 *
+Fa
+0  0.000000100000000 8 0
+
+0101000
++19 0 *
+Ve
+0.000000100000000
+-10.000000000000000 8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  12 0 0.000000000000000 1.500000000000000
+2  19 11 0 0.000000000000000 1.500000000000000
+4 G1 11 0 12 0
+0
+
+0101000
++17 5 -17 7 *
+Ed
+ 0.000000100000000 1 1 0
+1  13 0 1.570796326794897 3.141592653589793
+2  20 13 10 1.570796326794897 3.141592653589793
+2  21 13 12 1.570796326794897 3.141592653589793
+2  22 14 15 1.570796326794897 3.141592653589793
+2  23 14 17 1.570796326794897 3.141592653589793
+2  24 11 18 1.570796326794897 3.141592653589793
+2  25 11 19 1.570796326794897 3.141592653589793
+0
+
+0101000
++22 0 -17 0 *
+Wi
+
+0101100
++21 0 -16 0 -15 5 +15 7 *
+Fa
+0  0.000000100000000 11 0
+
+0101000
++14 0 *
+Ve
+0.000000100000000
+-10.000000000000000 -8.500000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  14 0 0.000000000000000 1.500000000000000
+2  26 2 0 0.000000000000000 1.500000000000000
+4 G1 12 0 2 0
+0
+
+0101000
++12 5 -12 7 *
+Ed
+ 0.000000100000000 1 1 0
+1  15 0 0.000000000000000 17.000000000000000
+0
+
+0101000
++17 0 -12 0 *
+Wi
+
+0101100
++16 0 -11 0 -10 5 +10 7 *
+Fa
+0  0.000000100000000 12 0
+
+0101000
++9 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  16 0 3.141592653589794 4.712388980384690
+2  27 15 10 3.141592653589794 4.712388980384690
+2  28 15 12 3.141592653589794 4.712388980384690
+2  29 16 15 3.141592653589794 4.712388980384690
+2  30 16 17 3.141592653589794 4.712388980384690
+2  31 2 18 3.141592653589794 4.712388980384690
+2  32 2 19 3.141592653589794 4.712388980384690
+0
+
+0101000
++12 0 -44 0 *
+Wi
+
+0101100
++11 0 -43 0 -7 5 +7 7 *
+Fa
+0  0.000000100000000 2 0
+
+0101000
++6 0 *
+Wi
+
+0101100
++40 0 +35 0 +30 0 +25 0 +20 0 +15 0 +10 0 +7 0 *
+Fa
+0  0.000000100000000 17 0
+
+0101000
++4 21 *
+Sh
+
+0101100
++38 0 +33 0 +28 0 +23 0 +18 0 +13 0 +8 0 +5 0 +3 20 -3 22 
+*
+So
+
+1100000
+-2 0 *
+
++1 1 
+34758|34758|A|GuiDocument.xml
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="1" HasExpansion="1">
+    <Expand  count="1">
+        <Expand name="EndCap2020"/>
+    </Expand>
+    <ViewProviderData Count="11">
+        <ViewProvider name="Pad" expanded="0" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="23" TransientCount="0">
+                <Property name="AngularDeflection" type="App::PropertyAngle" status="9">
+                    <Float value="28.5000000000000000"/>
+                </Property>
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Deviation" type="App::PropertyFloatConstraint" status="9">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="DiffuseColor" type="App::PropertyColorList" status="9">
+                    <ColorList file="DiffuseColor"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Lighting" type="App::PropertyEnumeration" status="9">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="LineColor" type="App::PropertyColor" status="9">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="LineColorArray" type="App::PropertyColorList" status="9">
+                    <ColorList file="LineColorArray"/>
+                </Property>
+                <Property name="LineMaterial" type="App::PropertyMaterial" status="9">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="9">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="PointColor" type="App::PropertyColor" status="9">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="PointColorArray" type="App::PropertyColorList" status="9">
+                    <ColorList file="PointColorArray"/>
+                </Property>
+                <Property name="PointMaterial" type="App::PropertyMaterial" status="9">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="9">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="9">
+                    <PropertyColor value="842150400"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="9">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="842150400" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="9">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="EndCap2020" expanded="1" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
+                </Extension>
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="24" TransientCount="0">
+                <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+                    <Float value="28.5000000000000000"/>
+                </Property>
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+                    <ColorList file="DiffuseColor1"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DisplayModeBody" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="LineColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="LineColorArray1"/>
+                </Property>
+                <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="PointColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="PointColorArray1"/>
+                </Property>
+                <Property name="PointMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="3435973632"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="3435973632" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Origin" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="6" TransientCount="0">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyVector" status="5">
+                    <PropertyVector valueX="30.0000000000000000" valueY="30.0000000000000000" valueZ="30.0000000000000000"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="X_Axis" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="30.0000000000000000"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Y_Axis" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="30.0000000000000000"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Z_Axis" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="30.0000000000000000"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="XY_Plane" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="30.0000000000000000"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="XZ_Plane" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="30.0000000000000000"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="YZ_Plane" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="30.0000000000000000"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="LCS_0" expanded="0" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="13" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FontSize" type="App::PropertyIntegerConstraint" status="1">
+                    <Integer value="10"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4292280473"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4292280473" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.6000000238418579"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="60"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Zoom" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="1.0000000000000000"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Sketch" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="39" TransientCount="0">
+                <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+                    <Float value="28.5000000000000000"/>
+                </Property>
+                <Property name="Autoconstraints" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="AvoidRedundant" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+                    <ColorList file="DiffuseColor2"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="EditingWorkbench" type="App::PropertyString" status="1">
+                    <String value="SketcherWorkbench"/>
+                </Property>
+                <Property name="GridAutoSize" type="App::PropertyBool" status="67108865">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="GridSize" type="App::PropertyLength" status="1">
+                    <Float value="10.0000000000000000"/>
+                </Property>
+                <Property name="GridSnap" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="GridStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="HideDependent" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="LineColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4294967040"/>
+                </Property>
+                <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="LineColorArray2"/>
+                </Property>
+                <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294967040" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="PointColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4294967040"/>
+                </Property>
+                <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="PointColorArray2"/>
+                </Property>
+                <Property name="PointMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294967040" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="4.0000000000000000"/>
+                </Property>
+                <Property name="RestoreCamera" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="3435973632"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="3435973632" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowGrid" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowLinks" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowOnlyInEditMode" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowSupport" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="TempoVis" type="App::PropertyPythonObject" status="1">
+                    <Python value="bnVsbA==" encoded="yes" json="yes"/>
+                </Property>
+                <Property name="TightGrid" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="maxNumberOfLines" type="App::PropertyInteger" status="1">
+                    <Integer value="10000"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+    </ViewProviderData>
+    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position -6.2007751 46.896431 89.516991&#10;  orientation -0.94429362 0.014185648 0.32879862  0.46379003&#10;  nearDistance 90.53067&#10;  farDistance 105.67944&#10;  aspectRatio 1&#10;  focalDistance 100&#10;  height 54.881168&#10;&#10;}&#10;"/>
+</Document>
+
+12|8|B|DiffuseColor
+AQAAAAAyMjI=
+12|8|B|LineColorArray
+AQAAAAAZGRk=
+12|8|B|PointColorArray
+AQAAAAAZGRk=
+12|8|B|DiffuseColor1
+AQAAAADMzMw=
+12|8|B|LineColorArray1
+AQAAAAAZGRk=
+12|8|B|PointColorArray1
+AQAAAAAZGRk=
+12|8|B|DiffuseColor2
+AQAAAADMzMw=
+12|8|B|LineColorArray2
+AQAAAAD///8=
+12|8|B|PointColorArray2
+AQAAAAD///8=

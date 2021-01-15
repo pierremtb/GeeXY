@@ -1,0 +1,4601 @@
+27828|27828|A|Document.xml
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see https://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="0.19R22914 (Git)" FileVersion="1">
+    <Properties Count="15" TransientCount="3">
+        <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+        <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+        <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+        <Property name="Comment" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Company" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="CreatedBy" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="CreationDate" type="App::PropertyString" status="16777217">
+            <String value="2020-11-08T13:39:30Z"/>
+        </Property>
+        <Property name="Id" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Label" type="App::PropertyString" status="1">
+            <String value="LeadScrewBracket"/>
+        </Property>
+        <Property name="LastModifiedBy" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+            <String value="2021-01-03T20:41:23Z"/>
+        </Property>
+        <Property name="License" type="App::PropertyString" status="1">
+            <String value="All rights reserved"/>
+        </Property>
+        <Property name="LicenseURL" type="App::PropertyString" status="1">
+            <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+        </Property>
+        <Property name="Material" type="App::PropertyMap" status="1">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="Meta" type="App::PropertyMap" status="1">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="ShowHidden" type="App::PropertyBool" status="1">
+            <Bool value="false"/>
+        </Property>
+        <Property name="TipName" type="App::PropertyString" status="83886080">
+            <String value=""/>
+        </Property>
+        <Property name="Uid" type="App::PropertyUUID" status="16777217">
+            <Uuid value="a79eedd1-a724-4905-a7e5-ba2f72b38bf8"/>
+        </Property>
+    </Properties>
+    <Objects Count="12" Dependencies="1">
+        <ObjectDeps Name="LeadScrewBracket" Count="5">
+            <Dep Name="Origin"/>
+            <Dep Name="LCS_0"/>
+            <Dep Name="Solid"/>
+            <Dep Name="LCS_1"/>
+            <Dep Name="LCS_2"/>
+        </ObjectDeps>
+        <ObjectDeps Name="Origin" Count="6">
+            <Dep Name="X_Axis"/>
+            <Dep Name="Y_Axis"/>
+            <Dep Name="Z_Axis"/>
+            <Dep Name="XY_Plane"/>
+            <Dep Name="XZ_Plane"/>
+            <Dep Name="YZ_Plane"/>
+        </ObjectDeps>
+        <ObjectDeps Name="X_Axis" Count="0"/>
+        <ObjectDeps Name="Y_Axis" Count="0"/>
+        <ObjectDeps Name="Z_Axis" Count="0"/>
+        <ObjectDeps Name="XY_Plane" Count="0"/>
+        <ObjectDeps Name="XZ_Plane" Count="0"/>
+        <ObjectDeps Name="YZ_Plane" Count="0"/>
+        <ObjectDeps Name="LCS_0" Count="1">
+            <Dep Name="X_Axis"/>
+        </ObjectDeps>
+        <ObjectDeps Name="Solid" Count="0"/>
+        <ObjectDeps Name="LCS_1" Count="1">
+            <Dep Name="Solid"/>
+        </ObjectDeps>
+        <ObjectDeps Name="LCS_2" Count="1">
+            <Dep Name="LCS_1"/>
+        </ObjectDeps>
+        <Object type="App::Part" name="LeadScrewBracket" id="786" />
+        <Object type="App::Origin" name="Origin" id="787" />
+        <Object type="App::Line" name="X_Axis" id="788" />
+        <Object type="App::Line" name="Y_Axis" id="789" />
+        <Object type="App::Line" name="Z_Axis" id="790" />
+        <Object type="App::Plane" name="XY_Plane" id="791" />
+        <Object type="App::Plane" name="XZ_Plane" id="792" />
+        <Object type="App::Plane" name="YZ_Plane" id="793" />
+        <Object type="PartDesign::CoordinateSystem" name="LCS_0" id="794" />
+        <Object type="Part::Feature" name="Solid" id="795" />
+        <Object type="PartDesign::CoordinateSystem" name="LCS_1" id="796" />
+        <Object type="PartDesign::CoordinateSystem" name="LCS_2" id="797" />
+    </Objects>
+    <ObjectData Count="12">
+        <Object name="LeadScrewBracket" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="App::OriginGroupExtension" name="OriginGroupExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="15" TransientCount="1">
+                <_Property name="_GroupTouched" type="App::PropertyBool" status="100663296"/>
+                <Property name="Color" type="App::PropertyColor">
+                    <PropertyColor value="4294967295"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Group" type="App::PropertyLinkList">
+                    <LinkList count="4">
+                        <Link value="LCS_0"/>
+                        <Link value="Solid"/>
+                        <Link value="LCS_1"/>
+                        <Link value="LCS_2"/>
+                    </LinkList>
+                </Property>
+                <Property name="Id" type="App::PropertyString">
+                    <String value=""/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="LeadScrewBracket"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="License" type="App::PropertyString">
+                    <String value=""/>
+                </Property>
+                <Property name="LicenseURL" type="App::PropertyString">
+                    <String value=""/>
+                </Property>
+                <Property name="Material" type="App::PropertyMap">
+                    <Map count="0">
+                    </Map>
+                </Property>
+                <Property name="Meta" type="App::PropertyMap">
+                    <Map count="0">
+                    </Map>
+                </Property>
+                <Property name="Origin" type="App::PropertyLink" status="67108864">
+                    <Link value="Origin"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Type" type="App::PropertyString">
+                    <String value=""/>
+                </Property>
+                <Property name="Uid" type="App::PropertyUUID">
+                    <Uuid value="662eca6e-f934-4fde-a456-d0b962ba9a41"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Origin" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="App::GeoFeatureGroupExtension" name="GeoFeatureGroupExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="5" TransientCount="2">
+                <_Property name="Group" type="App::PropertyLinkList" status="16"/>
+                <_Property name="_GroupTouched" type="App::PropertyBool" status="100663296"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Origin"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="OriginFeatures" type="App::PropertyLinkList" status="67108864">
+                    <LinkList count="6">
+                        <Link value="X_Axis"/>
+                        <Link value="Y_Axis"/>
+                        <Link value="Z_Axis"/>
+                        <Link value="XY_Plane"/>
+                        <Link value="XZ_Plane"/>
+                        <Link value="YZ_Plane"/>
+                    </LinkList>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="X_Axis">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="X_Axis"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="X_Axis"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Y_Axis">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Y_Axis"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000000" Q3="0.5000000000000001" A="2.0943951023931953" Ox="0.5773502691896258" Oy="0.5773502691896258" Oz="0.5773502691896258"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="Y_Axis"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Z_Axis">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Z_Axis"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.5000000000000001" Q1="0.5000000000000001" Q2="0.5000000000000001" Q3="-0.4999999999999998" A="4.1887902047863905" Ox="0.5773502691896258" Oy="0.5773502691896258" Oz="0.5773502691896258"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="Z_Axis"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="XY_Plane">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="XY_Plane"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="XY_Plane"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="XZ_Plane">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="XZ_Plane"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.7071067811865476" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="0.7071067811865475" A="1.5707963267948968" Ox="1.0000000000000000" Oy="0.0000000000000000" Oz="0.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="XZ_Plane"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="YZ_Plane">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="YZ_Plane"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000000" Q3="0.5000000000000001" A="2.0943951023931953" Ox="0.5773502691896258" Oy="0.5773502691896258" Oz="0.5773502691896258"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777216">
+                    <String value="YZ_Plane"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="LCS_0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtension" name="AttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="12" TransientCount="0">
+                <Property name="AttacherType" type="App::PropertyString" status="8">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="LCS_0"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="2"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388612">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape.brp"/>
+                </Property>
+                <Property name="Support" type="App::PropertyLinkSubList">
+                    <LinkSubList count="1">
+                        <Link obj="X_Axis" sub=""/>
+                    </LinkSubList>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Solid">
+            <Properties Count="6" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Z Nut Braket 1"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape1.brp"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="LCS_1" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtension" name="AttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="12" TransientCount="0">
+                <Property name="AttacherType" type="App::PropertyString" status="8">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="17.5000000000000000" Py="22.0000000000000000" Pz="5.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="LCS_1"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="-2.9971581758436017" Py="9.3821319779590002" Pz="5.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape2.brp"/>
+                </Property>
+                <Property name="Support" type="App::PropertyLinkSubList">
+                    <LinkSubList count="1">
+                        <Link obj="Solid" sub="Vertex15"/>
+                    </LinkSubList>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="LCS_2" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtension" name="AttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="12" TransientCount="0">
+                <Property name="AttacherType" type="App::PropertyString" status="8">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="0.0000000000000000" Py="-37.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="LCS_2"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="2"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388612">
+                    <PropertyPlacement Px="-2.9971581758436017" Py="-27.6178680220410016" Pz="5.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape3.brp"/>
+                </Property>
+                <Property name="Support" type="App::PropertyLinkSubList">
+                    <LinkSubList count="1">
+                        <Link obj="LCS_1" sub=""/>
+                    </LinkSubList>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+    </ObjectData>
+</Document>
+
+663|663|A|PartShape.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 1
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+Curve2ds 0
+Curves 0
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 1
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+Triangulations 0
+
+TShapes 1
+Fa
+1  0.000000100000000 1 0
+
+1111000
+*
+
++1 1 
+108117|108117|A|PartShape1.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 1
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+Curve2ds 128
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 -0.58705525934181146 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.14348514825385128 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -6.28318530717958623 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.58705525934187763 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.03978322062359051 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 -0.00000000000000266 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 -5.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 -6.28318530717958534 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 -0.00000000000000089 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 -0.00000000000000089 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 -6.28318530717958534 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 2.50000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 -0.00000000000000533 -2.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000266 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000006 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 -6.28318530717958623 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000017 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 -6.28318530717958623 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 -0.00000000000000003 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000089 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 12.56637061435917246 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 5.69613004783770904 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.39326859987108898 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 6.87024056652139326 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 1.13432729805997679 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.43305182049467889 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 -0.58705525934179725 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.39326859987104323 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.58705525934180292 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 1.13432729805997812 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -0.58705525934180258 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.14348514825384950 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.58705525934180625 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.03978322062363716 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 1.27781244631382851 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 12.56637061435917424 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 5.49778714378212996 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 7.06858347057703185 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 5.49778714378214062 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 12.56637061435916713 5.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 7.06858347057702918 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 5.49778714378213262 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+7 0 0  3 25 23  7.06858347057703451 5.41666666666665986  7.04478352623165627 5.40674994601312875  6.99718363754090156 5.38691677701547533  6.92578380450477571 5.35731840342802013  6.85438397146863743 5.32802251358918699  6.78298413843250092 5.29917831833274988  6.71158430539638218 5.27093282097619387  6.64018447236024656 5.24342994876468893  6.56878463932410650 5.21680985146029474  6.49738480628798332 5.19120817859394723  6.42598497325184592 5.16675539052488553  6.35458514021572007 5.14357609302810381  6.28318530717958268 5.12178840249945377  6.21178547414345505 5.10150334400767314  6.14038564110732743 5.08282428558417543  6.06898580807118648 5.06584641134469216  5.99758597503506419 5.05065623695906218  5.92618614199892679 5.03733116690087712  5.85478630896279295 5.02593910705110147  5.78338647592666444 5.01653809239527781  5.71198664289052704 5.00917608933150760  5.64058680985439853 5.00389038535076303  5.56918697681827179 5.00070876456307012  5.52158708812751264 4.99999910143521387  5.49778714378213262 4.99999999999999378 
+ 4.71238898038468967 4 4.78378881342082174 1 4.85518864645695292 1 4.92658847949308498 1 4.99798831252921616 1 5.06938814556534822 1 5.14078797860147940 1 5.21218781163761147 1 5.28358764467374264 1 5.35498747770987471 1 5.42638731074600678 1 5.49778714378213795 1 5.56918697681826913 1 5.64058680985440120 1 5.71198664289053326 1 5.78338647592666444 1 5.85478630896279650 1 5.92618614199892768 1 5.99758597503505975 1 6.06898580807119181 1 6.14038564110732299 1 6.21178547414345417 1 6.28318530717958623 4
+1 5.49778714378213529 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 7.06858347057703451 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 7.06858347057703451 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+7 0 0  3 25 23  7.06858347057703185 5.00000000000000355  7.04478352623165804 4.99999910143522452  6.99718363754090600 5.00070876456308078  6.92578380450476416 5.00389038535077280  6.85438397146863920 5.00917608933151470  6.78298413843250803 5.01653809239528936  6.71158430539637330 5.02593910705110947  6.64018447236024034 5.03733116690088689  6.56878463932411005 5.05065623695907373  6.49738480628797177 5.06584641134470193  6.42598497325184859 5.08282428558418609  6.35458514021570764 5.10150334400768024  6.28318530717958179 5.12178840249946532  6.21178547414345328 5.14357609302811269  6.14038564110731500 5.16675539052489530  6.06898580807118826 5.19120817859395611  5.99758597503505175 5.21680985146030540  5.92618614199892679 5.24342994876469870  5.85478630896278318 5.27093282097620452  5.78338647592666355 5.29917831833276143  5.71198664289052793 5.32802251358919765  5.64058680985440120 5.35731840342802901  5.56918697681826735 5.38691677701548777  5.52158708812751087 5.40674994601313852  5.49778714378213529 5.41666666666666963 
+ 0.00000000000000000 4 0.07139983303613166 1 0.14279966607226333 1 0.21419949910839498 1 0.28559933214452665 1 0.35699916518065833 1 0.42839899821678995 1 0.49979883125292163 1 0.57119866428905330 1 0.64259849732518493 1 0.71399833036131666 1 0.78539816339744828 1 0.85679799643357990 1 0.92819782946971163 1 0.99959766250584325 1 1.07099749554197499 1 1.14239732857810661 1 1.21379716161423823 1 1.28519699465036985 1 1.35659682768650169 1 1.42799666072263332 1 1.49939649375876494 1 1.57079632679489656 4
+1 5.49778714378213529 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -3.14159265358979312 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 3.14159265358979312 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -6.28318530717958623 -5.00000000000000178 1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 3.14159265358979312 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 6.28318530717958623 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 5.49778714378213529 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.78539816339744828 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 6.28318530717958712 18.50000000000000000 -1.00000000000000000 0.00000000000000000 
+1 -0.78539816339744561 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 6.28318530717958712 2.50000000000000000 -1.00000000000000000 0.00000000000000000 
+1 0.78539816339745083 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 6.28318530717958712 21.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 6.28318530717958446 21.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 12.56637061435917424 18.50000000000000000 -1.00000000000000000 0.00000000000000000 
+1 -0.78539816339744828 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -0.78539816339744561 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.78539816339745083 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -6.28318530717958623 -2.50000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.78539816339744828 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 12.56637061435916891 2.50000000000000000 -1.00000000000000000 0.00000000000000000 
+1 7.06858347057703185 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 12.56637061435917424 2.50000000000000000 -1.00000000000000000 0.00000000000000000 
+1 7.06858347057703451 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -0.78539816339744561 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 6.28318530717958623 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 3.14159265358979312 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 9.42477796076937935 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 3.14159265358979312 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 12.56637061435917246 5.00000000000000178 -1.00000000000000000 0.00000000000000000 
+1 1.27781244631382740 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 3.14159265358979312 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 3.14159265358979312 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.43305182049467988 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 3.14159265358979312 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 3.14159265358979312 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 3.14159265358979312 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 3.14159265358979312 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+Curves 184
+2 -5.74498224397002044 16.27275697795899845 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.85394721866912149 -0.52035963306858435 0.00000000000000000 -0.52035963306858435 -0.85394721866912149 -0.00000000000000000 1.00000000000000000
+1 -5.32224007964287971 15.36650697795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 -5.74498224397002044 16.27275697795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.85394721866912149 -0.52035963306858435 0.00000000000000000 0.52035963306858435 0.85394721866912149 -0.00000000000000000 1.00000000000000000
+1 -4.74577349192403997 16.31252970523179968 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -2.99715817584357014 16.38213197795899845 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -4.74715817584356969 16.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -2.99715817584357014 16.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+2 -31.49715817584360167 -36.61786802204100155 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.70710678118654402 -0.70710678118655101 0.00000000000000000 0.70710678118655101 -0.70710678118654402 0.00000000000000000 1.00000000000000000
+1 -32.49715817584360167 -12.61786802204099978 0.00000000000000000 0.00000000000000018 -1.00000000000000000 0.00000000000000000 
+1 -17.74715817584349864 -30.21786802204099942 0.00000000000000000 1.00000000000000000 0.00000000000000084 0.00000000000000000 
+2 -24.99715817584349864 -27.61786802204100155 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.00000000000000025 1.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.00000000000000025 0.00000000000000000 2.60000000000000009
+1 -13.99715817584350042 -25.01786802204100013 0.00000000000000000 -1.00000000000000000 -0.00000000000000084 0.00000000000000000 
+1 -32.49715817584360167 -12.61786802204099978 0.00000000000000000 0.00000000000000018 -1.00000000000000000 0.00000000000000000 
+2 -31.49715817584360167 -13.61786802204099978 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.70710678118654602 0.70710678118654902 0.00000000000000000 -0.70710678118654902 -0.70710678118654602 0.00000000000000000 1.00000000000000000
+1 -20.49715817584360167 -12.61786802204099978 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 -20.49715817584360167 23.38213197795899845 0.00000000000000000 0.00000000000000012 -1.00000000000000000 0.00000000000000000 
+2 -19.49715817584360167 22.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.70710678118654902 0.70710678118654602 0.00000000000000000 -0.70710678118654602 -0.70710678118654902 0.00000000000000000 1.00000000000000000
+1 14.50284182415640011 23.38213197795899845 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+2 13.50284182415640011 22.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.70710678118654602 0.70710678118654902 -0.00000000000000000 -0.70710678118654902 0.70710678118654602 0.00000000000000000 1.00000000000000000
+1 14.50284182415640011 -12.61786802204099978 0.00000000000000000 -0.00000000000000012 1.00000000000000000 0.00000000000000000 
+1 26.50284182415639833 -12.61786802204099978 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+2 25.50284182415639833 -13.61786802204099978 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.70710678118654902 0.70710678118654602 -0.00000000000000000 -0.70710678118654602 0.70710678118654902 0.00000000000000000 1.00000000000000000
+1 26.50284182415639833 -37.61786802204100155 0.00000000000000000 -0.00000000000000018 1.00000000000000000 0.00000000000000000 
+2 25.50284182415639833 -24.01786802204100013 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.70710678118654757 -0.70710678118654757 0.00000000000000000 0.70710678118654757 0.70710678118654757 -0.00000000000000000 1.00000000000000000
+1 8.00284182415641077 -25.01786802204100013 0.00000000000000000 -1.00000000000000000 0.00000000000000059 0.00000000000000000 
+2 19.00284182415639833 -27.61786802204100155 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 2.60000000000000009
+1 11.75284182415640011 -30.21786802204099942 0.00000000000000000 1.00000000000000000 -0.00000000000000059 0.00000000000000000 
+2 25.50284182415639833 -31.21786802204099942 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.70710678118654757 0.70710678118654757 -0.00000000000000000 -0.70710678118654757 0.70710678118654757 0.00000000000000000 1.00000000000000000
+1 26.50284182415639833 -37.61786802204100155 0.00000000000000000 -0.00000000000000018 1.00000000000000000 0.00000000000000000 
+2 25.50284182415639833 -36.61786802204100155 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.70710678118654757 -0.70710678118654757 0.00000000000000000 0.70710678118654757 0.70710678118654757 -0.00000000000000000 1.00000000000000000
+1 -32.49715817584360167 -37.61786802204100155 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 
+2 5.00284182415643031 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 3.25284182415642986 3.72036727207667006 0.00000000000000000 -0.00000000000000028 -1.00000000000000000 0.00000000000000000 
+2 5.00284182415643031 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 6.75284182415643031 2.72036727207667006 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+2 -10.99715817584359989 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -12.74715817584359989 3.72036727207667983 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+2 -10.99715817584359989 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -9.24715817584356969 2.72036727207667006 0.00000000000000000 -0.00000000000000056 1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.28881023306513992 0.95738636363636376 0.00000000000000000 -0.95738636363636376 -0.28881023306513992 0.00000000000000000 5.50000000000000000
+1 -8.49715817584358035 3.72036727207667983 0.00000000000000000 -0.00000000000000056 -1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 5.50000000000000000
+2 -5.74498224397002044 2.49150697795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.85394721866912149 0.52035963306858435 -0.00000000000000000 -0.52035963306858435 0.85394721866912149 0.00000000000000000 1.00000000000000000
+2 -2.99715817584357014 2.38213197795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.90768930391901115 0.41964285714285804 0.00000000000000000 -0.41964285714285804 -0.90768930391901115 0.00000000000000000 1.75000000000000000
+1 -4.74715817584356969 -0.27963272792332500 0.00000000000000000 -0.00000000000000056 -1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 0.38213197795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -1.00000000000000000 0.00000000000000016 0.00000000000000000 -0.00000000000000016 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -1.24715817584356992 -1.27963272792332994 0.00000000000000000 0.00000000000000028 1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 2.38213197795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 -0.00000000000000016 0.00000000000000000 0.00000000000000016 1.00000000000000000 -0.00000000000000000 1.75000000000000000
+2 -0.24933410771711700 2.49150697795904019 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.85394721866912182 0.52035963306858390 0.00000000000000000 -0.52035963306858390 -0.85394721866912182 0.00000000000000000 1.00000000000000000
+2 -2.99715817584357014 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.28881023306514109 -0.95738636363636331 0.00000000000000000 0.95738636363636331 0.28881023306514109 -0.00000000000000000 5.50000000000000000
+1 2.50284182415642009 2.72036727207667983 0.00000000000000000 0.00000000000000056 1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000040 -0.00000000000000000 -0.00000000000000040 1.00000000000000000 0.00000000000000000 5.50000000000000000
+2 -0.24933410771711900 16.27275697795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.85394721866912149 -0.52035963306858435 0.00000000000000000 0.52035963306858435 -0.85394721866912149 0.00000000000000000 1.00000000000000000
+2 -2.99715817584357014 16.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.90768930391901148 -0.41964285714285715 0.00000000000000000 0.41964285714285715 0.90768930391901148 -0.00000000000000000 1.75000000000000000
+1 -1.24715817584356992 6.72036727207667983 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 18.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -4.74715817584358035 7.72036727207667983 0.00000000000000000 -0.00000000000000056 -1.00000000000000000 0.00000000000000000 
+2 -0.24933410771711900 16.27275697795899845 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.85394721866912149 -0.52035963306858435 -0.00000000000000000 -0.52035963306858435 0.85394721866912149 0.00000000000000000 1.00000000000000000
+1 -1.24854285976310009 16.31252970523179968 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -0.67207627204426501 15.36650697795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -1.24715817584356992 16.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -2.99715817584357014 16.38213197795899845 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.90768930391901148 -0.41964285714285715 0.00000000000000000 -0.41964285714285715 -0.90768930391901148 -0.00000000000000000 1.75000000000000000
+1 -15.49715817584350042 -0.27963272792333099 5.00000000000000000 0.00000000000000025 -1.00000000000000000 0.00000000000000000 
+1 11.75284182415640011 -12.61786802204099978 5.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 9.50284182415641077 -0.27963272792332799 5.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 14.50284182415640011 23.38213197795899845 5.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 -4.74715817584358035 7.72036727207667983 5.00000000000000000 0.00000000000000056 1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 18.38213197795899845 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -1.24715817584356992 6.72036727207667983 5.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 10.38213197795900022 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000040 0.00000000000000000 0.00000000000000040 -1.00000000000000000 0.00000000000000000 5.50000000000000000
+1 2.50284182415642986 2.72036727207667983 5.00000000000000000 -0.00000000000000056 -1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 8.38213197795903042 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.28881023306514109 -0.95738636363636331 0.00000000000000000 -0.95738636363636331 -0.28881023306514109 -0.00000000000000000 5.50000000000000000
+2 -0.24933410771711700 2.49150697795904019 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.85394721866912182 0.52035963306858390 0.00000000000000000 0.52035963306858390 0.85394721866912182 0.00000000000000000 1.00000000000000000
+2 -2.99715817584357014 2.38213197795902998 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 1.00000000000000000 -0.00000000000000016 0.00000000000000000 -0.00000000000000016 -1.00000000000000000 -0.00000000000000000 1.75000000000000000
+1 -1.24715817584356992 -1.27963272792332994 5.00000000000000000 -0.00000000000000028 -1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 0.38213197795902998 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -1.00000000000000000 0.00000000000000016 0.00000000000000000 0.00000000000000016 1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -4.74715817584356969 -0.27963272792332500 5.00000000000000000 0.00000000000000056 1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 2.38213197795902998 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.90768930391901115 0.41964285714285804 0.00000000000000000 0.41964285714285804 0.90768930391901115 0.00000000000000000 1.75000000000000000
+2 -5.74498224397002044 2.49150697795902998 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.85394721866912149 0.52035963306858435 0.00000000000000000 0.52035963306858435 -0.85394721866912149 0.00000000000000000 1.00000000000000000
+2 -2.99715817584357014 8.38213197795903042 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 5.50000000000000000
+1 -8.49715817584358035 3.72036727207667983 5.00000000000000000 0.00000000000000056 1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 10.38213197795900022 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.28881023306513992 0.95738636363636376 0.00000000000000000 0.95738636363636376 0.28881023306513992 0.00000000000000000 5.50000000000000000
+2 5.00284182415643031 10.38213197795900022 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 6.75284182415643031 2.72036727207667006 5.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+2 5.00284182415643031 8.38213197795903042 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 3.25284182415642986 3.72036727207667006 5.00000000000000000 0.00000000000000028 1.00000000000000000 0.00000000000000000 
+2 -10.99715817584359989 10.38213197795900022 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -9.24715817584356969 2.72036727207667006 5.00000000000000000 0.00000000000000056 -1.00000000000000000 0.00000000000000000 
+2 -10.99715817584359989 8.38213197795903042 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -12.74715817584359989 3.72036727207667983 5.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 -4.74577349192403997 2.45173425068631001 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -5.32224007964286994 3.39775697795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -8.49715817584356969 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -0.67207627204426301 3.39775697795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -1.24854285976310009 2.45173425068631001 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 2.50284182415642986 8.38213197795903930 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -31.49715817584360167 -36.61786802204100155 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.70710678118654402 -0.70710678118655101 -0.00000000000000000 -0.70710678118655101 0.70710678118654402 0.00000000000000000 1.00000000000000000
+1 -32.49715817584360167 -36.61786802204100155 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -31.49715817584360167 -37.61786802204100155 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 25.50284182415639833 -37.61786802204100155 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -32.49715817584360167 -37.61786802204100155 5.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 
+2 25.50284182415639833 -36.61786802204100155 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.70710678118654757 -0.70710678118654757 0.00000000000000000 -0.70710678118654757 -0.70710678118654757 -0.00000000000000000 1.00000000000000000
+1 26.50284182415639833 -36.61786802204100155 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 26.50284182415639833 -31.21786802204099942 2.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 26.50284182415639833 -37.61786802204100155 5.00000000000000000 -0.00000000000000018 1.00000000000000000 0.00000000000000000 
+3 -19.49715817584360167 22.38213197795899845 5.41666666666665986 0.00000000000000009 -0.38461538461538503 -0.92307692307692302 -0.00000000000000026 0.92307692307692302 -0.38461538461538503 1.00000000000000000 0.00000000000000027 -0.00000000000000002 1.08333333333332993 1.00000000000000000
+1 -19.49715817584360167 23.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -20.49715817584360167 22.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 14.50284182415640011 23.38213197795899845 5.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 14.50284182415640011 23.38213197795899845 5.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 13.50284182415640011 23.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -20.49715817584349864 23.38213197795899845 5.00000000000000000 0.00000000000000011 -0.92307692307692302 0.38461538461538503 
+1 -20.49715817584349864 -12.61786802204099978 20.00000000000000000 -1.00000000000000000 0.00000000000000000 -0.00000000000000010 
+1 -15.49715817584350042 23.38213197795899845 5.00000000000000000 -0.00000000000000011 0.92307692307692302 -0.38461538461538503 
+3 13.50284182415640011 22.38213197795899845 5.41666666666666963 0.00000000000000000 -0.38461538461538503 -0.92307692307692302 0.00000000000000013 0.92307692307692302 -0.38461538461538503 1.00000000000000000 -0.00000000000000012 0.00000000000000005 1.08333333333332993 1.00000000000000000
+1 14.50284182415640011 22.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 14.50284182415640011 23.38213197795899845 5.00000000000000000 0.00000000000000011 -0.92307692307692302 0.38461538461538503 
+1 14.50284182415640011 -12.61786802204099978 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 9.50284182415640011 23.38213197795899845 5.00000000000000000 -0.00000000000000011 0.92307692307692302 -0.38461538461538503 
+1 -2.99715817584357991 -12.61786802204099978 20.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+1 -29.09715817584350006 -12.61786802204099978 15.00000000000000000 0.00000000000000025 -1.00000000000000000 0.00000000000000000 
+2 -26.49715817584349864 -17.61786802204100155 15.00000000000000000 -0.00000000000000015 1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000015 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 2.60000000000000009
+2 -26.49715817584349864 -12.61786802204099978 15.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 0.00000000000000000 1.00000000000000000 2.60000000000000009
+1 -13.99715817584350042 -25.01786802204100013 5.00000000000000000 1.00000000000000000 0.00000000000000084 0.00000000000000000 
+1 -32.49715817584360167 -25.01786802204100013 2.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -24.99715817584349864 -25.01786802204100013 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -24.99715817584349864 -30.21786802204099942 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 -24.99715817584349864 -27.61786802204100155 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.00000000000000025 1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000025 0.00000000000000000 2.60000000000000009
+1 -17.74715817584349864 -30.21786802204099942 5.00000000000000000 -1.00000000000000000 -0.00000000000000084 0.00000000000000000 
+1 -32.49715817584360167 -30.21786802204099942 2.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -32.49715817584360167 -12.61786802204099978 5.00000000000000000 0.00000000000000018 -1.00000000000000000 0.00000000000000000 
+1 -32.49715817584360167 -16.61786802204100155 2.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -32.49715817584360167 -17.61786802204100155 21.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 -32.49715817584360167 -13.61786802204099978 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -32.49715817584360167 -12.61786802204099978 5.00000000000000000 0.00000000000000018 -1.00000000000000000 0.00000000000000000 
+1 -15.49715817584350042 -12.61786802204099978 4.75000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 25.50284182415639833 -16.61786802204100155 21.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.70710678118654602 -0.70710678118654902 0.00000000000000000 -0.70710678118654902 -0.70710678118654602 -0.00000000000000000 1.00000000000000000
+1 25.50284182415639833 -17.61786802204100155 2.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 25.50284182415639833 -16.61786802204100155 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.70710678118654602 -0.70710678118654902 0.00000000000000000 -0.70710678118654902 -0.70710678118654602 -0.00000000000000000 1.00000000000000000
+1 26.50284182415639833 -16.61786802204100155 2.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 26.50284182415639833 -12.61786802204099978 21.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+2 25.50284182415639833 -13.61786802204099978 21.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.70710678118654902 0.70710678118654602 0.00000000000000000 0.70710678118654602 -0.70710678118654902 0.00000000000000000 1.00000000000000000
+1 -32.49715817584360167 -12.61786802204099978 21.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 
+2 -31.49715817584360167 -13.61786802204099978 21.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.70710678118654602 0.70710678118654902 0.00000000000000000 0.70710678118654902 0.70710678118654602 0.00000000000000000 1.00000000000000000
+2 -31.49715817584360167 -16.61786802204100155 21.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.70710678118654602 -0.70710678118654902 -0.00000000000000000 -0.70710678118654902 0.70710678118654602 0.00000000000000000 1.00000000000000000
+1 26.50284182415639833 -17.61786802204100155 21.00000000000000000 1.00000000000000000 0.00000000000000015 0.00000000000000000 
+1 26.50284182415639833 -37.61786802204100155 5.00000000000000000 -0.00000000000000018 1.00000000000000000 0.00000000000000000 
+1 26.50284182415639833 -24.01786802204100013 2.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 26.50284182415639833 -13.61786802204099978 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 25.50284182415639833 -12.61786802204099978 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 25.50284182415639833 -24.01786802204100013 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.70710678118654757 -0.70710678118654757 0.00000000000000000 -0.70710678118654757 -0.70710678118654757 -0.00000000000000000 1.00000000000000000
+1 25.50284182415639833 -25.01786802204100013 2.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 25.50284182415639833 -31.21786802204099942 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.70710678118654757 0.70710678118654757 0.00000000000000000 0.70710678118654757 -0.70710678118654757 0.00000000000000000 1.00000000000000000
+1 25.50284182415639833 -30.21786802204099942 2.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -31.49715817584360167 -16.61786802204100155 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.70710678118654602 -0.70710678118654902 -0.00000000000000000 -0.70710678118654902 0.70710678118654602 0.00000000000000000 1.00000000000000000
+1 -31.49715817584360167 -17.61786802204100155 2.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -31.49715817584360167 -12.61786802204099978 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 -20.49715817584360167 -12.61786802204099978 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 9.50284182415641077 -12.61786802204099978 4.75000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 20.50284182415639833 -12.61786802204099978 15.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 2.60000000000000009
+1 8.00284182415641077 -25.01786802204100013 5.00000000000000000 1.00000000000000000 -0.00000000000000059 0.00000000000000000 
+1 19.00284182415639833 -25.01786802204100013 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 19.00284182415639833 -30.21786802204099942 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 19.00284182415639833 -27.61786802204100155 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 1.00000000000000000 -0.00000000000000000 0.00000000000000000 2.60000000000000009
+1 11.75284182415640011 -30.21786802204099942 5.00000000000000000 -1.00000000000000000 0.00000000000000059 0.00000000000000000 
+1 -17.74715817584360167 -17.61786802204100155 5.00000000000000000 -1.00000000000000000 -0.00000000000000015 0.00000000000000000 
+1 23.10284182415639975 -12.61786802204099978 15.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+2 20.50284182415639833 -17.61786802204100155 15.00000000000000000 -0.00000000000000015 1.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.00000000000000015 -0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 2.60000000000000009
+1 -8.49715817584356969 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -4.74715817584356969 18.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -1.24715817584356992 18.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 2.50284182415642986 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -1.24715817584356992 2.38213197795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -1.24715817584356992 0.38213197795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -4.74715817584356969 0.38213197795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -4.74715817584356969 2.38213197795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 3.25284182415642986 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 6.75284182415643031 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 6.75284182415643031 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 3.25284182415642986 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -12.74715817584359989 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -9.24715817584356969 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -9.24715817584356969 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -12.74715817584359989 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 64
+2 -5.74498224397002044 16.27275697795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.85394721866912149 -0.52035963306858435 0.00000000000000000 0.52035963306858435 0.85394721866912149 -0.00000000000000000 1.00000000000000000
+1 -2.99715817584357991 -2.94139743380568008 5.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.28881023306513992 0.95738636363636376 0.00000000000000000 -0.95738636363636376 -0.28881023306513992 0.00000000000000000 5.50000000000000000
+1 -2.99715817584357991 -2.94139743380568008 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+2 -2.99715817584357014 16.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -4.74715817584356969 18.38213197795899845 0.00000000000000000 -1.00000000000000000 0.00000000000000056 0.00000000000000000 -0.00000000000000056 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -31.49715817584360167 -36.61786802204100155 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.70710678118654402 -0.70710678118655101 0.00000000000000000 0.70710678118655101 -0.70710678118654402 0.00000000000000000 1.00000000000000000
+1 -32.49715817584360167 -12.61786802204099978 0.00000000000000000 -1.00000000000000000 -0.00000000000000018 0.00000000000000000 0.00000000000000018 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 -32.49715817584350219 -30.21786802204099942 5.00000000000000000 -0.00000000000000084 1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000084 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 -24.99715817584349864 -27.61786802204100155 5.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.00000000000000025 1.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.00000000000000025 0.00000000000000000 2.60000000000000009
+1 -24.99715817584349864 -25.01786802204100013 5.00000000000000000 0.00000000000000084 -1.00000000000000000 0.00000000000000000 -1.00000000000000000 -0.00000000000000084 0.00000000000000000 0.00000000000000000 -0.00000000000000000 -1.00000000000000000 
+1 -32.49715817584360167 -12.61786802204099978 0.00000000000000000 -1.00000000000000000 -0.00000000000000018 0.00000000000000000 0.00000000000000018 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -31.49715817584360167 -13.61786802204099978 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.70710678118654602 0.70710678118654902 0.00000000000000000 -0.70710678118654902 -0.70710678118654602 0.00000000000000000 1.00000000000000000
+1 -20.49715817584360167 -12.61786802204099978 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 
+1 -20.49715817584360167 23.38213197795899845 0.00000000000000000 -1.00000000000000000 -0.00000000000000012 0.00000000000000000 0.00000000000000012 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -19.49715817584360167 22.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.70710678118654902 0.70710678118654602 0.00000000000000000 -0.70710678118654602 -0.70710678118654902 0.00000000000000000 1.00000000000000000
+1 -15.49715817584359989 23.38213197795899845 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 
+2 13.50284182415640011 22.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.70710678118654602 0.70710678118654902 -0.00000000000000000 -0.70710678118654902 0.70710678118654602 0.00000000000000000 1.00000000000000000
+1 14.50284182415640011 -12.61786802204099978 0.00000000000000000 1.00000000000000000 0.00000000000000012 0.00000000000000000 -0.00000000000000012 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 
+2 25.50284182415639833 -13.61786802204099978 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.70710678118654902 0.70710678118654602 -0.00000000000000000 -0.70710678118654602 0.70710678118654902 0.00000000000000000 1.00000000000000000
+1 26.50284182415639833 -17.61786802204100155 0.00000000000000000 1.00000000000000000 0.00000000000000018 0.00000000000000000 -0.00000000000000018 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 
+2 25.50284182415639833 -24.01786802204100013 2.50000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.70710678118654757 -0.70710678118654757 0.00000000000000000 -0.70710678118654757 -0.70710678118654757 -0.00000000000000000 1.00000000000000000
+1 19.00284182415639833 -25.01786802204100013 5.00000000000000000 0.00000000000000059 1.00000000000000000 0.00000000000000000 1.00000000000000000 -0.00000000000000059 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 19.00284182415639833 -27.61786802204100155 5.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 1.00000000000000000 -0.00000000000000000 0.00000000000000000 2.60000000000000009
+1 26.50284182415639833 -30.21786802204099942 5.00000000000000000 -0.00000000000000059 -1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000059 0.00000000000000000 -0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+2 25.50284182415639833 -31.21786802204099942 2.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.70710678118654757 0.70710678118654757 -0.00000000000000000 -0.70710678118654757 0.70710678118654757 0.00000000000000000 1.00000000000000000
+1 26.50284182415639833 -17.61786802204100155 0.00000000000000000 1.00000000000000000 0.00000000000000018 0.00000000000000000 -0.00000000000000018 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 
+2 25.50284182415639833 -36.61786802204100155 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.70710678118654757 -0.70710678118654757 0.00000000000000000 0.70710678118654757 0.70710678118654757 -0.00000000000000000 1.00000000000000000
+1 -32.49715817584360167 -37.61786802204100155 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 5.00284182415643031 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 3.25284182415642986 10.38213197795900022 0.00000000000000000 -1.00000000000000000 0.00000000000000028 0.00000000000000000 -0.00000000000000028 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 5.00284182415643031 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 6.75284182415643031 8.38213197795903042 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 
+2 -10.99715817584359989 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -12.74715817584359989 10.38213197795900022 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -10.99715817584359989 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -9.24715817584356969 8.38213197795903042 0.00000000000000000 1.00000000000000000 0.00000000000000056 0.00000000000000000 -0.00000000000000056 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 
+1 -8.49715817584356969 10.38213197795900022 0.00000000000000000 -1.00000000000000000 0.00000000000000056 0.00000000000000000 -0.00000000000000056 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -2.99715817584357014 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 5.50000000000000000
+2 -5.74498224397002044 2.49150697795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.85394721866912149 0.52035963306858435 -0.00000000000000000 -0.52035963306858435 0.85394721866912149 0.00000000000000000 1.00000000000000000
+2 -2.99715817584357014 2.38213197795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.90768930391901115 0.41964285714285804 0.00000000000000000 -0.41964285714285804 -0.90768930391901115 0.00000000000000000 1.75000000000000000
+1 -4.74715817584356969 2.38213197795902998 0.00000000000000000 -1.00000000000000000 0.00000000000000056 0.00000000000000000 -0.00000000000000056 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -2.99715817584357014 0.38213197795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -1.00000000000000000 0.00000000000000016 0.00000000000000000 -0.00000000000000016 -1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -1.24715817584356992 0.38213197795902998 0.00000000000000000 1.00000000000000000 -0.00000000000000028 0.00000000000000000 0.00000000000000028 1.00000000000000000 0.00000000000000000 -0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -2.99715817584357014 2.38213197795902998 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 -0.00000000000000016 0.00000000000000000 0.00000000000000016 1.00000000000000000 -0.00000000000000000 1.75000000000000000
+2 -0.24933410771711700 2.49150697795904019 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.85394721866912182 0.52035963306858390 0.00000000000000000 -0.52035963306858390 -0.85394721866912182 0.00000000000000000 1.00000000000000000
+2 -2.99715817584357014 8.38213197795903042 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.28881023306514109 -0.95738636363636331 0.00000000000000000 0.95738636363636331 0.28881023306514109 -0.00000000000000000 5.50000000000000000
+1 2.50284182415642986 8.38213197795903930 0.00000000000000000 1.00000000000000000 -0.00000000000000056 0.00000000000000000 0.00000000000000056 1.00000000000000000 0.00000000000000000 -0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -2.99715817584357014 10.38213197795900022 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000040 -0.00000000000000000 -0.00000000000000040 1.00000000000000000 0.00000000000000000 5.50000000000000000
+2 -0.24933410771711900 16.27275697795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.85394721866912149 -0.52035963306858435 0.00000000000000000 0.52035963306858435 -0.85394721866912149 0.00000000000000000 1.00000000000000000
+2 -2.99715817584357014 16.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.90768930391901148 -0.41964285714285715 0.00000000000000000 0.41964285714285715 0.90768930391901148 -0.00000000000000000 1.75000000000000000
+1 -1.24715817584356992 16.38213197795899845 0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 
+2 -2.99715817584357014 18.38213197795899845 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 1.75000000000000000
+1 -15.49715817584350042 2.38213197795902021 9.50000000000000000 -1.00000000000000000 -0.00000000000000025 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.00000000000000025 1.00000000000000000 0.00000000000000000 
+1 9.50284182415641077 2.38213197795902998 9.50000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 1.00000000000000000 -0.00000000000000000 
+1 -2.99715817584357991 -2.94139743380568008 5.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 -20.49715817584349864 -12.61786802204099978 20.00000000000000000 0.00000000000000009 -0.38461538461538503 -0.92307692307692302 -0.00000000000000011 0.92307692307692302 -0.38461538461538503 1.00000000000000000 0.00000000000000014 0.00000000000000004 
+1 14.50284182415640011 -12.61786802204099978 20.00000000000000000 0.00000000000000000 0.38461538461538503 0.92307692307692302 -0.00000000000000011 0.92307692307692302 -0.38461538461538503 -1.00000000000000000 -0.00000000000000010 0.00000000000000004 
+2 -26.49715817584349864 -12.61786802204099978 15.00000000000000000 -0.00000000000000025 1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000025 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 2.60000000000000009
+1 -32.49715817584360167 -17.61786802204100155 5.00000000000000000 0.00000000000000015 -1.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000015 0.00000000000000000 -0.00000000000000000 0.00000000000000000 1.00000000000000000 
+2 -31.49715817584360167 -16.61786802204100155 2.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 -0.70710678118654602 -0.70710678118654902 0.00000000000000000 0.70710678118654902 -0.70710678118654602 0.00000000000000000 1.00000000000000000
+1 -2.99715817584357991 -15.11786802204099978 21.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+2 25.50284182415639833 -16.61786802204100155 2.50000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.70710678118654602 -0.70710678118654902 0.00000000000000000 0.70710678118654902 0.70710678118654602 -0.00000000000000000 1.00000000000000000
+2 20.50284182415639833 -12.61786802204099978 15.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 -1.00000000000000000 2.60000000000000009
+Triangulations 0
+
+TShapes 446
+Ve
+0.000000100000000
+-4.745773491924040 16.312529705231800 5.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-5.322240079642880 15.366506977959000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  1 0 5.696130047837708 6.870240566521397
+2  1 1 0 5.696130047837708 6.870240566521397
+4 C0 1 0 2 0
+0
+
+0101000
++446 0 -445 0 *
+Ve
+0.000000100000000
+-5.322240079642880 15.366506977959000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  2 0 -5.000000000000000 0.000000000000000
+2  2 1 0 -5.000000000000000 0.000000000000000
+2  3 3 0 -5.000000000000000 0.000000000000000
+4 G1 1 0 3 0
+0
+
+0101000
++445 0 -443 0 *
+Ve
+0.000000100000000
+-4.745773491924040 16.312529705231800 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  3 0 5.696130047837776 6.870240566521464
+2  4 1 0 5.696130047837776 6.870240566521464
+4 C0 1 0 4 0
+0
+
+0101000
++443 0 -441 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  4 0 0.000000000000000 5.000000000000000
+2  5 1 0 0.000000000000000 5.000000000000000
+2  6 5 0 0.000000000000000 5.000000000000000
+4 G1 1 0 5 0
+0
+
+0101000
++441 0 -446 0 *
+Wi
+
+0101100
++444 0 +442 0 +440 0 +439 0 *
+Fa
+0  0.000000100000000 1 0
+
+0101000
++438 0 *
+Ve
+0.000000100000000
+-4.747158175843570 16.382131977958998 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  5 0 6.243402086555996 6.283185307179586
+2  7 5 0 6.243402086555996 6.283185307179586
+4 C0 5 0 2 0
+0
+
+0101000
++446 0 -436 0 *
+Ve
+0.000000100000000
+-4.747158175843570 16.382131977958998 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  6 0 0.000000000000000 5.000000000000000
+2  8 5 0 0.000000000000000 5.000000000000000
+4 G1 5 0 6 0
+0
+
+0101000
++434 0 -436 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  7 0 0.000000000000000 0.039783220623591
+2  9 5 0 0.000000000000000 0.039783220623591
+4 C0 5 0 4 0
+0
+
+0101000
++434 0 -441 0 *
+Wi
+
+0101100
++435 0 -433 0 +432 0 +439 0 *
+Fa
+0  0.000000100000000 5 0
+
+0101000
++431 0 *
+Ve
+0.000000100000000
+-32.497158175843602 -36.617868022041002 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-31.497158175843602 -37.617868022041002 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  8 0 5.497787143782133 7.068583470577030
+2  10 7 0 5.497787143782133 7.068583470577030
+4 C0 4 0 7 0
+0
+
+0101000
++429 0 -428 0 *
+Ve
+0.000000100000000
+-32.497158175843502 -30.217868022040999 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  9 0 17.600000000000001 24.000000000000000
+4 C0 4 0 8 0
+0
+
+0101000
++426 0 -429 0 *
+Ve
+0.000000100000000
+-24.997158175843499 -30.217868022040999 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  10 0 -14.750000000000004 -7.250000000000000
+4 C0 4 0 9 0
+0
+
+0101000
++426 0 -424 0 *
+Ve
+0.000000100000000
+-24.997158175843499 -25.017868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  11 0 3.141592653589793 6.283185307179586
+2  11 10 0 3.141592653589793 6.283185307179586
+4 C0 4 0 10 0
+0
+
+0101000
++424 0 -422 0 *
+Ve
+0.000000100000000
+-32.497158175843502 -25.017868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  12 0 10.999999999999998 18.500000000000000
+4 C0 4 0 11 0
+0
+
+0101000
++422 0 -420 0 *
+Ve
+0.000000100000000
+-32.497158175843602 -13.617868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  13 0 1.000000000000000 12.400000000000000
+4 C0 4 0 12 0
+0
+
+0101000
++418 0 -420 0 *
+Ve
+0.000000100000000
+-31.497158175843602 -12.617868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  14 0 5.497787143782140 7.068583470577036
+2  12 13 0 5.497787143782140 7.068583470577036
+4 C0 4 0 13 0
+0
+
+0101000
++416 0 -418 0 *
+Ve
+0.000000100000000
+-20.497158175843602 -12.617868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  15 0 0.000000000000000 11.000000000000000
+4 C0 4 0 14 0
+0
+
+0101000
++414 0 -416 0 *
+Ve
+0.000000100000000
+-20.497158175843602 22.382131977958998 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  16 0 1.000000000000000 36.000000000000000
+4 C0 4 0 15 0
+0
+
+0101000
++412 0 -414 0 *
+Ve
+0.000000100000000
+-19.497158175843602 23.382131977958998 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  17 0 5.497787143782136 7.068583470577033
+2  13 16 0 5.497787143782136 7.068583470577033
+4 C0 4 0 16 0
+0
+
+0101000
++410 0 -412 0 *
+Ve
+0.000000100000000
+13.502841824156400 23.382131977958998 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  18 0 1.000000000000000 34.000000000000000
+4 C0 4 0 17 0
+0
+
+0101000
++408 0 -410 0 *
+Ve
+0.000000100000000
+14.502841824156400 22.382131977958998 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  19 0 5.497787143782136 7.068583470577033
+2  14 18 0 5.497787143782136 7.068583470577033
+4 C0 4 0 18 0
+0
+
+0101000
++406 0 -408 0 *
+Ve
+0.000000100000000
+14.502841824156400 -12.617868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  20 0 0.000000000000000 35.000000000000000
+4 C0 4 0 19 0
+0
+
+0101000
++404 0 -406 0 *
+Ve
+0.000000100000000
+25.502841824156398 -12.617868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  21 0 1.000000000000000 11.999999999999998
+4 C0 4 0 14 0
+0
+
+0101000
++402 0 -404 0 *
+Ve
+0.000000100000000
+26.502841824156398 -13.617868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  22 0 5.497787143782140 7.068583470577036
+2  15 20 0 5.497787143782140 7.068583470577036
+4 C0 4 0 20 0
+0
+
+0101000
++400 0 -402 0 *
+Ve
+0.000000100000000
+26.502841824156398 -24.017868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  23 0 13.600000000000001 24.000000000000000
+4 C0 4 0 21 0
+0
+
+0101000
++398 0 -400 0 *
+Ve
+0.000000100000000
+25.502841824156398 -25.017868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  24 0 5.497787143782138 7.068583470577035
+2  16 22 0 5.497787143782138 7.068583470577035
+4 C0 4 0 22 0
+0
+
+0101000
++396 0 -398 0 *
+Ve
+0.000000100000000
+19.002841824156398 -25.017868022041000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  25 0 -17.499999999999986 -10.999999999999988
+4 C0 4 0 23 0
+0
+
+0101000
++396 0 -394 0 *
+Ve
+0.000000100000000
+19.002841824156398 -30.217868022040999 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  26 0 0.000000000000000 3.141592653589793
+2  17 24 0 0.000000000000000 3.141592653589793
+4 C0 4 0 24 0
+0
+
+0101000
++394 0 -392 0 *
+Ve
+0.000000100000000
+25.502841824156398 -30.217868022040999 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  27 0 7.249999999999998 13.749999999999998
+4 C0 4 0 25 0
+0
+
+0101000
++392 0 -390 0 *
+Ve
+0.000000100000000
+26.502841824156398 -31.217868022040999 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  28 0 5.497787143782138 7.068583470577035
+2  18 26 0 5.497787143782138 7.068583470577035
+4 C0 4 0 26 0
+0
+
+0101000
++388 0 -390 0 *
+Ve
+0.000000100000000
+26.502841824156398 -36.617868022041002 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  29 0 1.000000000000000 6.400000000000002
+4 C0 4 0 27 0
+0
+
+0101000
++386 0 -388 0 *
+Ve
+0.000000100000000
+25.502841824156398 -37.617868022041002 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  30 0 5.497787143782138 7.068583470577035
+2  19 28 0 5.497787143782138 7.068583470577035
+4 C0 4 0 28 0
+0
+
+0101000
++384 0 -386 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  31 0 1.000000000000000 58.000000000000000
+4 C0 4 0 29 0
+0
+
+0101000
++428 0 -384 0 *
+Wi
+
+0101100
+-427 0 -425 0 +423 0 +421 0 +419 0 -417 0 -415 0 -413 0 -411 0 -409 0 
+-407 0 -405 0 -403 0 -401 0 -399 0 -397 0 -395 0 +393 0 +391 0 +389 0 
+-387 0 -385 0 -383 0 -382 0 *
+Ve
+0.000000100000000
+6.752841824156430 10.382131977959000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+3.252841824156430 10.382131977959000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  32 0 0.000000000000000 3.141592653589793
+2  20 30 0 0.000000000000000 3.141592653589793
+4 C0 4 0 30 0
+0
+
+0101000
++380 0 -379 0 *
+Ve
+0.000000100000000
+3.252841824156430 8.382131977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  33 0 -6.661764705882330 -4.661764705882360
+4 C0 4 0 31 0
+0
+
+0101000
++379 0 -377 0 *
+Ve
+0.000000100000000
+6.752841824156430 8.382131977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  34 0 0.000000000000000 3.141592653589793
+2  21 32 0 0.000000000000000 3.141592653589793
+4 C0 4 0 32 0
+0
+
+0101000
++377 0 -375 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  35 0 5.661764705882360 7.661764705882330
+4 C0 4 0 33 0
+0
+
+0101000
++375 0 -380 0 *
+Wi
+
+0101100
++378 0 +376 0 +374 0 +373 0 *
+Ve
+0.000000100000000
+-9.247158175843570 10.382131977959000 0.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-12.747158175843600 10.382131977959000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  36 0 0.000000000000000 3.141592653589793
+2  22 34 0 0.000000000000000 3.141592653589793
+4 C0 4 0 34 0
+0
+
+0101000
++371 0 -370 0 *
+Ve
+0.000000100000000
+-12.747158175843600 8.382131977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  37 0 -6.661764705882320 -4.661764705882351
+4 C0 4 0 35 0
+0
+
+0101000
++370 0 -368 0 *
+Ve
+0.000000100000000
+-9.247158175843570 8.382131977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  38 0 0.000000000000000 3.141592653589793
+2  23 36 0 0.000000000000000 3.141592653589793
+4 C0 4 0 36 0
+0
+
+0101000
++368 0 -366 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  39 0 5.661764705882360 7.661764705882330
+4 C0 4 0 37 0
+0
+
+0101000
++366 0 -371 0 *
+Wi
+
+0101100
++369 0 +367 0 +365 0 +364 0 *
+Ve
+0.000000100000000
+-8.497158175843570 10.382131977959000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  40 0 0.143485148253851 1.277812446313828
+2  24 3 0 0.143485148253851 1.277812446313828
+4 C0 4 0 3 0
+0
+
+0101000
++443 0 -362 0 *
+Ve
+0.000000100000000
+-8.497158175843570 8.382131977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  41 0 -6.661764705882320 -4.661764705882351
+4 C0 4 0 38 0
+0
+
+0101000
++362 0 -360 0 *
+Ve
+0.000000100000000
+-5.322240079642870 3.397756977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  42 0 0.000000000000000 1.134327298059978
+2  25 39 0 0.000000000000000 1.134327298059978
+4 C0 4 0 39 0
+0
+
+0101000
++360 0 -358 0 *
+Ve
+0.000000100000000
+-4.745773491924040 2.451734250686310 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  43 0 5.696130047837789 6.870240566521389
+2  26 40 0 5.696130047837789 6.870240566521389
+4 C0 4 0 40 0
+0
+
+0101000
++356 0 -358 0 *
+Ve
+0.000000100000000
+-4.747158175843570 2.382131977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  44 0 0.393268599871043 0.433051820494680
+2  27 41 0 0.393268599871043 0.433051820494680
+4 C0 4 0 41 0
+0
+
+0101000
++356 0 -354 0 *
+Ve
+0.000000100000000
+-4.747158175843570 0.382131977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  45 0 -2.661764705882355 -0.661764705882355
+4 C0 4 0 42 0
+0
+
+0101000
++354 0 -352 0 *
+Ve
+0.000000100000000
+-1.247158175843570 0.382131977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  46 0 0.000000000000000 3.141592653589793
+2  28 43 0 0.000000000000000 3.141592653589793
+4 C0 4 0 43 0
+0
+
+0101000
++352 0 -350 0 *
+Ve
+0.000000100000000
+-1.247158175843570 2.382131977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  47 0 1.661764705882360 3.661764705882360
+4 C0 4 0 44 0
+0
+
+0101000
++350 0 -348 0 *
+Ve
+0.000000100000000
+-1.248542859763100 2.451734250686310 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  48 0 0.000000000000000 0.039783220623637
+2  29 45 0 0.000000000000000 0.039783220623637
+4 C0 4 0 45 0
+0
+
+0101000
++348 0 -346 0 *
+Ve
+0.000000100000000
+-0.672076272044263 3.397756977959030 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  49 0 5.696130047837784 6.870240566521392
+2  30 46 0 5.696130047837784 6.870240566521392
+4 C0 4 0 46 0
+0
+
+0101000
++344 0 -346 0 *
+Ve
+0.000000100000000
+2.502841824156430 8.382131977959039 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  50 0 0.143485148253850 1.277812446313828
+2  31 47 0 0.143485148253850 1.277812446313828
+4 C0 4 0 47 0
+0
+
+0101000
++344 0 -342 0 *
+Ve
+0.000000100000000
+2.502841824156430 10.382131977959000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  51 0 5.661764705882359 7.661764705882320
+4 C0 4 0 48 0
+0
+
+0101000
++342 0 -340 0 *
+Ve
+0.000000100000000
+-0.672076272044265 15.366506977959000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  52 0 0.000000000000000 1.134327298059977
+2  32 49 0 0.000000000000000 1.134327298059977
+4 C0 4 0 49 0
+0
+
+0101000
++340 0 -338 0 *
+Ve
+0.000000100000000
+-1.248542859763100 16.312529705231800 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  53 0 5.696130047837708 6.870240566521392
+2  33 50 0 5.696130047837708 6.870240566521392
+4 C0 4 0 50 0
+0
+
+0101000
++336 0 -338 0 *
+Ve
+0.000000100000000
+-1.247158175843570 16.382131977958998 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  54 0 0.393268599871089 0.433051820494679
+2  34 51 0 0.393268599871089 0.433051820494679
+4 C0 4 0 51 0
+0
+
+0101000
++336 0 -334 0 *
+Ve
+0.000000100000000
+-1.247158175843570 18.382131977958998 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  55 0 9.661764705882320 11.661764705882320
+4 C0 4 0 52 0
+0
+
+0101000
++334 0 -332 0 *
+Ve
+0.000000100000000
+-4.747158175843570 18.382131977958998 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  56 0 0.000000000000000 3.141592653589793
+2  35 53 0 0.000000000000000 3.141592653589793
+4 C0 4 0 53 0
+0
+
+0101000
++332 0 -330 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  57 0 -10.661764705882320 -8.661764705882320
+4 C0 4 0 6 0
+0
+
+0101000
++330 0 -434 0 *
+Wi
+
+0101100
+-440 0 +361 0 +359 0 +357 0 -355 0 +353 0 +351 0 +349 0 +347 0 +345 0 
+-343 0 +341 0 +339 0 +337 0 -335 0 +333 0 +331 0 +329 0 +328 0 +432 0 
+*
+Fa
+0  0.000000100000000 4 0
+
+0101000
+-381 0 -372 0 -363 0 -327 0 *
+Ve
+0.000000100000000
+-0.672076272044265 15.366506977959000 5.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-1.248542859763100 16.312529705231800 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  58 0 5.696130047837780 6.870240566521464
+2  36 50 0 5.696130047837780 6.870240566521464
+4 C0 50 0 2 0
+0
+
+0101000
++325 0 -324 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  59 0 -5.000000000000000 0.000000000000000
+2  37 50 0 -5.000000000000000 0.000000000000000
+2  38 51 0 -5.000000000000000 0.000000000000000
+4 G1 50 0 51 0
+0
+
+0101000
++324 0 -336 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  60 0 0.000000000000000 5.000000000000000
+2  39 50 0 0.000000000000000 5.000000000000000
+2  40 49 0 0.000000000000000 5.000000000000000
+4 G1 50 0 49 0
+0
+
+0101000
++338 0 -325 0 *
+Wi
+
+0101100
++323 0 +322 0 +335 0 +321 0 *
+Fa
+0  0.000000100000000 50 0
+
+0101000
++320 0 *
+Ve
+0.000000100000000
+-1.247158175843570 16.382131977958998 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  61 0 0.000000000000000 5.000000000000000
+2  41 51 0 0.000000000000000 5.000000000000000
+4 G1 51 0 52 0
+0
+
+0101000
++334 0 -318 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  62 0 5.850133486684907 5.889916707308497
+2  42 51 0 5.850133486684907 5.889916707308497
+4 C0 51 0 2 0
+0
+
+0101000
++318 0 -324 0 *
+Wi
+
+0101100
++333 0 +317 0 +316 0 +322 0 *
+Fa
+0  0.000000100000000 51 0
+
+0101000
++315 0 *
+Ve
+0.000000100000000
+-15.497158175843500 23.382131977958998 5.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-15.497158175843500 -12.617868022041000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  63 0 -23.661764705882330 12.338235294117668
+4 C0 2 0 54 0
+0
+
+0101000
++313 0 -312 0 *
+Ve
+0.000000100000000
+9.502841824156411 -12.617868022041000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  64 0 -27.249999999999901 -2.249999999999989
+4 C0 2 0 14 0
+0
+
+0101000
++312 0 -310 0 *
+Ve
+0.000000100000000
+9.502841824156400 23.382131977958998 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  65 0 -12.338235294117672 23.661764705882327
+4 C0 2 0 55 0
+0
+
+0101000
++310 0 -308 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  66 0 5.000000000000000 29.999999999999901
+4 C0 2 0 17 0
+0
+
+0101000
++308 0 -313 0 *
+Wi
+
+0101100
++311 0 +309 0 +307 0 +306 0 *
+Ve
+0.000000100000000
+-4.747158175843570 18.382131977958998 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  67 0 8.661764705882320 10.661764705882320
+4 C0 2 0 6 0
+0
+
+0101000
++436 0 -304 0 *
+Ve
+0.000000100000000
+-1.247158175843570 18.382131977958998 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  68 0 3.141592653589793 6.283185307179586
+2  43 53 0 3.141592653589793 6.283185307179586
+4 C0 2 0 53 0
+0
+
+0101000
++304 0 -302 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  69 0 -11.661764705882320 -9.661764705882320
+4 C0 2 0 52 0
+0
+
+0101000
++302 0 -318 0 *
+Ve
+0.000000100000000
+2.502841824156430 10.382131977959000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  70 0 5.148858009119609 6.283185307179586
+2  44 49 0 5.148858009119609 6.283185307179586
+4 C0 2 0 49 0
+0
+
+0101000
++325 0 -299 0 *
+Ve
+0.000000100000000
+2.502841824156430 8.382131977959039 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  71 0 -7.661764705882320 -5.661764705882359
+4 C0 2 0 48 0
+0
+
+0101000
++299 0 -297 0 *
+Ve
+0.000000100000000
+-0.672076272044263 3.397756977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  72 0 5.005372860865759 6.139700158925737
+2  45 47 0 5.005372860865759 6.139700158925737
+4 C0 2 0 47 0
+0
+
+0101000
++297 0 -295 0 *
+Ve
+0.000000100000000
+-1.248542859763100 2.451734250686310 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  73 0 5.696130047837780 6.870240566521389
+2  46 46 0 5.696130047837780 6.870240566521389
+4 C0 2 0 46 0
+0
+
+0101000
++293 0 -295 0 *
+Ve
+0.000000100000000
+-1.247158175843570 2.382131977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  74 0 6.243402086555949 6.283185307179586
+2  47 45 0 6.243402086555949 6.283185307179586
+4 C0 2 0 45 0
+0
+
+0101000
++293 0 -291 0 *
+Ve
+0.000000100000000
+-1.247158175843570 0.382131977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  75 0 -3.661764705882360 -1.661764705882360
+4 C0 2 0 44 0
+0
+
+0101000
++291 0 -289 0 *
+Ve
+0.000000100000000
+-4.747158175843570 0.382131977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  76 0 3.141592653589793 6.283185307179586
+2  48 43 0 3.141592653589793 6.283185307179586
+4 C0 2 0 43 0
+0
+
+0101000
++289 0 -287 0 *
+Ve
+0.000000100000000
+-4.747158175843570 2.382131977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  77 0 0.661764705882355 2.661764705882355
+4 C0 2 0 42 0
+0
+
+0101000
++287 0 -285 0 *
+Ve
+0.000000100000000
+-4.745773491924040 2.451734250686310 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  78 0 5.850133486684906 5.889916707308543
+2  49 41 0 5.850133486684906 5.889916707308543
+4 C0 2 0 41 0
+0
+
+0101000
++285 0 -283 0 *
+Ve
+0.000000100000000
+-5.322240079642870 3.397756977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  79 0 5.696130047837784 6.870240566521383
+2  50 40 0 5.696130047837784 6.870240566521383
+4 C0 2 0 40 0
+0
+
+0101000
++281 0 -283 0 *
+Ve
+0.000000100000000
+-8.497158175843570 8.382131977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  80 0 5.148858009119608 6.283185307179586
+2  51 39 0 5.148858009119608 6.283185307179586
+4 C0 2 0 39 0
+0
+
+0101000
++281 0 -279 0 *
+Ve
+0.000000100000000
+-8.497158175843570 10.382131977959000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  81 0 4.661764705882351 6.661764705882320
+4 C0 2 0 38 0
+0
+
+0101000
++279 0 -277 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  82 0 5.005372860865759 6.139700158925735
+2  52 3 0 5.005372860865759 6.139700158925735
+4 C0 2 0 3 0
+0
+
+0101000
++277 0 -445 0 *
+Wi
+
+0101100
+-444 0 +435 0 +303 0 +301 0 +300 0 +316 0 -323 0 +298 0 +296 0 +294 0 
+-292 0 +290 0 +288 0 +286 0 +284 0 +282 0 -280 0 +278 0 +276 0 +275 0 
+*
+Ve
+0.000000100000000
+3.252841824156430 10.382131977959000 5.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+6.752841824156430 10.382131977959000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  83 0 3.141592653589793 6.283185307179586
+2  53 30 0 3.141592653589793 6.283185307179586
+4 C0 2 0 30 0
+0
+
+0101000
++273 0 -272 0 *
+Ve
+0.000000100000000
+6.752841824156430 8.382131977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  84 0 -7.661764705882330 -5.661764705882360
+4 C0 2 0 33 0
+0
+
+0101000
++272 0 -270 0 *
+Ve
+0.000000100000000
+3.252841824156430 8.382131977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  85 0 3.141592653589793 6.283185307179586
+2  54 32 0 3.141592653589793 6.283185307179586
+4 C0 2 0 32 0
+0
+
+0101000
++270 0 -268 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  86 0 4.661764705882360 6.661764705882330
+4 C0 2 0 31 0
+0
+
+0101000
++268 0 -273 0 *
+Wi
+
+0101100
++271 0 +269 0 +267 0 +266 0 *
+Ve
+0.000000100000000
+-12.747158175843600 10.382131977959000 5.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-9.247158175843570 10.382131977959000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  87 0 3.141592653589793 6.283185307179586
+2  55 34 0 3.141592653589793 6.283185307179586
+4 C0 2 0 34 0
+0
+
+0101000
++264 0 -263 0 *
+Ve
+0.000000100000000
+-9.247158175843570 8.382131977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  88 0 -7.661764705882330 -5.661764705882360
+4 C0 2 0 37 0
+0
+
+0101000
++263 0 -261 0 *
+Ve
+0.000000100000000
+-12.747158175843600 8.382131977959030 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  89 0 3.141592653589793 6.283185307179586
+2  56 36 0 3.141592653589793 6.283185307179586
+4 C0 2 0 36 0
+0
+
+0101000
++261 0 -259 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  90 0 4.661764705882351 6.661764705882320
+4 C0 2 0 35 0
+0
+
+0101000
++259 0 -264 0 *
+Wi
+
+0101100
++262 0 +260 0 +258 0 +257 0 *
+Fa
+0  0.000000100000000 2 0
+
+0101000
++305 0 +274 0 +265 0 +256 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  91 0 -5.000000000000000 0.000000000000000
+2  57 40 0 -5.000000000000000 0.000000000000000
+2  58 41 0 -5.000000000000000 0.000000000000000
+4 G1 40 0 41 0
+0
+
+0101000
++283 0 -356 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  92 0 0.000000000000000 5.000000000000000
+2  59 40 0 0.000000000000000 5.000000000000000
+2  60 39 0 0.000000000000000 5.000000000000000
+4 G1 40 0 39 0
+0
+
+0101000
++358 0 -281 0 *
+Wi
+
+0101100
++280 0 +254 0 +355 0 +253 0 *
+Fa
+0  0.000000100000000 40 0
+
+0101000
++252 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  93 0 0.000000000000000 5.000000000000000
+2  61 39 0 0.000000000000000 5.000000000000000
+4 G1 39 0 38 0
+0
+
+0101000
++360 0 -279 0 *
+Wi
+
+0101100
++278 0 -250 0 +357 0 +253 0 *
+Fa
+0  0.000000100000000 39 0
+
+0101000
++249 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  94 0 -5.000000000000000 0.000000000000000
+2  62 46 0 -5.000000000000000 0.000000000000000
+2  63 47 0 -5.000000000000000 0.000000000000000
+4 G1 46 0 47 0
+0
+
+0101000
++295 0 -344 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  95 0 0.000000000000000 5.000000000000000
+2  64 46 0 0.000000000000000 5.000000000000000
+2  65 45 0 0.000000000000000 5.000000000000000
+4 G1 46 0 45 0
+0
+
+0101000
++346 0 -293 0 *
+Wi
+
+0101100
++292 0 +247 0 +343 0 +246 0 *
+Fa
+0  0.000000100000000 46 0
+
+0101000
++245 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  96 0 0.000000000000000 5.000000000000000
+2  66 47 0 0.000000000000000 5.000000000000000
+4 G1 47 0 48 0
+0
+
+0101000
++342 0 -297 0 *
+Wi
+
+0101100
++341 0 +243 0 +294 0 +247 0 *
+Fa
+0  0.000000100000000 47 0
+
+0101000
++242 0 *
+Ve
+0.000000100000000
+-31.497158175843602 -37.617868022041002 5.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-32.497158175843602 -36.617868022041002 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  97 0 5.497787143782142 7.068583470577040
+2  67 7 0 5.497787143782142 7.068583470577040
+4 C0 7 0 56 0
+0
+
+0101000
++240 0 -239 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  98 0 -5.000000000000000 0.000000000000000
+2  68 7 0 -5.000000000000000 0.000000000000000
+4 C1 7 0 8 0
+0
+
+0101000
++239 0 -429 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  99 0 0.000000000000000 5.000000000000000
+2  69 7 0 0.000000000000000 5.000000000000000
+4 C1 7 0 29 0
+0
+
+0101000
++428 0 -240 0 *
+Wi
+
+0101100
++238 0 +237 0 +427 0 +236 0 *
+Fa
+0  0.000000100000000 7 0
+
+0101000
++235 0 *
+Ve
+0.000000100000000
+25.502841824156398 -37.617868022041002 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  100 0 -5.000000000000000 0.000000000000000
+2  70 28 0 -5.000000000000000 0.000000000000000
+4 C1 29 0 28 0
+0
+
+0101000
++233 0 -384 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  101 0 1.000000000000000 58.000000000000000
+4 C0 29 0 56 0
+0
+
+0101000
++240 0 -233 0 *
+Wi
+
+0101100
+-236 0 +382 0 -232 0 -231 0 *
+Fa
+0  0.000000100000000 29 0
+
+0101000
++230 0 *
+Ve
+0.000000100000000
+26.502841824156398 -36.617868022041002 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  102 0 5.497787143782138 7.068583470577035
+2  71 28 0 5.497787143782138 7.068583470577035
+4 C0 28 0 56 0
+0
+
+0101000
++228 0 -233 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  103 0 0.000000000000000 5.000000000000000
+2  72 28 0 0.000000000000000 5.000000000000000
+4 C1 28 0 27 0
+0
+
+0101000
++386 0 -228 0 *
+Wi
+
+0101100
++227 0 +232 0 +383 0 +226 0 *
+Fa
+0  0.000000100000000 28 0
+
+0101000
++225 0 *
+Ve
+0.000000100000000
+26.502841824156398 -31.217868022040999 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  104 0 -2.500000000000000 2.500000000000000
+2  73 26 0 -2.500000000000000 2.500000000000000
+4 C1 27 0 26 0
+0
+
+0101000
++223 0 -388 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  105 0 1.000000000000000 6.400000000000002
+4 C0 27 0 56 0
+0
+
+0101000
++228 0 -223 0 *
+Wi
+
+0101100
+-226 0 +385 0 -222 0 -221 0 *
+Fa
+0  0.000000100000000 27 0
+
+0101000
++220 0 *
+Ve
+0.000000100000000
+-20.497158175843499 22.382131977958998 5.416666666666660
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-19.497158175843602 23.382131977958998 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  106 0 4.712388980384690 6.283185307179586
+2  74 16 0 4.712388980384690 6.283185307179586
+4 C0 16 0 57 0
+0
+
+0101000
++218 0 -217 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  107 0 -5.000000000000000 0.000000000000000
+2  75 16 0 -5.000000000000000 0.000000000000000
+4 C1 16 0 17 0
+0
+
+0101000
++217 0 -410 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  108 0 0.000000000000000 5.416666666666660
+2  76 16 0 0.000000000000000 5.416666666666660
+4 C1 16 0 15 0
+0
+
+0101000
++412 0 -218 0 *
+Wi
+
+0101100
++216 0 +215 0 +409 0 +214 0 *
+Fa
+0  0.000000100000000 16 0
+
+0101000
++213 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  109 0 29.999999999999901 34.000000000000000
+4 C0 17 0 57 0
+0
+
+0101000
++313 0 -217 0 *
+Ve
+0.000000100000000
+13.502841824156400 23.382131977958998 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  110 0 1.000000000000000 5.000000000000000
+4 C0 17 0 58 0
+0
+
+0101000
++210 0 -308 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  111 0 0.000000000000000 5.000000000000000
+2  77 18 0 0.000000000000000 5.000000000000000
+4 C1 17 0 18 0
+0
+
+0101000
++408 0 -210 0 *
+Wi
+
+0101100
+-215 0 -211 0 -306 0 -209 0 -208 0 +407 0 *
+Fa
+0  0.000000100000000 17 0
+
+0101000
++207 0 *
+Ve
+0.000000100000000
+-20.497158175843499 -12.617868022041000 20.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  112 0 1.083333333333331 39.000000000000000
+4 C0 57 0 15 0
+0
+
+0101000
++218 0 -205 0 *
+Ve
+0.000000100000000
+-15.497158175843500 -12.617868022041000 20.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  113 0 -4.999999999999998 0.000000000000000
+4 C0 57 0 14 0
+0
+
+0101000
++203 0 -205 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  114 0 -39.000000000000000 0.000000000000000
+4 C0 57 0 54 0
+0
+
+0101000
++203 0 -313 0 *
+Wi
+
+0101100
+-216 0 +204 0 -202 0 +201 0 +211 0 *
+Fa
+0  0.000000100000000 57 0
+
+0101000
+-200 0 *
+Ve
+0.000000100000000
+14.502841824156400 22.382131977958998 5.416666666666670
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  115 0 0.000000000000000 1.570796326794897
+2  78 18 0 0.000000000000000 1.570796326794897
+4 C0 18 0 58 0
+0
+
+0101000
++210 0 -198 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  116 0 -5.416666666666670 0.000000000000000
+2  79 18 0 -5.416666666666670 0.000000000000000
+4 C1 18 0 19 0
+0
+
+0101000
++198 0 -406 0 *
+Wi
+
+0101100
++197 0 +196 0 +405 0 +208 0 *
+Fa
+0  0.000000100000000 18 0
+
+0101000
++195 0 *
+Ve
+0.000000100000000
+14.502841824156400 -12.617868022041000 20.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  117 0 1.083333333333335 39.000000000000000
+4 C0 19 0 58 0
+0
+
+0101000
++198 0 -193 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  118 0 0.000000000000000 20.000000000000000
+4 C0 19 0 14 0
+0
+
+0101000
++404 0 -193 0 *
+Wi
+
+0101100
+-196 0 +192 0 -191 0 +403 0 *
+Fa
+0  0.000000100000000 19 0
+
+0101000
++190 0 *
+Ve
+0.000000100000000
+9.502841824156411 -12.617868022041000 20.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  119 0 -39.000000000000000 0.000000000000000
+4 C0 58 0 55 0
+0
+
+0101000
++188 0 -308 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  120 0 -17.499999999999979 -12.499999999999991
+4 C0 58 0 14 0
+0
+
+0101000
++193 0 -188 0 *
+Wi
+
+0101100
+-197 0 +209 0 -187 0 -186 0 -192 0 *
+Fa
+0  0.000000100000000 58 0
+
+0101000
++185 0 *
+Ve
+0.000000100000000
+-29.097158175843500 -12.617868022041000 15.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-29.097158175843500 -17.617868022041002 15.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  121 0 0.000000000000000 5.000000000000002
+3  80 81CN 59 0 0.000000000000000 5.000000000000002
+0
+
+0101000
++183 0 -182 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  122 0 3.141592653589793 9.424777960769379
+2  82 59 0 3.141592653589793 9.424777960769379
+4 C0 59 0 60 0
+0
+
+0101000
++182 0 -182 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  123 0 3.141592653589793 9.424777960769379
+2  83 59 0 3.141592653589793 9.424777960769379
+4 C0 59 0 14 0
+0
+
+0101000
++183 0 -183 0 *
+Wi
+
+0101100
++181 0 +180 0 -181 0 +179 0 *
+Fa
+0  0.000000100000000 59 0
+
+0101000
++178 0 *
+Ve
+0.000000100000000
+-32.497158175843502 -25.017868022041000 5.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+-24.997158175843499 -25.017868022041000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  124 0 -18.500000000000000 -10.999999999999998
+4 C0 11 0 56 0
+0
+
+0101000
++176 0 -175 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  125 0 -2.500000000000000 2.500000000000000
+4 C0 11 0 12 0
+0
+
+0101000
++420 0 -176 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  126 0 0.000000000000000 5.000000000000000
+2  84 10 0 0.000000000000000 5.000000000000000
+4 G1 11 0 10 0
+0
+
+0101000
++175 0 -422 0 *
+Wi
+
+0101100
+-174 0 -173 0 -419 0 -172 0 *
+Fa
+0  0.000000100000000 11 0
+
+0101000
++171 0 *
+Ve
+0.000000100000000
+-24.997158175843499 -30.217868022040999 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  127 0 0.000000000000000 5.000000000000000
+2  85 10 0 0.000000000000000 5.000000000000000
+4 G1 10 0 9 0
+0
+
+0101000
++169 0 -424 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  128 0 0.000000000000000 3.141592653589793
+2  86 10 0 0.000000000000000 3.141592653589793
+4 C0 10 0 56 0
+0
+
+0101000
++175 0 -169 0 *
+Wi
+
+0101100
++168 0 +421 0 -172 0 +167 0 *
+Fa
+0  0.000000100000000 10 0
+
+0101000
++166 0 *
+Ve
+0.000000100000000
+-32.497158175843502 -30.217868022040999 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  129 0 7.250000000000000 14.750000000000004
+4 C0 9 0 56 0
+0
+
+0101000
++169 0 -164 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  130 0 -2.500000000000000 2.500000000000000
+4 C0 9 0 8 0
+0
+
+0101000
++164 0 -426 0 *
+Wi
+
+0101100
+-163 0 +168 0 -423 0 -162 0 *
+Fa
+0  0.000000100000000 9 0
+
+0101000
++161 0 *
+Ve
+0.000000100000000
+-32.497158175843602 -16.617868022041002 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  131 0 4.000000000000002 12.400000000000000
+4 C0 12 0 56 0
+0
+
+0101000
++159 0 -176 0 *
+Ve
+0.000000100000000
+-32.497158175843602 -16.617868022041002 21.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  132 0 -18.500000000000000 -2.500000000000000
+2  87 61 0 -18.500000000000000 -2.500000000000000
+4 C1 12 0 61 0
+0
+
+0101000
++157 0 -159 0 *
+Ve
+0.000000100000000
+-32.497158175843602 -13.617868022041000 21.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  133 0 -4.000000000000002 -1.000000000000000
+4 C0 12 0 62 0
+0
+
+0101000
++155 0 -157 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  134 0 0.000000000000000 21.000000000000000
+2  88 13 0 0.000000000000000 21.000000000000000
+4 C1 12 0 13 0
+0
+
+0101000
++418 0 -155 0 *
+Wi
+
+0101100
++173 0 -158 0 -156 0 -154 0 -153 0 +417 0 *
+Fa
+0  0.000000100000000 12 0
+
+0101000
++152 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  135 0 17.600000000000001 24.000000000000000
+4 C0 8 0 56 0
+0
+
+0101000
++164 0 -239 0 *
+Wi
+
+0101100
+-237 0 -150 0 +162 0 +425 0 *
+Fa
+0  0.000000100000000 8 0
+
+0101000
++149 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  136 0 0.250000000000000 15.250000000000000
+4 C0 54 0 14 0
+0
+
+0101000
++312 0 -203 0 *
+Wi
+
+0101100
+-311 0 -201 0 -147 0 *
+Fa
+0  0.000000100000000 54 0
+
+0101000
+-146 0 *
+Ve
+0.000000100000000
+26.502841824156398 -16.617868022041002 21.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+25.502841824156398 -17.617868022041002 21.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  137 0 5.497787143782136 7.068583470577033
+2  89 63 0 5.497787143782136 7.068583470577033
+4 C0 63 0 62 0
+0
+
+0101000
++144 0 -143 0 *
+Ve
+0.000000100000000
+25.502841824156398 -17.617868022041002 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  138 0 -18.500000000000000 -2.500000000000000
+2  90 63 0 -18.500000000000000 -2.500000000000000
+4 C1 63 0 60 0
+0
+
+0101000
++143 0 -141 0 *
+Ve
+0.000000100000000
+26.502841824156398 -16.617868022041002 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  139 0 5.497787143782136 7.068583470577033
+2  91 63 0 5.497787143782136 7.068583470577033
+4 C0 63 0 56 0
+0
+
+0101000
++139 0 -141 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  140 0 2.500000000000000 18.500000000000000
+2  92 63 0 2.500000000000000 18.500000000000000
+4 C1 63 0 21 0
+0
+
+0101000
++139 0 -144 0 *
+Wi
+
+0101100
++142 0 +140 0 -138 0 +137 0 *
+Fa
+0  0.000000100000000 63 0
+
+0101000
++136 0 *
+Ve
+0.000000100000000
+26.502841824156398 -13.617868022041000 21.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  141 0 -4.000000000000002 -1.000000000000000
+4 C0 62 0 21 0
+0
+
+0101000
++144 0 -134 0 *
+Ve
+0.000000100000000
+25.502841824156398 -12.617868022041000 21.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  142 0 5.497787143782136 7.068583470577033
+2  93 20 0 5.497787143782136 7.068583470577033
+4 C0 62 0 20 0
+0
+
+0101000
++132 0 -134 0 *
+Ve
+0.000000100000000
+-31.497158175843602 -12.617868022041000 21.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  143 0 -58.000000000000000 -1.000000000000000
+4 C0 62 0 14 0
+0
+
+0101000
++132 0 -130 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  144 0 5.497787143782136 7.068583470577033
+2  94 13 0 5.497787143782136 7.068583470577033
+4 C0 62 0 13 0
+0
+
+0101000
++155 0 -130 0 *
+Ve
+0.000000100000000
+-31.497158175843602 -17.617868022041002 21.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  145 0 5.497787143782140 7.068583470577036
+2  95 61 0 5.497787143782140 7.068583470577036
+4 C0 62 0 61 0
+0
+
+0101000
++127 0 -157 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  146 0 -58.000000000000000 -1.000000000000000
+4 C0 62 0 60 0
+0
+
+0101000
++127 0 -143 0 *
+Wi
+
+0101100
+-142 0 +133 0 -131 0 +129 0 -128 0 +154 0 -126 0 +125 0 *
+Fa
+0  0.000000100000000 62 0
+
+0101000
++124 0 *
+Ve
+0.000000100000000
+26.502841824156398 -24.017868022041000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  147 0 13.600000000000001 21.000000000000000
+4 C0 21 0 56 0
+0
+
+0101000
++122 0 -139 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  148 0 -2.500000000000000 2.500000000000000
+2  96 22 0 -2.500000000000000 2.500000000000000
+4 C1 21 0 22 0
+0
+
+0101000
++398 0 -122 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  149 0 -21.000000000000000 0.000000000000000
+2  97 20 0 -21.000000000000000 0.000000000000000
+4 C1 21 0 20 0
+0
+
+0101000
++134 0 -400 0 *
+Wi
+
+0101100
+-137 0 -121 0 -120 0 +397 0 -119 0 -133 0 *
+Fa
+0  0.000000100000000 21 0
+
+0101000
++118 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  150 0 0.000000000000000 21.000000000000000
+2  98 20 0 0.000000000000000 21.000000000000000
+4 C1 20 0 14 0
+0
+
+0101000
++402 0 -132 0 *
+Wi
+
+0101100
++131 0 +119 0 +399 0 +116 0 *
+Fa
+0  0.000000100000000 20 0
+
+0101000
++115 0 *
+Ve
+0.000000100000000
+25.502841824156398 -25.017868022041000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  151 0 5.497787143782138 7.068583470577035
+2  99 22 0 5.497787143782138 7.068583470577035
+4 C0 22 0 56 0
+0
+
+0101000
++122 0 -113 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  152 0 -2.500000000000000 2.500000000000000
+2  100 22 0 -2.500000000000000 2.500000000000000
+4 C1 22 0 23 0
+0
+
+0101000
++113 0 -396 0 *
+Wi
+
+0101100
++395 0 +120 0 +112 0 +111 0 *
+Fa
+0  0.000000100000000 22 0
+
+0101000
++110 0 *
+Ve
+0.000000100000000
+25.502841824156398 -30.217868022040999 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  153 0 5.497787143782138 7.068583470577035
+2  101 26 0 5.497787143782138 7.068583470577035
+4 C0 26 0 56 0
+0
+
+0101000
++108 0 -223 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  154 0 -2.500000000000000 2.500000000000000
+2  102 26 0 -2.500000000000000 2.500000000000000
+4 C1 26 0 25 0
+0
+
+0101000
++390 0 -108 0 *
+Wi
+
+0101100
++107 0 +222 0 +387 0 +106 0 *
+Fa
+0  0.000000100000000 26 0
+
+0101000
++105 0 *
+Ve
+0.000000100000000
+-31.497158175843602 -17.617868022041002 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  155 0 5.497787143782140 7.068583470577036
+2  103 61 0 5.497787143782140 7.068583470577036
+4 C0 61 0 56 0
+0
+
+0101000
++103 0 -159 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  156 0 2.500000000000000 18.500000000000000
+2  104 61 0 2.500000000000000 18.500000000000000
+4 C1 61 0 60 0
+0
+
+0101000
++103 0 -127 0 *
+Wi
+
+0101100
++126 0 +156 0 -102 0 +101 0 *
+Fa
+0  0.000000100000000 61 0
+
+0101000
++100 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  157 0 -21.000000000000000 0.000000000000000
+2  105 13 0 -21.000000000000000 0.000000000000000
+4 C1 13 0 14 0
+0
+
+0101000
++130 0 -416 0 *
+Wi
+
+0101100
++128 0 +98 0 +415 0 +153 0 *
+Fa
+0  0.000000100000000 13 0
+
+0101000
++97 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  158 0 0.000000000000000 20.000000000000000
+4 C0 14 0 15 0
+0
+
+0101000
++414 0 -205 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  159 0 -15.250000000000000 -0.250000000000000
+4 C0 14 0 55 0
+0
+
+0101000
++188 0 -310 0 *
+Wi
+
+0101100
+-95 0 +413 0 -98 0 -129 0 -116 0 +401 0 +191 0 +186 0 +94 0 -309 0 
++147 0 +202 0 *
+Wi
+
+0101100
++179 0 *
+Ve
+0.000000100000000
+23.102841824156400 -12.617868022041000 15.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  160 0 3.141592653589793 9.424777960769379
+2  106 64 0 3.141592653589793 9.424777960769379
+4 C0 14 0 64 0
+0
+
+0101000
++91 0 -91 0 *
+Wi
+
+0101100
++90 0 *
+Fa
+0  0.000000100000000 14 0
+
+0101000
++93 0 +92 0 +89 0 *
+Ve
+0.000000100000000
+19.002841824156398 -25.017868022041000 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  161 0 10.999999999999988 17.499999999999986
+4 C0 23 0 56 0
+0
+
+0101000
++87 0 -113 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  162 0 0.000000000000000 5.000000000000000
+2  107 24 0 0.000000000000000 5.000000000000000
+4 G1 23 0 24 0
+0
+
+0101000
++87 0 -394 0 *
+Wi
+
+0101100
+-111 0 -86 0 +85 0 -393 0 *
+Fa
+0  0.000000100000000 23 0
+
+0101000
+-84 0 *
+Ve
+0.000000100000000
+19.002841824156398 -30.217868022040999 5.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  163 0 0.000000000000000 5.000000000000000
+2  108 24 0 0.000000000000000 5.000000000000000
+4 G1 24 0 25 0
+0
+
+0101000
++82 0 -392 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  164 0 3.141592653589793 6.283185307179586
+2  109 24 0 3.141592653589793 6.283185307179586
+4 C0 24 0 56 0
+0
+
+0101000
++82 0 -87 0 *
+Wi
+
+0101100
++85 0 +391 0 -81 0 +80 0 *
+Fa
+0  0.000000100000000 24 0
+
+0101000
++79 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  165 0 -13.749999999999998 -7.249999999999998
+4 C0 25 0 56 0
+0
+
+0101000
++108 0 -82 0 *
+Wi
+
+0101100
+-106 0 -389 0 -81 0 -77 0 *
+Fa
+0  0.000000100000000 25 0
+
+0101000
+-76 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  166 0 -43.250000000000000 13.750000000000000
+4 C0 56 0 60 0
+0
+
+0101000
++141 0 -103 0 *
+Wi
+
+0101100
+-238 0 +231 0 -227 0 +221 0 -107 0 +77 0 +80 0 +86 0 -112 0 +121 0 
++138 0 +74 0 +102 0 +158 0 +174 0 +167 0 +163 0 +150 0 *
+Fa
+0  0.000000100000000 56 0
+
+0101000
++73 0 *
+Ve
+0.000000100000000
+23.102841824156400 -17.617868022041002 15.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  167 0 0.000000000000000 5.000000000000002
+3  110 111CN 64 0 0.000000000000000 5.000000000000002
+0
+
+0101000
++91 0 -71 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  168 0 3.141592653589793 9.424777960769379
+2  112 64 0 3.141592653589793 9.424777960769379
+4 C0 64 0 60 0
+0
+
+0101000
++71 0 -71 0 *
+Wi
+
+0101100
++70 0 +69 0 -70 0 +90 0 *
+Fa
+0  0.000000100000000 64 0
+
+0101000
++68 0 *
+Wi
+
+0101100
+-307 0 -94 0 +187 0 *
+Fa
+0  0.000000100000000 55 0
+
+0101000
++66 0 *
+Wi
+
+0101100
+-140 0 -125 0 -101 0 -74 0 *
+Wi
+
+0101100
++180 0 *
+Wi
+
+0101100
++69 0 *
+Fa
+0  0.000000100000000 60 0
+
+0101000
++64 0 +63 0 +62 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  169 0 0.000000000000000 5.000000000000000
+2  113 3 0 0.000000000000000 5.000000000000000
+4 G1 3 0 38 0
+0
+
+0101000
++362 0 -277 0 *
+Wi
+
+0101100
++361 0 +60 0 +275 0 +442 0 *
+Fa
+0  0.000000100000000 3 0
+
+0101000
++59 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  170 0 0.000000000000000 5.000000000000000
+2  114 53 0 0.000000000000000 5.000000000000000
+4 G1 6 0 53 0
+0
+
+0101000
++330 0 -304 0 *
+Wi
+
+0101100
+-328 0 +57 0 -303 0 -433 0 *
+Fa
+0  0.000000100000000 6 0
+
+0101000
+-56 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  171 0 0.000000000000000 5.000000000000000
+2  115 53 0 0.000000000000000 5.000000000000000
+4 G1 53 0 52 0
+0
+
+0101000
++332 0 -302 0 *
+Wi
+
+0101100
++57 0 +301 0 -54 0 +329 0 *
+Fa
+0  0.000000100000000 53 0
+
+0101000
++53 0 *
+Wi
+
+0101100
+-331 0 +317 0 -300 0 -54 0 *
+Fa
+0  0.000000100000000 52 0
+
+0101000
+-51 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  172 0 0.000000000000000 5.000000000000000
+2  116 49 0 0.000000000000000 5.000000000000000
+4 G1 49 0 48 0
+0
+
+0101000
++340 0 -299 0 *
+Wi
+
+0101100
++298 0 -49 0 +337 0 +321 0 *
+Fa
+0  0.000000100000000 49 0
+
+0101000
++48 0 *
+Wi
+
+0101100
+-339 0 +243 0 -296 0 -49 0 *
+Fa
+0  0.000000100000000 48 0
+
+0101000
+-46 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  173 0 0.000000000000000 5.000000000000000
+2  117 45 0 0.000000000000000 5.000000000000000
+4 G1 45 0 44 0
+0
+
+0101000
++348 0 -291 0 *
+Wi
+
+0101100
++290 0 -44 0 +345 0 +246 0 *
+Fa
+0  0.000000100000000 45 0
+
+0101000
++43 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  174 0 0.000000000000000 5.000000000000000
+2  118 43 0 0.000000000000000 5.000000000000000
+4 G1 44 0 43 0
+0
+
+0101000
++350 0 -289 0 *
+Wi
+
+0101100
+-347 0 +41 0 -288 0 -44 0 *
+Fa
+0  0.000000100000000 44 0
+
+0101000
+-40 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  175 0 0.000000000000000 5.000000000000000
+2  119 43 0 0.000000000000000 5.000000000000000
+4 G1 43 0 42 0
+0
+
+0101000
++352 0 -287 0 *
+Wi
+
+0101100
++41 0 +286 0 -38 0 +349 0 *
+Fa
+0  0.000000100000000 43 0
+
+0101000
++37 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  176 0 0.000000000000000 5.000000000000000
+2  120 41 0 0.000000000000000 5.000000000000000
+4 G1 42 0 41 0
+0
+
+0101000
++354 0 -285 0 *
+Wi
+
+0101100
+-351 0 +35 0 -284 0 -38 0 *
+Fa
+0  0.000000100000000 42 0
+
+0101000
+-34 0 *
+Wi
+
+0101100
++353 0 +35 0 +282 0 +254 0 *
+Fa
+0  0.000000100000000 41 0
+
+0101000
++32 0 *
+Wi
+
+0101100
+-359 0 +60 0 -276 0 -250 0 *
+Fa
+0  0.000000100000000 38 0
+
+0101000
+-30 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  177 0 0.000000000000000 5.000000000000000
+2  121 30 0 0.000000000000000 5.000000000000000
+4 G1 30 0 31 0
+0
+
+0101000
++379 0 -273 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  178 0 0.000000000000000 5.000000000000000
+2  122 30 0 0.000000000000000 5.000000000000000
+4 G1 30 0 33 0
+0
+
+0101000
++380 0 -272 0 *
+Wi
+
+0101100
++28 0 +271 0 -27 0 +378 0 *
+Fa
+0  0.000000100000000 30 0
+
+0101000
++26 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  179 0 0.000000000000000 5.000000000000000
+2  123 32 0 0.000000000000000 5.000000000000000
+4 G1 33 0 32 0
+0
+
+0101000
++375 0 -270 0 *
+Wi
+
+0101100
+-373 0 +24 0 -269 0 -27 0 *
+Fa
+0  0.000000100000000 33 0
+
+0101000
+-23 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  180 0 0.000000000000000 5.000000000000000
+2  124 32 0 0.000000000000000 5.000000000000000
+4 G1 32 0 31 0
+0
+
+0101000
++377 0 -268 0 *
+Wi
+
+0101100
++24 0 +267 0 -21 0 +374 0 *
+Fa
+0  0.000000100000000 32 0
+
+0101000
++20 0 *
+Wi
+
+0101100
+-376 0 +28 0 -266 0 -21 0 *
+Fa
+0  0.000000100000000 31 0
+
+0101000
+-18 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  181 0 0.000000000000000 5.000000000000000
+2  125 34 0 0.000000000000000 5.000000000000000
+4 G1 34 0 35 0
+0
+
+0101000
++370 0 -264 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  182 0 0.000000000000000 5.000000000000000
+2  126 34 0 0.000000000000000 5.000000000000000
+4 G1 34 0 37 0
+0
+
+0101000
++371 0 -263 0 *
+Wi
+
+0101100
++16 0 +262 0 -15 0 +369 0 *
+Fa
+0  0.000000100000000 34 0
+
+0101000
++14 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  183 0 0.000000000000000 5.000000000000000
+2  127 36 0 0.000000000000000 5.000000000000000
+4 G1 37 0 36 0
+0
+
+0101000
++366 0 -261 0 *
+Wi
+
+0101100
+-364 0 +12 0 -260 0 -15 0 *
+Fa
+0  0.000000100000000 37 0
+
+0101000
+-11 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  184 0 0.000000000000000 5.000000000000000
+2  128 36 0 0.000000000000000 5.000000000000000
+4 G1 36 0 35 0
+0
+
+0101000
++368 0 -259 0 *
+Wi
+
+0101100
++12 0 +258 0 -9 0 +365 0 *
+Fa
+0  0.000000100000000 36 0
+
+0101000
++8 0 *
+Wi
+
+0101100
+-367 0 +16 0 -257 0 -9 0 *
+Fa
+0  0.000000100000000 35 0
+
+0101000
+-6 0 *
+Wi
+
+0101100
+-214 0 +411 0 +95 0 -204 0 *
+Fa
+0  0.000000100000000 15 0
+
+0101000
++4 0 *
+Sh
+
+0101100
++437 0 -430 0 -326 0 +319 0 -314 0 +255 0 +251 0 -248 0 +244 0 -241 0 
++234 0 +229 0 +224 0 +219 0 +212 0 +206 0 -199 0 +194 0 +189 0 +184 0 
+-177 0 +170 0 -165 0 +160 0 +151 0 +148 0 -145 0 +135 0 +123 0 +117 0 
++114 0 +109 0 +104 0 +99 0 +96 0 +88 0 -83 0 -78 0 -75 0 +72 0 
+-67 0 +65 0 +61 0 -58 0 -55 0 -52 0 -50 0 -47 0 -45 0 -42 0 
+-39 0 -36 0 -33 0 -31 0 -29 0 -25 0 -22 0 -19 0 -17 0 -13 0 
+-10 0 -7 0 -5 0 +3 0 *
+So
+
+0100000
++2 0 *
+
++1 1 
+664|664|A|PartShape2.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 1
+1
+1.000000000000000 0.000000000000000 0.000000000000000 -2.997158175843602 
+0.000000000000000 1.000000000000000 0.000000000000000 9.382131977959000 
+0.000000000000000 0.000000000000000 1.000000000000000 5.000000000000000 
+Curve2ds 0
+Curves 0
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 1
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+Triangulations 0
+
+TShapes 1
+Fa
+1  0.000000100000000 1 0
+
+1111000
+*
+
++1 1 
+666|666|A|PartShape3.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 1
+1
+1.000000000000000 0.000000000000000 0.000000000000000 -2.997158175843602 
+0.000000000000000 1.000000000000000 0.000000000000000 -27.617868022041002 
+0.000000000000000 0.000000000000000 1.000000000000000 5.000000000000000 
+Curve2ds 0
+Curves 0
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 1
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+Triangulations 0
+
+TShapes 1
+Fa
+1  0.000000100000000 1 0
+
+1111000
+*
+
++1 1 
+29385|29385|A|GuiDocument.xml
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="1" HasExpansion="1">
+    <Expand  count="1">
+        <Expand name="LeadScrewBracket"/>
+    </Expand>
+    <ViewProviderData Count="12">
+        <ViewProvider name="Origin" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="6" TransientCount="0">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyVector" status="5">
+                    <PropertyVector valueX="42.2463054656982422" valueY="48.9032264709472670" valueZ="27.3000000000000007"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="LeadScrewBracket" expanded="1" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
+                </Extension>
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="5" TransientCount="0">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="X_Axis" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="42.2463054656982422"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="LCS_0" expanded="0" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="13" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FontSize" type="App::PropertyIntegerConstraint" status="1">
+                    <Integer value="10"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4292280473"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4292280473" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.6000000238418579"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="60"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Zoom" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="1.0000000000000000"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Solid" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="23" TransientCount="0">
+                <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+                    <Float value="28.5000000000000000"/>
+                </Property>
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+                    <ColorList file="DiffuseColor"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="LineColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="LineColorArray"/>
+                </Property>
+                <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="PointColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="PointColorArray"/>
+                </Property>
+                <Property name="PointMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4294901760"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294901760" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="LCS_1" expanded="0" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="13" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FontSize" type="App::PropertyIntegerConstraint" status="1">
+                    <Integer value="10"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4292280473"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4292280473" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.6000000238418579"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="60"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Zoom" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="1.0000000000000000"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="LCS_2" expanded="0" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="13" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FontSize" type="App::PropertyIntegerConstraint" status="1">
+                    <Integer value="10"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4292280473"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4292280473" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.6000000238418579"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="60"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Zoom" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="1.0000000000000000"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Y_Axis" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="48.9032264709472670"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Z_Axis" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="42.2463054656982422"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="XY_Plane" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="48.9032264709472670"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="XZ_Plane" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="42.2463054656982422"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="YZ_Plane" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="48.9032264709472670"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+    </ViewProviderData>
+    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position -68.580887 -17.501331 58.386787&#10;  orientation -0.31019393 0.18434942 0.9326281  3.8932464&#10;  nearDistance 48.017349&#10;  farDistance 106.63396&#10;  aspectRatio 1&#10;  focalDistance 46.219696&#10;  height 100.01582&#10;&#10;}&#10;"/>
+</Document>
+
+12|8|B|DiffuseColor
+AQAAAAAA//8=
+12|8|B|LineColorArray
+AQAAAAAZGRk=
+12|8|B|PointColorArray
+AQAAAAAZGRk=
