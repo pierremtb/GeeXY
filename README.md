@@ -23,3 +23,8 @@ git config filter.zippey.clean "$HOME/.zippey/zippey.py e"
 # Finally checkout, which will call the .clean function
 git checkout --
 ```
+
+## Opening in FreeCAD
+```bash
+freecad model/GeeXY.FCStd
+```
