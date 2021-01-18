@@ -1,4 +1,4 @@
-45125|45125|A|Document.xml
+45124|45124|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see https://www.freecadweb.org for more information...
@@ -30,7 +30,7 @@
             <String value=""/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-            <String value="2021-01-18T02:19:55Z"/>
+            <String value="2021-01-18T10:23:22Z"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="All rights reserved"/>
@@ -80,7 +80,7 @@
         <ObjectDeps Name="XZ_Plane" Count="0"/>
         <ObjectDeps Name="YZ_Plane" Count="0"/>
         <ObjectDeps Name="LCS_0" Count="1">
-            <Dep Name="X_Axis"/>
+            <Dep Name="Pocket"/>
         </ObjectDeps>
         <ObjectDeps Name="Solid" Count="0"/>
         <ObjectDeps Name="LCS_1" Count="1">
@@ -379,7 +379,7 @@
                     <String value="Attacher::AttachEngine3D"/>
                 </Property>
                 <Property name="AttachmentOffset" type="App::PropertyPlacement">
-                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="-0.7071067811865475" Q3="0.7071067811865476" A="1.5707963267948966" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="-1.0000000000000000"/>
                 </Property>
                 <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
                     <ExpressionEngine count="0">
@@ -392,23 +392,23 @@
                     <String value=""/>
                 </Property>
                 <Property name="MapMode" type="App::PropertyEnumeration">
-                    <Integer value="2"/>
+                    <Integer value="11"/>
                 </Property>
-                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                <Property name="MapPathParameter" type="App::PropertyFloat">
                     <Float value="0.0000000000000000"/>
                 </Property>
                 <Property name="MapReversed" type="App::PropertyBool">
                     <Bool value="false"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                    <PropertyPlacement Px="-1.9580000000000002" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
                 </Property>
                 <Property name="Shape" type="Part::PropertyPartShape">
                     <Part file="PartShape.brp"/>
                 </Property>
                 <Property name="Support" type="App::PropertyLinkSubList">
                     <LinkSubList count="1">
-                        <Link obj="X_Axis" sub=""/>
+                        <Link obj="Pocket" sub="Edge59"/>
                     </LinkSubList>
                 </Property>
                 <Property name="Visibility" type="App::PropertyBool" status="648">
@@ -812,12 +812,12 @@
     </ObjectData>
 </Document>
 
-663|663|A|PartShape.brp
+664|664|A|PartShape.brp
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+1.000000000000000 0.000000000000000 0.000000000000000 -1.958000000000000 
 0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
 0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
 Curve2ds 0
@@ -14881,15 +14881,19 @@ So
 +2 0 *
 
 +1 1 
-53685|53685|A|GuiDocument.xml
+53807|53807|A|GuiDocument.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="1" HasExpansion="1">
-    <Expand />
+    <Expand  count="1">
+        <Expand name="XYMotorLeft" count="1">
+            <Expand name="Body"/>
+        </Expand>
+    </Expand>
     <ViewProviderData Count="21">
-        <ViewProvider name="XYMotorLeft" expanded="0" Extensions="True">
+        <ViewProvider name="XYMotorLeft" expanded="1" Extensions="True">
             <Extensions Count="2">
                 <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
                 </Extension>
@@ -14986,7 +14990,7 @@ So
                     <Bool value="true"/>
                 </Property>
                 <Property name="Size" type="App::PropertyFloat" status="16777217">
-                    <Float value="66.4891254425048857"/>
+                    <Float value="66.5340003967285156"/>
                 </Property>
                 <Property name="Transparency" type="App::PropertyPercent" status="1">
                     <Integer value="0"/>
@@ -15086,7 +15090,7 @@ So
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="Body" expanded="0" Extensions="True">
+        <ViewProvider name="Body" expanded="1" Extensions="True">
             <Extensions Count="2">
                 <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
                 </Extension>
@@ -15459,7 +15463,7 @@ So
                     <Bool value="true"/>
                 </Property>
                 <Property name="Size" type="App::PropertyVector" status="5">
-                    <PropertyVector valueX="45.5000000000000000" valueY="53.9500000000000028" valueZ="66.4891254425048857"/>
+                    <PropertyVector valueX="45.5000000000000000" valueY="53.9500000000000028" valueZ="66.5340003967285156"/>
                 </Property>
                 <Property name="Visibility" type="App::PropertyBool" status="1">
                     <Bool value="false"/>
@@ -15538,7 +15542,7 @@ So
                     <Bool value="true"/>
                 </Property>
                 <Property name="Size" type="App::PropertyFloat" status="16777217">
-                    <Float value="66.4891254425048857"/>
+                    <Float value="66.5340003967285156"/>
                 </Property>
                 <Property name="Transparency" type="App::PropertyPercent" status="1">
                     <Integer value="0"/>
@@ -15579,7 +15583,7 @@ So
                     <Bool value="true"/>
                 </Property>
                 <Property name="Size" type="App::PropertyFloat" status="16777217">
-                    <Float value="66.4891254425048857"/>
+                    <Float value="66.5340003967285156"/>
                 </Property>
                 <Property name="Transparency" type="App::PropertyPercent" status="1">
                     <Integer value="0"/>
@@ -15844,9 +15848,11 @@ So
             </Properties>
         </ViewProvider>
     </ViewProviderData>
-    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position -47.622101 43.752163 -12.075521&#10;  orientation 0.62656379 0.75227678 0.20370932  4.2326388&#10;  nearDistance 28.6236&#10;  farDistance 128.27481&#10;  aspectRatio 1&#10;  focalDistance 49.100025&#10;  height 70.363411&#10;&#10;}&#10;"/>
+    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position 34.817539 -49.699097 68.692253&#10;  orientation -0.38288075 -0.5338915 0.75389838  5.4672818&#10;  nearDistance 15.419399&#10;  farDistance 108.9462&#10;  aspectRatio 1&#10;  focalDistance 49.100025&#10;  height 70.363411&#10;&#10;}&#10;"/>
 </Document>
 
+6544|4907|B|thumbnails/Thumbnail.png
+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
 12|8|B|DiffuseColor
 AQAAAADMzMw=
 12|8|B|LineColorArray

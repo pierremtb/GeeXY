@@ -1,4 +1,4 @@
-45135|45135|A|Document.xml
+45134|45134|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see https://www.freecadweb.org for more information...
@@ -30,7 +30,7 @@
             <String value=""/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-            <String value="2021-01-18T02:19:56Z"/>
+            <String value="2021-01-18T10:23:23Z"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="All rights reserved"/>
@@ -79,9 +79,6 @@
         <ObjectDeps Name="XY_Plane" Count="0"/>
         <ObjectDeps Name="XZ_Plane" Count="0"/>
         <ObjectDeps Name="YZ_Plane" Count="0"/>
-        <ObjectDeps Name="LCS_0" Count="1">
-            <Dep Name="X_Axis"/>
-        </ObjectDeps>
         <ObjectDeps Name="Solid" Count="0"/>
         <ObjectDeps Name="LCS_1" Count="1">
             <Dep Name="Solid"/>
@@ -112,6 +109,9 @@
             <Dep Name="Solid"/>
             <Dep Name="Body"/>
         </ObjectDeps>
+        <ObjectDeps Name="LCS_0" Count="1">
+            <Dep Name="Pocket"/>
+        </ObjectDeps>
         <Object type="App::Part" name="XYMotorRight" id="1" />
         <Object type="App::Origin" name="Origin" id="2" />
         <Object type="App::Line" name="X_Axis" id="3" />
@@ -120,7 +120,6 @@
         <Object type="App::Plane" name="XY_Plane" id="6" />
         <Object type="App::Plane" name="XZ_Plane" id="7" />
         <Object type="App::Plane" name="YZ_Plane" id="8" />
-        <Object type="PartDesign::CoordinateSystem" name="LCS_0" id="9" />
         <Object type="Part::Feature" name="Solid" id="10" />
         <Object type="PartDesign::CoordinateSystem" name="LCS_1" id="11" />
         <Object type="PartDesign::CoordinateSystem" name="LCS_2" id="12" />
@@ -133,6 +132,7 @@
         <Object type="App::Plane" name="XZ_Plane001" id="19" />
         <Object type="App::Plane" name="YZ_Plane001" id="20" />
         <Object type="PartDesign::Pocket" name="Pocket" id="21" />
+        <Object type="PartDesign::CoordinateSystem" name="LCS_0" id="9" />
     </Objects>
     <ObjectData Count="21">
         <Object name="XYMotorRight" Extensions="True">
@@ -369,53 +369,6 @@
                 </Property>
             </Properties>
         </Object>
-        <Object name="LCS_0" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Part::AttachExtension" name="AttachExtension">
-                </Extension>
-            </Extensions>
-            <Properties Count="12" TransientCount="0">
-                <Property name="AttacherType" type="App::PropertyString" status="8">
-                    <String value="Attacher::AttachEngine3D"/>
-                </Property>
-                <Property name="AttachmentOffset" type="App::PropertyPlacement">
-                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
-                </Property>
-                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
-                    <ExpressionEngine count="0">
-                    </ExpressionEngine>
-                </Property>
-                <Property name="Label" type="App::PropertyString" status="134217728">
-                    <String value="LCS_0"/>
-                </Property>
-                <Property name="Label2" type="App::PropertyString" status="67108992">
-                    <String value=""/>
-                </Property>
-                <Property name="MapMode" type="App::PropertyEnumeration">
-                    <Integer value="2"/>
-                </Property>
-                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
-                    <Float value="0.0000000000000000"/>
-                </Property>
-                <Property name="MapReversed" type="App::PropertyBool">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
-                </Property>
-                <Property name="Shape" type="Part::PropertyPartShape">
-                    <Part file="PartShape.brp"/>
-                </Property>
-                <Property name="Support" type="App::PropertyLinkSubList">
-                    <LinkSubList count="1">
-                        <Link obj="X_Axis" sub=""/>
-                    </LinkSubList>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="648">
-                    <Bool value="true"/>
-                </Property>
-            </Properties>
-        </Object>
         <Object name="Solid">
             <Properties Count="6" TransientCount="0">
                 <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
@@ -432,7 +385,7 @@
                     <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
                 </Property>
                 <Property name="Shape" type="Part::PropertyPartShape">
-                    <Part file="PartShape1.brp"/>
+                    <Part file="PartShape.brp"/>
                 </Property>
                 <Property name="Visibility" type="App::PropertyBool" status="648">
                     <Bool value="false"/>
@@ -474,7 +427,7 @@
                     <PropertyPlacement Px="-14.5000000000000000" Py="-21.0000000000000000" Pz="-51.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
                 </Property>
                 <Property name="Shape" type="Part::PropertyPartShape">
-                    <Part file="PartShape2.brp"/>
+                    <Part file="PartShape1.brp"/>
                 </Property>
                 <Property name="Support" type="App::PropertyLinkSubList">
                     <LinkSubList count="1">
@@ -521,7 +474,7 @@
                     <PropertyPlacement Px="-24.5000000000000000" Py="-21.0000000000000000" Pz="-16.0000000000000000" Q0="-0.5000000000000001" Q1="0.5000000000000000" Q2="0.5000000000000000" Q3="0.5000000000000000" A="2.0943951023931957" Ox="-0.5773502691896258" Oy="0.5773502691896257" Oz="0.5773502691896257"/>
                 </Property>
                 <Property name="Shape" type="Part::PropertyPartShape">
-                    <Part file="PartShape3.brp"/>
+                    <Part file="PartShape2.brp"/>
                 </Property>
                 <Property name="Support" type="App::PropertyLinkSubList">
                     <LinkSubList count="1">
@@ -565,7 +518,7 @@
                     <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
                 </Property>
                 <Property name="Shape" type="Part::PropertyPartShape">
-                    <Part file="PartShape4.brp"/>
+                    <Part file="PartShape3.brp"/>
                 </Property>
                 <Property name="Tip" type="App::PropertyLink">
                     <Link value="Pocket"/>
@@ -750,7 +703,7 @@
             <Properties Count="18" TransientCount="1">
                 <_Property name="_Body" type="App::PropertyLinkHidden" status="251658241"/>
                 <Property name="AddSubShape" type="Part::PropertyPartShape">
-                    <Part file="PartShape5.brp"/>
+                    <Part file="PartShape4.brp"/>
                 </Property>
                 <Property name="AllowMultiFace" type="App::PropertyBool">
                     <Bool value="true"/>
@@ -795,7 +748,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="Shape" type="Part::PropertyPartShape">
-                    <Part file="PartShape6.brp"/>
+                    <Part file="PartShape5.brp"/>
                 </Property>
                 <Property name="Type" type="App::PropertyEnumeration">
                     <Integer value="0"/>
@@ -809,34 +762,57 @@
                 </Property>
             </Properties>
         </Object>
+        <Object name="LCS_0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtension" name="AttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="12" TransientCount="0">
+                <Property name="AttacherType" type="App::PropertyString" status="8">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="-0.7071067811865475" Q3="0.7071067811865476" A="1.5707963267948966" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="-1.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="LCS_0"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="11"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388612">
+                    <PropertyPlacement Px="-2.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape6.brp"/>
+                </Property>
+                <Property name="Support" type="App::PropertyLinkSubList">
+                    <LinkSubList count="1">
+                        <Link obj="Pocket" sub="Edge86"/>
+                    </LinkSubList>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
     </ObjectData>
 </Document>
 
-663|663|A|PartShape.brp
-
-CASCADE Topology V1, (c) Matra-Datavision
-Locations 1
-1
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
-Curve2ds 0
-Curves 0
-Polygon3D 0
-PolygonOnTriangulations 0
-Surfaces 1
-1 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
-Triangulations 0
-
-TShapes 1
-Fa
-1  0.000000100000000 1 0
-
-1111000
-*
-
-+1 1 
-163506|163506|A|PartShape1.brp
+163506|163506|A|PartShape.brp
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 20
@@ -5297,7 +5273,7 @@ So
 +2 0 *
 
 +1 1 
-669|669|A|PartShape2.brp
+669|669|A|PartShape1.brp
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
@@ -5321,7 +5297,7 @@ Fa
 *
 
 +1 1 
-675|675|A|PartShape3.brp
+675|675|A|PartShape2.brp
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
@@ -5345,7 +5321,7 @@ Fa
 *
 
 +1 1 
-156158|156158|A|PartShape4.brp
+156158|156158|A|PartShape3.brp
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 14
@@ -9627,7 +9603,7 @@ So
 +2 0 *
 
 +1 1 
-10059|10059|A|PartShape5.brp
+10059|10059|A|PartShape4.brp
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 21
@@ -9833,7 +9809,7 @@ So
 -2 0 *
 
 +1 0 
-165097|165097|A|PartShape6.brp
+165097|165097|A|PartShape5.brp
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 25
@@ -11321,7 +11297,7 @@ Wi
 Fa
 0  0.000000100000000 8 0
 
-0101000
+0111000
 -454 0 -451 0 -448 0 -445 0 -442 0 *
 Ve
 0.000000100000000
@@ -14347,14 +14323,40 @@ So
 +2 0 *
 
 +1 1 
-53754|53754|A|GuiDocument.xml
+664|664|A|PartShape6.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 1
+1
+1.000000000000000 0.000000000000000 0.000000000000000 -2.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+Curve2ds 0
+Curves 0
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 1
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+Triangulations 0
+
+TShapes 1
+Fa
+1  0.000000100000000 1 0
+
+1111000
+*
+
++1 1 
+53810|53810|A|GuiDocument.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="1" HasExpansion="1">
     <Expand  count="1">
-        <Expand name="XYMotorRight"/>
+        <Expand name="XYMotorRight" count="1">
+            <Expand name="Body"/>
+        </Expand>
     </Expand>
     <ViewProviderData Count="21">
         <ViewProvider name="Y_Axis" expanded="0" Extensions="True">
@@ -14957,7 +14959,7 @@ So
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="Body" expanded="0" Extensions="True">
+        <ViewProvider name="Body" expanded="1" Extensions="True">
             <Extensions Count="2">
                 <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
                 </Extension>
@@ -15312,9 +15314,11 @@ So
             </Properties>
         </ViewProvider>
     </ViewProviderData>
-    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position -47.241196 -5.0603185 -25.640804&#10;  orientation -0.83593667 -0.054576807 0.54610556  2.9779081&#10;  nearDistance -0.79097158&#10;  farDistance 76.888779&#10;  aspectRatio 1&#10;  focalDistance 49.126278&#10;  height 29.667807&#10;&#10;}&#10;"/>
+    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position 3.2389498 49.474979 -75.509323&#10;  orientation 0.97318596 -0.22647749 -0.040211886  3.986352&#10;  nearDistance 35.473454&#10;  farDistance 129.58389&#10;  aspectRatio 1&#10;  focalDistance 49.126278&#10;  height 98.500587&#10;&#10;}&#10;"/>
 </Document>
 
+6776|5082|B|thumbnails/Thumbnail.png
+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
 12|8|B|DiffuseColor
 AQAAAAAA//8=
 12|8|B|LineColorArray
