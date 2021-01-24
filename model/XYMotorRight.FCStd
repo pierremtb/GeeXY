@@ -1,4 +1,4 @@
-45134|45134|A|Document.xml
+45135|45135|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see https://www.freecadweb.org for more information...
@@ -30,7 +30,7 @@
             <String value=""/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-            <String value="2021-01-18T10:41:31Z"/>
+            <String value="2021-01-24T20:58:14Z"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="All rights reserved"/>
@@ -772,7 +772,7 @@
                     <String value="Attacher::AttachEngine3D"/>
                 </Property>
                 <Property name="AttachmentOffset" type="App::PropertyPlacement">
-                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="-0.7071067811865475" Q3="0.7071067811865476" A="1.5707963267948966" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="-1.0000000000000000"/>
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="-0.7071067811865476" Q3="0.7071067811865476" A="1.5707963267948966" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="-1.0000000000000000"/>
                 </Property>
                 <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
                     <ExpressionEngine count="0">
@@ -794,7 +794,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="8388612">
-                    <PropertyPlacement Px="-2.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                    <PropertyPlacement Px="-2.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="-0.0000000000000001" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
                 </Property>
                 <Property name="Shape" type="Part::PropertyPartShape">
                     <Part file="PartShape6.brp"/>
@@ -5743,7 +5743,7 @@ Curves 222
 7 0 0  3 10 5  -26.29642629082189842 -14.50000000000000000 -19.79642629082189842  -26.29642629082189842 -14.56060419296619912 -19.79642629082189842  -26.30691105122370033 -14.63180159329760066 -19.80691105122370033  -26.34123839099229869 -14.74493080388709920 -19.84123839099229869  -26.37161332194200014 -14.80641212350779945 -19.87161332194200014  -26.43624636445240128 -14.89466689622529927 -19.93624636445250076  -26.48235445555440037 -14.93649291366370058 -19.98235445555440037  -26.56793675961009882 -14.98507158634009961 -20.06793675961009882  -26.62281477191299928 -15.00000000000000000 -20.12281477191299928  -26.66938479834810138 -15.00000000000000000 -20.16938479834810138 
  0.15175353409961401 4 0.16993479198946301 2 0.18868516785687500 2 0.20805222730212400 2 0.22781021619750000 4
 1 -29.57106781186550037 -15.00000000000000000 -23.07106781186550037 0.70710678118654802 0.00000000000000000 0.70710678118654702 
-2 -29.21751442127219889 -14.50000000000000000 -22.71751442127219889 0.70710678118654702 0.00000000000000006 -0.70710678118654813 -0.49999999999999861 -0.70710678118655013 -0.49999999999999795 -0.50000000000000211 0.70710678118654502 -0.50000000000000133 0.50000000000000000
+2 -29.21751442127219889 -14.50000000000000000 -22.71751442127219889 0.70710678118654702 0.00000000000000006 -0.70710678118654813 -0.49999999999999856 -0.70710678118655002 -0.49999999999999789 -0.50000000000000222 0.70710678118654502 -0.50000000000000144 0.50000000000000000
 1 -35.78156332895090230 -14.50000000000000000 -16.86057229477999897 0.70710678118654802 0.00000000000000000 -0.70710678118654702 
 1 -33.53553390593270223 -4.75000000000000000 -19.10660171779819905 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
 1 -32.89679406747789869 3.50000000000000000 -19.74534155625309850 -0.70710678118654802 0.00000000000000000 0.70710678118654702 
@@ -5972,7 +5972,7 @@ Wi
 Fa
 0  0.000000100000000 1 0
 
-0111000
+0101000
 -550 0 *
 Ve
 0.000000100000000
@@ -6019,7 +6019,7 @@ Wi
 Fa
 0  0.000000100000000 2 0
 
-0111000
+0101000
 +543 0 *
 Ve
 0.000000100000000
@@ -6133,7 +6133,7 @@ Wi
 Fa
 0  0.000000100000000 4 0
 
-0111000
+0101000
 -533 0 -529 0 -526 0 *
 Ve
 0.000000100000000
@@ -6166,7 +6166,7 @@ Wi
 Fa
 0  0.000000100000000 3 0
 
-0111000
+0101000
 +521 0 *
 Ve
 0.000000100000000
@@ -6263,7 +6263,7 @@ Wi
 Fa
 0  0.000000100000000 9 0
 
-0111000
+0101000
 -511 0 -509 0 -506 0 *
 Wi
 
@@ -6272,7 +6272,7 @@ Wi
 Fa
 0  0.000000100000000 8 0
 
-0111000
+0101000
 -504 0 *
 Ve
 0.000000100000000
@@ -6320,7 +6320,7 @@ Wi
 Fa
 0  0.000000100000000 5 0
 
-0111000
+0101000
 +497 0 *
 Ve
 0.000000100000000
@@ -6704,7 +6704,7 @@ Wi
 Fa
 0  0.000000100000000 12 0
 
-0111000
+0101000
 -454 0 -451 0 -448 0 -445 0 -442 0 *
 Ve
 0.000000100000000
@@ -6737,7 +6737,7 @@ Wi
 Fa
 0  0.000000100000000 6 0
 
-0111000
+0101000
 +437 0 *
 Ve
 0.000000100000000
@@ -6834,7 +6834,7 @@ Wi
 Fa
 0  0.000000100000000 27 0
 
-0111000
+0101000
 -423 0 *
 Ed
  0.000000100000000 1 1 0
@@ -6851,7 +6851,7 @@ Wi
 Fa
 0  0.000000100000000 7 0
 
-0111000
+0101000
 +420 0 *
 Ve
 0.000000100000000
@@ -6884,7 +6884,7 @@ Wi
 Fa
 0  0.000000100000000 10 0
 
-0111000
+0101000
 +415 0 *
 Ve
 0.000000100000000
@@ -7253,7 +7253,7 @@ Wi
 Fa
 0  0.000000100000000 30 0
 
-0111000
+0101000
 +374 0 +371 0 +368 0 +365 0 +362 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7352,7 +7352,7 @@ Wi
 Fa
 0  0.000000100000000 32 0
 
-0111000
+0101000
 -359 0 -350 0 -347 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7555,7 +7555,7 @@ Wi
 Fa
 0  0.000000100000000 11 0
 
-0111000
+0101000
 -327 0 -318 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7583,7 +7583,7 @@ Wi
 Fa
 0  0.000000100000000 13 0
 
-0111000
+0101000
 +314 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7601,7 +7601,7 @@ Wi
 Fa
 0  0.000000100000000 14 0
 
-0111000
+0101000
 +311 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7619,7 +7619,7 @@ Wi
 Fa
 0  0.000000100000000 39 0
 
-0111000
+0101000
 -308 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7637,7 +7637,7 @@ Wi
 Fa
 0  0.000000100000000 15 0
 
-0111000
+0101000
 +305 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7655,7 +7655,7 @@ Wi
 Fa
 0  0.000000100000000 40 0
 
-0111000
+0101000
 -302 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7673,7 +7673,7 @@ Wi
 Fa
 0  0.000000100000000 16 0
 
-0111000
+0101000
 +299 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7691,7 +7691,7 @@ Wi
 Fa
 0  0.000000100000000 41 0
 
-0111000
+0101000
 -296 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7709,7 +7709,7 @@ Wi
 Fa
 0  0.000000100000000 17 0
 
-0111000
+0101000
 +293 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7727,7 +7727,7 @@ Wi
 Fa
 0  0.000000100000000 42 0
 
-0111000
+0101000
 -290 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7745,7 +7745,7 @@ Wi
 Fa
 0  0.000000100000000 18 0
 
-0111000
+0101000
 +287 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7763,7 +7763,7 @@ Wi
 Fa
 0  0.000000100000000 43 0
 
-0111000
+0101000
 -284 0 *
 Ed
  0.000000100000000 1 1 0
@@ -7781,7 +7781,7 @@ Wi
 Fa
 0  0.000000100000000 19 0
 
-0111000
+0101000
 +281 0 *
 Wi
 
@@ -7790,7 +7790,7 @@ Wi
 Fa
 0  0.000000100000000 26 0
 
-0111000
+0101000
 -279 0 *
 Ve
 0.000000100000000
@@ -7843,7 +7843,7 @@ Wi
 Fa
 0  0.000000100000000 44 0
 
-0111000
+0101000
 -274 0 -271 0 *
 Ve
 0.000000100000000
@@ -7878,7 +7878,7 @@ Wi
 Fa
 0  0.000000100000000 20 0
 
-0111000
+0101000
 +266 0 *
 Ve
 0.000000100000000
@@ -8037,7 +8037,7 @@ Wi
 Fa
 0  0.000000100000000 47 0
 
-0111000
+0101000
 -245 0 *
 Ve
 0.000000100000000
@@ -8071,7 +8071,7 @@ Wi
 Fa
 0  0.000000100000000 21 0
 
-0111000
+0101000
 +240 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8115,7 +8115,7 @@ Wi
 Fa
 0  0.000000100000000 55 0
 
-0111000
+0101000
 +236 0 +233 0 *
 Wi
 
@@ -8124,7 +8124,7 @@ Wi
 Fa
 0  0.000000100000000 38 0
 
-0111000
+0101000
 +231 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8141,7 +8141,7 @@ Wi
 Fa
 0  0.000000100000000 22 0
 
-0111000
+0101000
 +228 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8158,7 +8158,7 @@ Wi
 Fa
 0  0.000000100000000 23 0
 
-0111000
+0101000
 +225 0 *
 Ve
 0.000000100000000
@@ -8190,7 +8190,7 @@ Wi
 Fa
 0  0.000000100000000 24 0
 
-0111000
+0101000
 +220 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8207,7 +8207,7 @@ Wi
 Fa
 0  0.000000100000000 25 0
 
-0111000
+0101000
 +217 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8225,7 +8225,7 @@ Wi
 Fa
 0  0.000000100000000 28 0
 
-0111000
+0101000
 +214 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8243,7 +8243,7 @@ Wi
 Fa
 0  0.000000100000000 57 0
 
-0111000
+0101000
 -211 0 *
 Wi
 
@@ -8252,7 +8252,7 @@ Wi
 Fa
 0  0.000000100000000 29 0
 
-0111000
+0101000
 +209 0 *
 Ve
 0.000000100000000
@@ -8284,7 +8284,7 @@ Wi
 Fa
 0  0.000000100000000 31 0
 
-0111000
+0101000
 +204 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8311,7 +8311,7 @@ Wi
 Fa
 0  0.000000100000000 58 0
 
-0111000
+0101000
 -200 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8329,7 +8329,7 @@ Wi
 Fa
 0  0.000000100000000 33 0
 
-0111000
+0101000
 +197 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8347,7 +8347,7 @@ Wi
 Fa
 0  0.000000100000000 59 0
 
-0111000
+0101000
 -194 0 *
 Wi
 
@@ -8356,7 +8356,7 @@ Wi
 Fa
 0  0.000000100000000 34 0
 
-0111000
+0101000
 +192 0 *
 Ve
 0.000587899901995
@@ -8483,7 +8483,7 @@ Wi
 Fa
 0  0.000000100000000 35 0
 
-0111000
+0101000
 +176 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8501,7 +8501,7 @@ Wi
 Fa
 0  0.000000100000000 36 0
 
-0111000
+0101000
 +173 0 *
 Ve
 0.000000100000000
@@ -8561,7 +8561,7 @@ Wi
 Fa
 0  0.000000100000000 63 0
 
-0111000
+0101000
 +164 0 *
 Ve
 0.000000100000000
@@ -8625,7 +8625,7 @@ Wi
 Fa
 0  0.000000100000000 65 0
 
-0111000
+0101000
 -155 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8664,7 +8664,7 @@ Wi
 Fa
 0  0.000000100000000 67 0
 
-0111000
+0101000
 -149 0 *
 Ve
 0.000000100000000
@@ -8698,7 +8698,7 @@ Wi
 Fa
 0  0.000000100000000 68 0
 
-0111000
+0101000
 -144 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8717,7 +8717,7 @@ Wi
 Fa
 0  0.000000100000000 37 0
 
-0111000
+0101000
 +141 0 *
 Ve
 0.000000100000000
@@ -8749,7 +8749,7 @@ Wi
 Fa
 0  0.000000100000000 45 0
 
-0111000
+0101000
 +136 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8768,7 +8768,7 @@ Wi
 Fa
 0  0.000000100000000 46 0
 
-0111000
+0101000
 +133 0 *
 Ve
 0.000000100000000
@@ -8818,7 +8818,7 @@ Wi
 Fa
 0  0.000000100000000 48 0
 
-0111000
+0101000
 +126 0 *
 Ve
 0.000000100000000
@@ -8907,7 +8907,7 @@ Wi
 Fa
 0  0.000000100000000 70 0
 
-0111000
+0101000
 +113 0 *
 Ve
 0.000245235454942
@@ -8941,7 +8941,7 @@ Wi
 Fa
 0  0.000000100000000 49 0
 
-0111000
+0101000
 +108 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8968,7 +8968,7 @@ Wi
 Fa
 0  0.000000100000000 50 0
 
-0111000
+0101000
 +104 0 *
 Wi
 
@@ -8977,7 +8977,7 @@ Wi
 Fa
 0  0.000000100000000 51 0
 
-0111000
+0101000
 +102 0 *
 Ed
  0.000000100000000 1 1 0
@@ -8996,7 +8996,7 @@ Wi
 Fa
 0  0.000000100000000 52 0
 
-0111000
+0101000
 +99 0 *
 Ed
  0.000000100000000 1 1 0
@@ -9015,7 +9015,7 @@ Wi
 Fa
 0  0.000000100000000 53 0
 
-0111000
+0101000
 +96 0 *
 Wi
 
@@ -9024,7 +9024,7 @@ Wi
 Fa
 0  0.000000100000000 54 0
 
-0111000
+0101000
 +94 0 *
 Ve
 0.000000100000000
@@ -9056,7 +9056,7 @@ Wi
 Fa
 0  0.000000100000000 56 0
 
-0111000
+0101000
 +89 0 *
 Wi
 
@@ -9069,7 +9069,7 @@ Wi
 Fa
 0  0.000000100000000 74 0
 
-0111000
+0101000
 -87 0 -86 0 *
 Ve
 0.000000100000000
@@ -9103,7 +9103,7 @@ Wi
 Fa
 0  0.000000100000000 60 0
 
-0111000
+0101000
 +81 0 *
 Ve
 0.000000100000000
@@ -9148,7 +9148,7 @@ Wi
 Fa
 0  0.000000100000000 61 0
 
-0111000
+0101000
 +75 0 *
 Wi
 
@@ -9157,7 +9157,7 @@ Wi
 Fa
 0  0.000000100000000 62 0
 
-0111000
+0101000
 +73 0 *
 Ve
 0.000000100000000
@@ -9216,7 +9216,7 @@ Wi
 Fa
 0  0.000000100000000 76 0
 
-0111000
+0101000
 -65 0 *
 Ed
  0.000000100000000 1 1 0
@@ -9235,7 +9235,7 @@ Wi
 Fa
 0  0.000000100000000 64 0
 
-0111000
+0101000
 +62 0 *
 Ve
 0.000000100000000
@@ -9270,7 +9270,7 @@ Wi
 Fa
 0  0.000000100000000 66 0
 
-0111000
+0101000
 +57 0 *
 Wi
 
@@ -9283,7 +9283,7 @@ Wi
 Fa
 0  0.000000100000000 78 0
 
-0111000
+0101000
 -55 0 -54 0 *
 Ed
  0.000000100000000 1 1 0
@@ -9320,7 +9320,7 @@ Wi
 Fa
 0  0.000000100000000 69 0
 
-0111000
+0101000
 -51 0 -48 0 *
 Ed
  0.000000100000000 1 1 0
@@ -9339,7 +9339,7 @@ Wi
 Fa
 0  0.000000100000000 71 0
 
-0111000
+0101000
 +45 0 *
 Ed
  0.000000100000000 1 1 0
@@ -9367,7 +9367,7 @@ Wi
 Fa
 0  0.000000100000000 72 0
 
-0111000
+0101000
 +41 0 *
 Wi
 
@@ -9395,7 +9395,7 @@ Wi
 Fa
 0  0.000000100000000 73 0
 
-0111000
+0101000
 +39 0 +36 0 *
 Wi
 
@@ -9404,7 +9404,7 @@ Wi
 Fa
 0  0.000000100000000 75 0
 
-0111000
+0101000
 +34 0 *
 Wi
 
@@ -9413,7 +9413,7 @@ Wi
 Fa
 0  0.000000100000000 77 0
 
-0111000
+0101000
 +32 0 *
 Ve
 0.000000100000000
@@ -9445,7 +9445,7 @@ Wi
 Fa
 0  0.000000100000000 79 0
 
-0111000
+0101000
 +27 0 *
 Ve
 0.000000100000001
@@ -9477,7 +9477,7 @@ Wi
 Fa
 0  0.000000100000000 80 4
 
-0111000
+0101000
 +22 0 *
 Wi
 
@@ -9505,7 +9505,7 @@ Wi
 Fa
 0  0.000000100000000 81 0
 
-0111000
+0101000
 +20 0 +17 0 *
 Ve
 0.000000100000000
@@ -9533,7 +9533,7 @@ Wi
 Fa
 0  0.000000100000000 83 0
 
-0111000
+0101000
 -13 0 -12 0 *
 Ve
 0.000000100000000
@@ -9566,7 +9566,7 @@ Wi
 Fa
 0  0.000000100000000 82 4
 
-0111000
+0101000
 +7 0 *
 Ed
  0.000000100000000 1 1 0
@@ -9583,7 +9583,7 @@ Wi
 Fa
 0  0.000000100000000 84 0
 
-0111000
+0101000
 +4 0 *
 Sh
 
@@ -11297,7 +11297,7 @@ Wi
 Fa
 0  0.000000100000000 8 0
 
-0111000
+0101000
 -454 0 -451 0 -448 0 -445 0 -442 0 *
 Ve
 0.000000100000000
@@ -14323,14 +14323,14 @@ So
 +2 0 *
 
 +1 1 
-664|664|A|PartShape6.brp
+667|667|A|PartShape6.brp
 
 CASCADE Topology V1, (c) Matra-Datavision
 Locations 1
 1
 1.000000000000000 0.000000000000000 0.000000000000000 -2.000000000000000 
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+-0.000000000000000 1.000000000000000 -0.000000000000000 0.000000000000000 
+-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
 Curve2ds 0
 Curves 0
 Polygon3D 0
@@ -14359,20 +14359,64 @@ Fa
         </Expand>
     </Expand>
     <ViewProviderData Count="21">
-        <ViewProvider name="Y_Axis" expanded="0" Extensions="True">
-            <Extensions Count="1">
+        <ViewProvider name="Body" expanded="1" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
+                </Extension>
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
                 </Extension>
             </Extensions>
-            <Properties Count="11" TransientCount="0">
-                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+            <Properties Count="24" TransientCount="0">
+                <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+                    <Float value="28.5000000000000000"/>
+                </Property>
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
                     <Bool value="false"/>
+                </Property>
+                <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+                    <ColorList file="DiffuseColor"/>
                 </Property>
                 <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
                     <Integer value="0"/>
                 </Property>
+                <Property name="DisplayModeBody" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="LineColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="LineColorArray"/>
+                </Property>
+                <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
                 <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
                     <Integer value="0"/>
+                </Property>
+                <Property name="PointColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="PointColorArray"/>
+                </Property>
+                <Property name="PointMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
                 </Property>
                 <Property name="Selectable" type="App::PropertyBool" status="1">
                     <Bool value="true"/>
@@ -14381,19 +14425,41 @@ Fa
                     <Integer value="0"/>
                 </Property>
                 <Property name="ShapeColor" type="App::PropertyColor" status="1">
-                    <PropertyColor value="848755200"/>
+                    <PropertyColor value="4294901760"/>
                 </Property>
                 <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294901760" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
                 </Property>
                 <Property name="ShowInTree" type="App::PropertyBool" status="1">
                     <Bool value="true"/>
                 </Property>
-                <Property name="Size" type="App::PropertyFloat" status="16777217">
-                    <Float value="53.9500000000000028"/>
-                </Property>
                 <Property name="Transparency" type="App::PropertyPercent" status="1">
                     <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="XYMotorRight" expanded="1" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
+                </Extension>
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="5" TransientCount="0">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
                 </Property>
                 <Property name="Visibility" type="App::PropertyBool" status="1">
                     <Bool value="true"/>
@@ -14438,32 +14504,6 @@ Fa
                 </Property>
                 <Property name="Visibility" type="App::PropertyBool" status="1">
                     <Bool value="true"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
-        <ViewProvider name="Origin" expanded="0" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="6" TransientCount="0">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Size" type="App::PropertyVector" status="5">
-                    <PropertyVector valueX="45.5000000000000000" valueY="53.9500000000000028" valueZ="66.2999999999999972"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
                 </Property>
             </Properties>
         </ViewProvider>
@@ -14549,7 +14589,7 @@ Fa
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="X_Axis" expanded="0" Extensions="True">
+        <ViewProvider name="Y_Axis" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
                 </Extension>
@@ -14590,32 +14630,7 @@ Fa
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="XYMotorRight" expanded="1" Extensions="True">
-            <Extensions Count="2">
-                <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
-                </Extension>
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="5" TransientCount="0">
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
-        <ViewProvider name="YZ_Plane" expanded="0" Extensions="True">
+        <ViewProvider name="X_Axis" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
                 </Extension>
@@ -14646,139 +14661,13 @@ Fa
                     <Bool value="true"/>
                 </Property>
                 <Property name="Size" type="App::PropertyFloat" status="16777217">
-                    <Float value="66.2999999999999972"/>
+                    <Float value="53.9500000000000028"/>
                 </Property>
                 <Property name="Transparency" type="App::PropertyPercent" status="1">
                     <Integer value="0"/>
                 </Property>
                 <Property name="Visibility" type="App::PropertyBool" status="1">
                     <Bool value="true"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
-        <ViewProvider name="LCS_0" expanded="0" Extensions="True">
-            <Extensions Count="2">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
-                </Extension>
-            </Extensions>
-            <Properties Count="13" TransientCount="0">
-                <Property name="BoundingBox" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="FontSize" type="App::PropertyIntegerConstraint" status="1">
-                    <Integer value="10"/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="1"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="ShapeColor" type="App::PropertyColor" status="1">
-                    <PropertyColor value="4292280473"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="4292280473" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.6000000238418579"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="ShowLabel" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="Transparency" type="App::PropertyPercent" status="1">
-                    <Integer value="60"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Zoom" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="1.0000000000000000"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
-        <ViewProvider name="Solid" expanded="0" Extensions="True">
-            <Extensions Count="1">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="23" TransientCount="0">
-                <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
-                    <Float value="28.5000000000000000"/>
-                </Property>
-                <Property name="BoundingBox" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="0.5000000000000000"/>
-                </Property>
-                <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-                    <ColorList file="DiffuseColor"/>
-                </Property>
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="Lighting" type="App::PropertyEnumeration" status="1">
-                    <Integer value="1"/>
-                </Property>
-                <Property name="LineColor" type="App::PropertyColor" status="1">
-                    <PropertyColor value="421075200"/>
-                </Property>
-                <Property name="LineColorArray" type="App::PropertyColorList" status="1">
-                    <ColorList file="LineColorArray"/>
-                </Property>
-                <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.0000000000000000"/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="PointColor" type="App::PropertyColor" status="1">
-                    <PropertyColor value="421075200"/>
-                </Property>
-                <Property name="PointColorArray" type="App::PropertyColorList" status="1">
-                    <ColorList file="PointColorArray"/>
-                </Property>
-                <Property name="PointMaterial" type="App::PropertyMaterial" status="1">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.0000000000000000"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="ShapeColor" type="App::PropertyColor" status="1">
-                    <PropertyColor value="4294901760"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294901760" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Transparency" type="App::PropertyPercent" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
                 </Property>
             </Properties>
         </ViewProvider>
@@ -14831,85 +14720,6 @@ Fa
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="Pocket" expanded="0" Extensions="True">
-            <Extensions Count="2">
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
-                </Extension>
-            </Extensions>
-            <Properties Count="23" TransientCount="0">
-                <Property name="AngularDeflection" type="App::PropertyAngle" status="9">
-                    <Float value="28.5000000000000000"/>
-                </Property>
-                <Property name="BoundingBox" type="App::PropertyBool" status="9">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="Deviation" type="App::PropertyFloatConstraint" status="9">
-                    <Float value="0.5000000000000000"/>
-                </Property>
-                <Property name="DiffuseColor" type="App::PropertyColorList" status="9">
-                    <ColorList file="DiffuseColor1"/>
-                </Property>
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="Lighting" type="App::PropertyEnumeration" status="9">
-                    <Integer value="1"/>
-                </Property>
-                <Property name="LineColor" type="App::PropertyColor" status="9">
-                    <PropertyColor value="421075200"/>
-                </Property>
-                <Property name="LineColorArray" type="App::PropertyColorList" status="9">
-                    <ColorList file="LineColorArray1"/>
-                </Property>
-                <Property name="LineMaterial" type="App::PropertyMaterial" status="9">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="9">
-                    <Float value="2.0000000000000000"/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="PointColor" type="App::PropertyColor" status="9">
-                    <PropertyColor value="421075200"/>
-                </Property>
-                <Property name="PointColorArray" type="App::PropertyColorList" status="9">
-                    <ColorList file="PointColorArray1"/>
-                </Property>
-                <Property name="PointMaterial" type="App::PropertyMaterial" status="9">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="9">
-                    <Float value="2.0000000000000000"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="ShapeColor" type="App::PropertyColor" status="9">
-                    <PropertyColor value="4294901760"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="9">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294901760" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="9">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Transparency" type="App::PropertyPercent" status="9">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
         <ViewProvider name="LCS_2" expanded="0" Extensions="True">
             <Extensions Count="2">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
@@ -14959,88 +14769,6 @@ Fa
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="Body" expanded="1" Extensions="True">
-            <Extensions Count="2">
-                <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
-                </Extension>
-                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-                </Extension>
-            </Extensions>
-            <Properties Count="24" TransientCount="0">
-                <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
-                    <Float value="28.5000000000000000"/>
-                </Property>
-                <Property name="BoundingBox" type="App::PropertyBool" status="1">
-                    <Bool value="false"/>
-                </Property>
-                <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="0.5000000000000000"/>
-                </Property>
-                <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-                    <ColorList file="DiffuseColor2"/>
-                </Property>
-                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DisplayModeBody" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="Lighting" type="App::PropertyEnumeration" status="1">
-                    <Integer value="1"/>
-                </Property>
-                <Property name="LineColor" type="App::PropertyColor" status="1">
-                    <PropertyColor value="421075200"/>
-                </Property>
-                <Property name="LineColorArray" type="App::PropertyColorList" status="1">
-                    <ColorList file="LineColorArray2"/>
-                </Property>
-                <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
-                </Property>
-                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.0000000000000000"/>
-                </Property>
-                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="PointColor" type="App::PropertyColor" status="1">
-                    <PropertyColor value="421075200"/>
-                </Property>
-                <Property name="PointColorArray" type="App::PropertyColorList" status="1">
-                    <ColorList file="PointColorArray2"/>
-                </Property>
-                <Property name="PointMaterial" type="App::PropertyMaterial" status="1">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
-                </Property>
-                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-                    <Float value="2.0000000000000000"/>
-                </Property>
-                <Property name="Selectable" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="ShapeColor" type="App::PropertyColor" status="1">
-                    <PropertyColor value="4294901760"/>
-                </Property>
-                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
-                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294901760" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
-                </Property>
-                <Property name="ShowInTree" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-                <Property name="Transparency" type="App::PropertyPercent" status="1">
-                    <Integer value="0"/>
-                </Property>
-                <Property name="Visibility" type="App::PropertyBool" status="1">
-                    <Bool value="true"/>
-                </Property>
-            </Properties>
-        </ViewProvider>
         <ViewProvider name="Origin001" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
@@ -15067,7 +14795,33 @@ Fa
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="X_Axis001" expanded="0" Extensions="True">
+        <ViewProvider name="Origin" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="6" TransientCount="0">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyVector" status="5">
+                    <PropertyVector valueX="45.5000000000000000" valueY="53.9500000000000028" valueZ="66.2999999999999972"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="YZ_Plane" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
                 </Extension>
@@ -15098,7 +14852,7 @@ Fa
                     <Bool value="true"/>
                 </Property>
                 <Property name="Size" type="App::PropertyFloat" status="16777217">
-                    <Float value="49.7999999999999972"/>
+                    <Float value="66.2999999999999972"/>
                 </Property>
                 <Property name="Transparency" type="App::PropertyPercent" status="1">
                     <Integer value="0"/>
@@ -15108,7 +14862,7 @@ Fa
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="Y_Axis001" expanded="0" Extensions="True">
+        <ViewProvider name="X_Axis001" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
                 </Extension>
@@ -15231,6 +14985,203 @@ Fa
                 </Property>
             </Properties>
         </ViewProvider>
+        <ViewProvider name="Solid" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="23" TransientCount="0">
+                <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+                    <Float value="28.5000000000000000"/>
+                </Property>
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+                    <ColorList file="DiffuseColor1"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="LineColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="LineColorArray1"/>
+                </Property>
+                <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="PointColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="PointColorArray1"/>
+                </Property>
+                <Property name="PointMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4294901760"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294901760" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Y_Axis001" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+            </Extensions>
+            <Properties Count="11" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="848755200"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="848755200" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Size" type="App::PropertyFloat" status="16777217">
+                    <Float value="49.7999999999999972"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Pocket" expanded="0" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="23" TransientCount="0">
+                <Property name="AngularDeflection" type="App::PropertyAngle" status="9">
+                    <Float value="28.5000000000000000"/>
+                </Property>
+                <Property name="BoundingBox" type="App::PropertyBool" status="9">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Deviation" type="App::PropertyFloatConstraint" status="9">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="DiffuseColor" type="App::PropertyColorList" status="9">
+                    <ColorList file="DiffuseColor2"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Lighting" type="App::PropertyEnumeration" status="9">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="LineColor" type="App::PropertyColor" status="9">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="LineColorArray" type="App::PropertyColorList" status="9">
+                    <ColorList file="LineColorArray2"/>
+                </Property>
+                <Property name="LineMaterial" type="App::PropertyMaterial" status="9">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="9">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="PointColor" type="App::PropertyColor" status="9">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="PointColorArray" type="App::PropertyColorList" status="9">
+                    <ColorList file="PointColorArray2"/>
+                </Property>
+                <Property name="PointMaterial" type="App::PropertyMaterial" status="9">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="9">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="9">
+                    <PropertyColor value="4294901760"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="9">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294901760" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="9">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
         <ViewProvider name="XZ_Plane001" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
@@ -15313,12 +15264,59 @@ Fa
                 </Property>
             </Properties>
         </ViewProvider>
+        <ViewProvider name="LCS_0" expanded="0" Extensions="True">
+            <Extensions Count="2">
+                <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+                </Extension>
+                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="13" TransientCount="0">
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FontSize" type="App::PropertyIntegerConstraint" status="1">
+                    <Integer value="10"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4292280473"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4292280473" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.6000000238418579"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="60"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Zoom" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="1.0000000000000000"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
     </ViewProviderData>
     <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position 3.2389498 49.474979 -75.509323&#10;  orientation 0.97318596 -0.22647749 -0.040211886  3.986352&#10;  nearDistance 35.473454&#10;  farDistance 129.58389&#10;  aspectRatio 1&#10;  focalDistance 49.126278&#10;  height 98.500587&#10;&#10;}&#10;"/>
 </Document>
 
-6776|5082|B|thumbnails/Thumbnail.png
-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
 12|8|B|DiffuseColor
 AQAAAAAA//8=
 12|8|B|LineColorArray
