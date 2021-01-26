@@ -1,4 +1,4 @@
-917965|917965|A|Document.xml
+917973|917973|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see https://www.freecadweb.org for more information...
@@ -30,7 +30,7 @@
             <String value=""/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-            <String value="2021-01-26T03:41:15Z"/>
+            <String value="2021-01-26T03:53:31Z"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="All rights reserved"/>
@@ -2337,7 +2337,7 @@
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_1.Placement * SideExtrusion#LCS_1.Placement * AttachmentOffset * TopExtrusionLeft#LCS_0.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -2358,7 +2358,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="SideExtrusion"/>
+                    <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="SideExtrusion"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="0.0000000000000000" Py="10.0000000000000000" Pz="470.0000000000000000" Q0="0.7071067811865476" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="-0.7071067811865475" A="4.7123889803846897" Ox="1.0000000000000000" Oy="0.0000000000000000" Oz="0.0000000000000000"/>
@@ -2421,7 +2421,7 @@
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_2.Placement * SideExtrusion#LCS_1.Placement * AttachmentOffset * TopExtrusionLeft#LCS_0.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -2436,16 +2436,16 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="400.0000000000003979" Py="10.0000000000001474" Pz="469.9999999999998863" Q0="0.4999999999999998" Q1="-0.5000000000000003" Q2="-0.5000000000000001" Q3="-0.4999999999999998" A="4.1887902047863905" Ox="0.5773502691896255" Oy="-0.5773502691896261" Oz="-0.5773502691896258"/>
+                    <PropertyPlacement Px="400.0000000000003979" Py="10.0000000000001545" Pz="469.9999999999998863" Q0="0.4999999999999998" Q1="-0.5000000000000003" Q2="-0.5000000000000001" Q3="-0.4999999999999999" A="4.1887902047863905" Ox="0.5773502691896256" Oy="-0.5773502691896261" Oz="-0.5773502691896258"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="SideExtrusion"/>
+                    <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="SideExtrusion"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="400.0000000000003979" Py="10.0000000000001474" Pz="469.9999999999998863" Q0="0.4999999999999998" Q1="-0.5000000000000003" Q2="-0.5000000000000001" Q3="-0.4999999999999998" A="4.1887902047863905" Ox="0.5773502691896255" Oy="-0.5773502691896261" Oz="-0.5773502691896258"/>
+                    <PropertyPlacement Px="400.0000000000003979" Py="10.0000000000001545" Pz="469.9999999999998863" Q0="0.4999999999999998" Q1="-0.5000000000000003" Q2="-0.5000000000000001" Q3="-0.4999999999999999" A="4.1887902047863905" Ox="0.5773502691896256" Oy="-0.5773502691896261" Oz="-0.5773502691896258"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList11"/>
@@ -2505,7 +2505,7 @@
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_supportbar"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_1.Placement * SideExtrusion#LCS_supportbar.Placement * AttachmentOffset * TopExtrusionLeft#LCS_0.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -2526,7 +2526,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="SideExtrusion"/>
+                    <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="SideExtrusion"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="0.0000000000000000" Py="10.0000000000000000" Pz="352.0000000000000000" Q0="-0.7071067811865476" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="0.7071067811865476" A="1.5707963267948966" Ox="-1.0000000000000000" Oy="0.0000000000000000" Oz="0.0000000000000000"/>
@@ -2589,7 +2589,7 @@
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_supportbar"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_2.Placement * SideExtrusion#LCS_supportbar.Placement * AttachmentOffset * TopExtrusionLeft#LCS_0.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -2610,7 +2610,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="SideExtrusion"/>
+                    <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="SideExtrusion"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="400.0000000000002842" Py="10.0000000000001386" Pz="351.9999999999998863" Q0="-0.4999999999999998" Q1="0.5000000000000003" Q2="0.5000000000000000" Q3="0.4999999999999999" A="2.0943951023931957" Ox="-0.5773502691896255" Oy="0.5773502691896261" Oz="0.5773502691896257"/>
@@ -2757,7 +2757,7 @@
                             <DocMap name="HiddenCornerBracket" label="HiddenCornerBracket" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="HiddenCornerBracket.FCStd" stamp="2021-01-24T20:58:13Z" name="LCS_1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_1.Placement * TopExtrusionLeft#LCS_0.Placement * AttachmentOffset * HiddenCornerBracket#LCS_1.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -2841,7 +2841,7 @@
                             <DocMap name="HiddenCornerBracket" label="HiddenCornerBracket" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="HiddenCornerBracket.FCStd" stamp="2021-01-24T20:58:13Z" name="LCS_1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_1.Placement * TopExtrusionLeft#LCS_1.Placement * AttachmentOffset * HiddenCornerBracket#LCS_1.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -3009,7 +3009,7 @@
                             <DocMap name="HiddenCornerBracket" label="HiddenCornerBracket" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="HiddenCornerBracket.FCStd" stamp="2021-01-24T20:58:13Z" name="LCS_1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_2.Placement * TopExtrusionLeft#LCS_1.Placement * AttachmentOffset * HiddenCornerBracket#LCS_1.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -3024,7 +3024,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="400.0000000000003979" Py="389.0000000000002842" Pz="467.9999999999998295" Q0="0.0000000000000003" Q1="-0.7071067811865475" Q2="0.7071067811865477" Q3="0.0000000000000003" A="3.1415926535897927" Ox="0.0000000000000003" Oy="-0.7071067811865475" Oz="0.7071067811865477"/>
+                    <PropertyPlacement Px="400.0000000000005116" Py="389.0000000000002842" Pz="467.9999999999998295" Q0="0.0000000000000002" Q1="-0.7071067811865476" Q2="0.7071067811865476" Q3="0.0000000000000002" A="3.1415926535897927" Ox="0.0000000000000002" Oy="-0.7071067811865476" Oz="0.7071067811865476"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -3033,7 +3033,7 @@
                     <XLink file="HiddenCornerBracket.FCStd" stamp="2021-01-24T20:58:13Z" name="HiddenCornerBracket"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="400.0000000000003979" Py="389.0000000000002842" Pz="467.9999999999998295" Q0="0.0000000000000003" Q1="-0.7071067811865475" Q2="0.7071067811865477" Q3="0.0000000000000003" A="3.1415926535897927" Ox="0.0000000000000003" Oy="-0.7071067811865475" Oz="0.7071067811865477"/>
+                    <PropertyPlacement Px="400.0000000000005116" Py="389.0000000000002842" Pz="467.9999999999998295" Q0="0.0000000000000002" Q1="-0.7071067811865476" Q2="0.7071067811865476" Q3="0.0000000000000002" A="3.1415926535897927" Ox="0.0000000000000002" Oy="-0.7071067811865476" Oz="0.7071067811865476"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList18"/>
@@ -3177,7 +3177,7 @@
                             <DocMap name="HiddenCornerBracket" label="HiddenCornerBracket" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="HiddenCornerBracket.FCStd" stamp="2021-01-24T20:58:13Z" name="LCS_1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_2.Placement * TopExtrusionLeft#LCS_0.Placement * AttachmentOffset * HiddenCornerBracket#LCS_1.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -3192,7 +3192,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="400.0000000000003979" Py="21.0000000000001492" Pz="467.9999999999998863" Q0="-0.7071067811865476" Q1="0.0000000000000002" Q2="0.0000000000000002" Q3="0.7071067811865475" A="1.5707963267948968" Ox="-1.0000000000000000" Oy="0.0000000000000003" Oz="0.0000000000000003"/>
+                    <PropertyPlacement Px="400.0000000000003979" Py="21.0000000000001563" Pz="467.9999999999998863" Q0="-0.7071067811865477" Q1="0.0000000000000003" Q2="0.0000000000000001" Q3="0.7071067811865475" A="1.5707963267948968" Ox="-1.0000000000000000" Oy="0.0000000000000004" Oz="0.0000000000000001"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -3201,7 +3201,7 @@
                     <XLink file="HiddenCornerBracket.FCStd" stamp="2021-01-24T20:58:13Z" name="HiddenCornerBracket"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="400.0000000000003979" Py="21.0000000000001492" Pz="467.9999999999998863" Q0="-0.7071067811865476" Q1="0.0000000000000002" Q2="0.0000000000000002" Q3="0.7071067811865475" A="1.5707963267948968" Ox="-1.0000000000000000" Oy="0.0000000000000003" Oz="0.0000000000000003"/>
+                    <PropertyPlacement Px="400.0000000000003979" Py="21.0000000000001563" Pz="467.9999999999998863" Q0="-0.7071067811865477" Q1="0.0000000000000003" Q2="0.0000000000000001" Q3="0.7071067811865475" A="1.5707963267948968" Ox="-1.0000000000000000" Oy="0.0000000000000004" Oz="0.0000000000000001"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList20"/>
@@ -4689,7 +4689,7 @@
                             <DocMap name="HiddenCornerBracket" label="HiddenCornerBracket" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="HiddenCornerBracket.FCStd" stamp="2021-01-24T20:58:13Z" name="LCS_1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_3.Placement * TopExtrusionLeft#LCS_0.Placement * AttachmentOffset * HiddenCornerBracket#LCS_1.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -4773,7 +4773,7 @@
                             <DocMap name="HiddenCornerBracket" label="HiddenCornerBracket" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="HiddenCornerBracket.FCStd" stamp="2021-01-24T20:58:13Z" name="LCS_1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_3.Placement * TopExtrusionLeft#LCS_1.Placement * AttachmentOffset * HiddenCornerBracket#LCS_1.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -4857,7 +4857,7 @@
                             <DocMap name="HiddenCornerBracket" label="HiddenCornerBracket" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="HiddenCornerBracket.FCStd" stamp="2021-01-24T20:58:13Z" name="LCS_1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_4.Placement * TopExtrusionLeft#LCS_0.Placement * AttachmentOffset * HiddenCornerBracket#LCS_1.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -4941,7 +4941,7 @@
                             <DocMap name="HiddenCornerBracket" label="HiddenCornerBracket" index="0"/>
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="1"/>
                             <XLink file="HiddenCornerBracket.FCStd" stamp="2021-01-24T20:58:13Z" name="LCS_1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_4.Placement * TopExtrusionLeft#LCS_1.Placement * AttachmentOffset * HiddenCornerBracket#LCS_1.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -8384,7 +8384,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="0"/>
                             <DocMap name="ZAxisHolder" label="ZAxisHolder" index="1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_2"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_2"/>
                             <XLink file="ZAxisHolder.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_3.Placement * TopExtrusionLeft#LCS_2.Placement * AttachmentOffset * ZAxisHolder#LCS_1.Placement ^ -1"/>
@@ -8468,7 +8468,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="0"/>
                             <DocMap name="ZAxisHolder" label="ZAxisHolder" index="1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_2"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_2"/>
                             <XLink file="ZAxisHolder.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_3.Placement * TopExtrusionLeft#LCS_2.Placement * AttachmentOffset * ZAxisHolder#LCS_1.Placement ^ -1"/>
@@ -8552,7 +8552,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="0"/>
                             <DocMap name="ZAxisHolder" label="ZAxisHolder" index="1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_2"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_2"/>
                             <XLink file="ZAxisHolder.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_4.Placement * TopExtrusionLeft#LCS_2.Placement * AttachmentOffset * ZAxisHolder#LCS_1.Placement ^ -1"/>
@@ -8636,7 +8636,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="TopExtrusionLeft" label="TopExtrusionLeft" index="0"/>
                             <DocMap name="ZAxisHolder" label="ZAxisHolder" index="1"/>
-                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_2"/>
+                            <XLink file="TopExtrusionLeft.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_2"/>
                             <XLink file="ZAxisHolder.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="TopExtrusionLeft_4.Placement * TopExtrusionLeft#LCS_2.Placement * AttachmentOffset * ZAxisHolder#LCS_1.Placement ^ -1"/>
@@ -10214,7 +10214,7 @@
                     <String value="YCarriage_1#LCS_2"/>
                 </Property>
                 <Property name="AttachmentOffset" type="App::PropertyPlacement" group="Assembly" doc="" attr="0" ro="0" hide="0" status="2097152">
-                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="-0.7071067811865476" Q1="0.0000000000000000" Q2="-0.7071067811865476" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865476" Oy="0.0000000000000000" Oz="-0.7071067811865476"/>
+                    <PropertyPlacement Px="-5.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="-0.7071067811865475" Q1="0.0000000000000000" Q2="-0.7071067811865475" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865475" Oy="0.0000000000000000" Oz="-0.7071067811865475"/>
                 </Property>
                 <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="67109120">
                     <LinkSub value="" count="0">
@@ -10248,7 +10248,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="2.5417674823549907" Py="205.0000000000000000" Pz="378.5000000000000568" Q0="-0.7071067811865476" Q1="0.0000000000000001" Q2="-0.7071067811865476" Q3="0.0000000000000003" A="3.1415926535897927" Ox="-0.7071067811865476" Oy="0.0000000000000001" Oz="-0.7071067811865476"/>
+                    <PropertyPlacement Px="-2.4582325176450119" Py="205.0000000000000000" Pz="378.5000000000000568" Q0="-0.7071067811865476" Q1="0.0000000000000000" Q2="-0.7071067811865476" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865476" Oy="0.0000000000000000" Oz="-0.7071067811865476"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -10257,7 +10257,7 @@
                     <XLink file="XAxis8mm.FCStd" stamp="2021-01-26T03:41:14Z" name="Axis8mm"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="2.5417674823549907" Py="205.0000000000000000" Pz="378.5000000000000568" Q0="-0.7071067811865476" Q1="0.0000000000000001" Q2="-0.7071067811865476" Q3="0.0000000000000003" A="3.1415926535897927" Ox="-0.7071067811865476" Oy="0.0000000000000001" Oz="-0.7071067811865476"/>
+                    <PropertyPlacement Px="-2.4582325176450119" Py="205.0000000000000000" Pz="378.5000000000000568" Q0="-0.7071067811865476" Q1="0.0000000000000000" Q2="-0.7071067811865476" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865476" Oy="0.0000000000000000" Oz="-0.7071067811865476"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList104"/>
@@ -10298,7 +10298,7 @@
                     <String value="YCarriage_1#LCS_1"/>
                 </Property>
                 <Property name="AttachmentOffset" type="App::PropertyPlacement" group="Assembly" doc="" attr="0" ro="0" hide="0" status="2097152">
-                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="-0.7071067811865476" Q1="0.0000000000000000" Q2="-0.7071067811865476" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865476" Oy="0.0000000000000000" Oz="-0.7071067811865476"/>
+                    <PropertyPlacement Px="-5.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="-0.7071067811865475" Q1="0.0000000000000000" Q2="-0.7071067811865475" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865475" Oy="0.0000000000000000" Oz="-0.7071067811865475"/>
                 </Property>
                 <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="67109120">
                     <LinkSub value="" count="0">
@@ -10332,7 +10332,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="2.5417674823549854" Py="205.0000000000000000" Pz="423.5000000000000568" Q0="-0.7071067811865476" Q1="0.0000000000000001" Q2="-0.7071067811865476" Q3="0.0000000000000003" A="3.1415926535897927" Ox="-0.7071067811865476" Oy="0.0000000000000001" Oz="-0.7071067811865476"/>
+                    <PropertyPlacement Px="-2.4582325176450119" Py="205.0000000000000000" Pz="423.5000000000000568" Q0="-0.7071067811865476" Q1="0.0000000000000000" Q2="-0.7071067811865476" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865476" Oy="0.0000000000000000" Oz="-0.7071067811865476"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -10341,7 +10341,7 @@
                     <XLink file="XAxis8mm.FCStd" stamp="2021-01-26T03:41:14Z" name="Axis8mm"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="2.5417674823549854" Py="205.0000000000000000" Pz="423.5000000000000568" Q0="-0.7071067811865476" Q1="0.0000000000000001" Q2="-0.7071067811865476" Q3="0.0000000000000003" A="3.1415926535897927" Ox="-0.7071067811865476" Oy="0.0000000000000001" Oz="-0.7071067811865476"/>
+                    <PropertyPlacement Px="-2.4582325176450119" Py="205.0000000000000000" Pz="423.5000000000000568" Q0="-0.7071067811865476" Q1="0.0000000000000000" Q2="-0.7071067811865476" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865476" Oy="0.0000000000000000" Oz="-0.7071067811865476"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList105"/>
@@ -10500,7 +10500,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="207.5417674823550556" Py="205.0000000000000568" Pz="378.5000000000000568" Q0="0.0000000000000002" Q1="-0.7071067811865474" Q2="-0.7071067811865477" Q3="0.0000000000000001" A="3.1415926535897931" Ox="0.0000000000000002" Oy="-0.7071067811865474" Oz="-0.7071067811865477"/>
+                    <PropertyPlacement Px="202.5417674823550556" Py="205.0000000000000284" Pz="378.5000000000000568" Q0="0.0000000000000001" Q1="-0.7071067811865475" Q2="-0.7071067811865476" Q3="0.0000000000000001" A="3.1415926535897931" Ox="0.0000000000000001" Oy="-0.7071067811865475" Oz="-0.7071067811865476"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -10509,7 +10509,7 @@
                     <XLink file="XCarriageWithHw.FCStd" stamp="2021-01-25T10:45:33Z" name="Model"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="207.5417674823550556" Py="205.0000000000000568" Pz="378.5000000000000568" Q0="0.0000000000000002" Q1="-0.7071067811865474" Q2="-0.7071067811865477" Q3="0.0000000000000001" A="3.1415926535897931" Ox="0.0000000000000002" Oy="-0.7071067811865474" Oz="-0.7071067811865477"/>
+                    <PropertyPlacement Px="202.5417674823550556" Py="205.0000000000000284" Pz="378.5000000000000568" Q0="0.0000000000000001" Q1="-0.7071067811865475" Q2="-0.7071067811865476" Q3="0.0000000000000001" A="3.1415926535897931" Ox="0.0000000000000001" Oy="-0.7071067811865475" Oz="-0.7071067811865476"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList107"/>
@@ -10569,7 +10569,7 @@
                             <DocMap name="BedExtrusionFront" label="BedExtrusionFront" index="0"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="1"/>
                             <XLink file="BedExtrusionFront.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="BedExtrusionFront_2.Placement * BedExtrusionFront#LCS_0.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -10590,7 +10590,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="6.9999999999999716" Py="75.0000000000000995" Pz="318.0000000000000568" Q0="-0.5000000000000002" Q1="0.5000000000000001" Q2="0.5000000000000000" Q3="-0.4999999999999998" A="4.1887902047863905" Ox="-0.5773502691896260" Oy="0.5773502691896258" Oz="0.5773502691896257"/>
@@ -10653,7 +10653,7 @@
                             <DocMap name="BedExtrusionFront" label="BedExtrusionFront" index="0"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="1"/>
                             <XLink file="BedExtrusionFront.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1001"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="BedExtrusionFront_2.Placement * BedExtrusionFront#LCS_1001.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -10674,7 +10674,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="397.0000000000000000" Py="75.0000000000000995" Pz="318.0000000000002842" Q0="0.4999999999999999" Q1="0.4999999999999998" Q2="0.5000000000000002" Q3="0.5000000000000001" A="2.0943951023931953" Ox="0.5773502691896257" Oy="0.5773502691896256" Oz="0.5773502691896261"/>
@@ -10737,7 +10737,7 @@
                             <DocMap name="BedExtrusionFront" label="BedExtrusionFront" index="0"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="1"/>
                             <XLink file="BedExtrusionFront.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="BedExtrusionFront_1.Placement * BedExtrusionFront#LCS_0.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -10758,7 +10758,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="6.9999999999999432" Py="335.0000000000001137" Pz="318.0000000000000000" Q0="-0.5000000000000001" Q1="-0.5000000000000001" Q2="0.5000000000000001" Q3="0.4999999999999997" A="2.0943951023931962" Ox="-0.5773502691896257" Oy="-0.5773502691896257" Oz="0.5773502691896257"/>
@@ -10821,7 +10821,7 @@
                             <DocMap name="BedExtrusionFront" label="BedExtrusionFront" index="0"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="1"/>
                             <XLink file="BedExtrusionFront.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1001"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="BedExtrusionFront_1.Placement * BedExtrusionFront#LCS_1001.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
                     </ExpressionEngine>
@@ -10842,7 +10842,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="396.9999999999999432" Py="335.0000000000002274" Pz="318.0000000000001137" Q0="-0.5000000000000001" Q1="0.4999999999999997" Q2="-0.5000000000000001" Q3="0.5000000000000001" A="2.0943951023931953" Ox="-0.5773502691896260" Oy="0.5773502691896254" Oz="-0.5773502691896260"/>
@@ -10886,7 +10886,7 @@
                     <String value="XAxis8mm_2#LCS_1"/>
                 </Property>
                 <Property name="AttachmentOffset" type="App::PropertyPlacement" group="Assembly" doc="" attr="0" ro="0" hide="0" status="2097152">
-                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="-0.7071067811865476" Q1="0.0000000000000000" Q2="0.7071067811865476" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865476" Oy="0.0000000000000000" Oz="0.7071067811865476"/>
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="-10.0000000000000000" Q0="-0.7071067811865475" Q1="0.0000000000000000" Q2="0.7071067811865475" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865475" Oy="0.0000000000000000" Oz="0.7071067811865475"/>
                 </Property>
                 <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="67109120">
                     <LinkSub value="" count="0">
@@ -10920,7 +10920,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="415.0417674823551124" Py="205.0000000000000284" Pz="401.0000000000000568" Q0="-0.0000000000000001" Q1="1.0000000000000000" Q2="0.0000000000000002" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.0000000000000001" Oy="1.0000000000000000" Oz="0.0000000000000002"/>
+                    <PropertyPlacement Px="400.0417674823551124" Py="205.0000000000000284" Pz="401.0000000000000568" Q0="-0.0000000000000001" Q1="1.0000000000000000" Q2="0.0000000000000000" Q3="0.0000000000000000" A="3.1415926535897931" Ox="-0.0000000000000001" Oy="1.0000000000000000" Oz="0.0000000000000000"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -10929,7 +10929,7 @@
                     <XLink file="YCarriage.FCStd" stamp="2021-01-26T03:41:14Z" name="YCarriage"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="415.0417674823551124" Py="205.0000000000000284" Pz="401.0000000000000568" Q0="-0.0000000000000001" Q1="1.0000000000000000" Q2="0.0000000000000002" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.0000000000000001" Oy="1.0000000000000000" Oz="0.0000000000000002"/>
+                    <PropertyPlacement Px="400.0417674823551124" Py="205.0000000000000284" Pz="401.0000000000000568" Q0="-0.0000000000000001" Q1="1.0000000000000000" Q2="0.0000000000000000" Q3="0.0000000000000000" A="3.1415926535897931" Ox="-0.0000000000000001" Oy="1.0000000000000000" Oz="0.0000000000000000"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList112"/>
@@ -11004,7 +11004,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="415.0417674823551124" Py="205.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000001" Q1="0.4999999999999999" Q2="0.5000000000000002" Q3="0.4999999999999999" A="2.0943951023931957" Ox="0.5773502691896258" Oy="0.5773502691896256" Oz="0.5773502691896260"/>
+                    <PropertyPlacement Px="400.0417674823551124" Py="205.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000001" Q3="0.5000000000000000" A="2.0943951023931957" Ox="0.5773502691896257" Oy="0.5773502691896257" Oz="0.5773502691896258"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -11013,7 +11013,7 @@
                     <XLink file="YCarriageClamp.FCStd" stamp="2021-01-26T03:41:14Z" name="YCarriageClamp"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="415.0417674823551124" Py="205.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000001" Q1="0.4999999999999999" Q2="0.5000000000000002" Q3="0.4999999999999999" A="2.0943951023931957" Ox="0.5773502691896258" Oy="0.5773502691896256" Oz="0.5773502691896260"/>
+                    <PropertyPlacement Px="400.0417674823551124" Py="205.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000001" Q3="0.5000000000000000" A="2.0943951023931957" Ox="0.5773502691896257" Oy="0.5773502691896257" Oz="0.5773502691896258"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList113"/>
@@ -11088,7 +11088,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="415.0417674823551124" Py="218.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000001" Q1="0.4999999999999999" Q2="0.5000000000000002" Q3="0.4999999999999999" A="2.0943951023931957" Ox="0.5773502691896258" Oy="0.5773502691896256" Oz="0.5773502691896260"/>
+                    <PropertyPlacement Px="400.0417674823551124" Py="218.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000001" Q3="0.5000000000000000" A="2.0943951023931957" Ox="0.5773502691896257" Oy="0.5773502691896257" Oz="0.5773502691896258"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -11097,7 +11097,7 @@
                     <XLink file="Bearing-LM8UU.FCStd" stamp="2021-01-18T10:41:31Z" name="Bearing_LM8UU"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="415.0417674823551124" Py="218.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000001" Q1="0.4999999999999999" Q2="0.5000000000000002" Q3="0.4999999999999999" A="2.0943951023931957" Ox="0.5773502691896258" Oy="0.5773502691896256" Oz="0.5773502691896260"/>
+                    <PropertyPlacement Px="400.0417674823551124" Py="218.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000001" Q3="0.5000000000000000" A="2.0943951023931957" Ox="0.5773502691896257" Oy="0.5773502691896257" Oz="0.5773502691896258"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList114"/>
@@ -11172,7 +11172,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="415.0417674823551124" Py="192.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000001" Q1="0.4999999999999999" Q2="0.5000000000000002" Q3="0.4999999999999999" A="2.0943951023931957" Ox="0.5773502691896258" Oy="0.5773502691896256" Oz="0.5773502691896260"/>
+                    <PropertyPlacement Px="400.0417674823551124" Py="192.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000001" Q3="0.5000000000000000" A="2.0943951023931957" Ox="0.5773502691896257" Oy="0.5773502691896257" Oz="0.5773502691896258"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -11181,7 +11181,7 @@
                     <XLink file="Bearing-LM8UU.FCStd" stamp="2021-01-18T10:41:31Z" name="Bearing_LM8UU"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="415.0417674823551124" Py="192.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000001" Q1="0.4999999999999999" Q2="0.5000000000000002" Q3="0.4999999999999999" A="2.0943951023931957" Ox="0.5773502691896258" Oy="0.5773502691896256" Oz="0.5773502691896260"/>
+                    <PropertyPlacement Px="400.0417674823551124" Py="192.0000000000000284" Pz="401.0000000000000568" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000001" Q3="0.5000000000000000" A="2.0943951023931957" Ox="0.5773502691896257" Oy="0.5773502691896257" Oz="0.5773502691896258"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList115"/>
@@ -11434,7 +11434,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="1"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="0"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_3.Placement * SideExtrusion#LCS_1.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
@@ -11456,7 +11456,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="400.0000000000003979" Py="410.0000000000002274" Pz="479.9999999999997726" Q0="0.0000000000000006" Q1="0.0000000000000001" Q2="1.0000000000000000" Q3="-0.0000000000000002" A="3.1415926535897936" Ox="0.0000000000000006" Oy="0.0000000000000001" Oz="1.0000000000000000"/>
@@ -11518,7 +11518,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="1"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="0"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_2.Placement * SideExtrusion#LCS_1.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
@@ -11540,7 +11540,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="400.0000000000003979" Py="0.0000000000001460" Pz="479.9999999999998863" Q0="-0.0000000000000002" Q1="-0.0000000000000003" Q2="-0.7071067811865476" Q3="-0.7071067811865475" A="4.7123889803846897" Ox="-0.0000000000000003" Oy="-0.0000000000000004" Oz="-1.0000000000000000"/>
@@ -11602,7 +11602,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="1"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="0"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_1.Placement * SideExtrusion#LCS_1.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
@@ -11624,7 +11624,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="480.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
@@ -11686,7 +11686,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="1"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="0"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_1"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_4.Placement * SideExtrusion#LCS_1.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
@@ -11708,7 +11708,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="-0.0000000000001098" Py="410.0000000000001705" Pz="480.0000000000000000" Q0="-0.0000000000000001" Q1="0.0000000000000001" Q2="0.7071067811865476" Q3="-0.7071067811865475" A="4.7123889803846897" Ox="-0.0000000000000001" Oy="0.0000000000000002" Oz="1.0000000000000000"/>
@@ -11770,7 +11770,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="1"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="0"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_4.Placement * SideExtrusion#LCS_0.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
@@ -11792,7 +11792,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="0.0000000000000409" Py="410.0000000000001137" Pz="0.0000000000000000" Q0="-0.7071067811865475" Q1="0.7071067811865477" Q2="-0.0000000000000001" Q3="0.0000000000000001" A="3.1415926535897931" Ox="-0.7071067811865475" Oy="0.7071067811865477" Oz="-0.0000000000000001"/>
@@ -11854,7 +11854,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="1"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="0"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_1.Placement * SideExtrusion#LCS_0.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
@@ -11876,7 +11876,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="1.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="0.0000000000000001" A="3.1415926535897931" Ox="1.0000000000000000" Oy="0.0000000000000000" Oz="0.0000000000000000"/>
@@ -11938,7 +11938,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="1"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="0"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_2.Placement * SideExtrusion#LCS_0.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
@@ -11960,7 +11960,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="400.0000000000000568" Py="0.0000000000001083" Pz="-0.0000000000001101" Q0="-0.7071067811865475" Q1="-0.7071067811865477" Q2="0.0000000000000002" Q3="0.0000000000000003" A="3.1415926535897927" Ox="-0.7071067811865475" Oy="-0.7071067811865477" Oz="0.0000000000000002"/>
@@ -12022,7 +12022,7 @@
                         <XLinks count="2" docs="2">
                             <DocMap name="SideExtrusion" label="SideExtrusion" index="1"/>
                             <DocMap name="EndCap2020" label="EndCap2020" index="0"/>
-                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="LCS_0"/>
+                            <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="LCS_0"/>
                             <XLink file="SideExtrusion.FCStd" stamp="2021-01-26T03:41:13Z" name="LCS_0"/>
                         </XLinks>
                         <Expression path="Placement" expression="SideExtrusion_3.Placement * SideExtrusion#LCS_0.Placement * AttachmentOffset * EndCap2020#LCS_0.Placement ^ -1"/>
@@ -12044,7 +12044,7 @@
                     <Bool value="false"/>
                 </Property>
                 <Property name="LinkedObject" type="App::PropertyXLink" status="256">
-                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:41:14Z" name="EndCap2020"/>
+                    <XLink file="EndCap2020.FCStd" stamp="2021-01-26T03:53:31Z" name="EndCap2020"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
                     <PropertyPlacement Px="399.9999999999998295" Py="410.0000000000001137" Pz="-0.0000000000001990" Q0="-0.0000000000000003" Q1="1.0000000000000000" Q2="-0.0000000000000000" Q3="-0.0000000000000006" A="3.1415926535897944" Ox="-0.0000000000000003" Oy="1.0000000000000000" Oz="-0.0000000000000000"/>
@@ -12458,7 +12458,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="379.8117674823550942" Py="198.6350000000000193" Pz="390.8000000000000682" Q0="-0.5000000000000002" Q1="0.5000000000000000" Q2="-0.5000000000000000" Q3="-0.4999999999999998" A="4.1887902047863905" Ox="-0.5773502691896260" Oy="0.5773502691896257" Oz="-0.5773502691896257"/>
+                    <PropertyPlacement Px="364.8117674823550942" Py="198.6350000000000193" Pz="390.8000000000000682" Q0="-0.5000000000000001" Q1="0.4999999999999999" Q2="-0.5000000000000001" Q3="-0.4999999999999999" A="4.1887902047863905" Ox="-0.5773502691896258" Oy="0.5773502691896256" Oz="-0.5773502691896258"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -12467,7 +12467,7 @@
                     <XLink file="GT2PulleySmooth20T.FCStd" stamp="2021-01-18T10:41:31Z" name="GT2PulleySmooth20T"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="379.8117674823550942" Py="198.6350000000000193" Pz="390.8000000000000682" Q0="-0.5000000000000002" Q1="0.5000000000000000" Q2="-0.5000000000000000" Q3="-0.4999999999999998" A="4.1887902047863905" Ox="-0.5773502691896260" Oy="0.5773502691896257" Oz="-0.5773502691896257"/>
+                    <PropertyPlacement Px="364.8117674823550942" Py="198.6350000000000193" Pz="390.8000000000000682" Q0="-0.5000000000000001" Q1="0.4999999999999999" Q2="-0.5000000000000001" Q3="-0.4999999999999999" A="4.1887902047863905" Ox="-0.5773502691896258" Oy="0.5773502691896256" Oz="-0.5773502691896258"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList130"/>
@@ -12542,7 +12542,7 @@
                     <String value=""/>
                 </Property>
                 <Property name="LinkPlacement" type="App::PropertyPlacement" status="264">
-                    <PropertyPlacement Px="392.5417674823551124" Py="211.3650000000000375" Pz="401.8000000000000682" Q0="-0.5000000000000002" Q1="0.5000000000000001" Q2="-0.4999999999999999" Q3="-0.4999999999999998" A="4.1887902047863905" Ox="-0.5773502691896260" Oy="0.5773502691896258" Oz="-0.5773502691896256"/>
+                    <PropertyPlacement Px="377.5417674823551124" Py="211.3650000000000375" Pz="401.8000000000000682" Q0="-0.5000000000000001" Q1="0.5000000000000000" Q2="-0.5000000000000001" Q3="-0.5000000000000000" A="4.1887902047863914" Ox="-0.5773502691896258" Oy="0.5773502691896257" Oz="-0.5773502691896258"/>
                 </Property>
                 <Property name="LinkTransform" type="App::PropertyBool" status="256">
                     <Bool value="false"/>
@@ -12551,7 +12551,7 @@
                     <XLink file="GT2Pulley20T.FCStd" stamp="2021-01-18T10:41:31Z" name="GT2Pulley20T"/>
                 </Property>
                 <Property name="Placement" type="App::PropertyPlacement" status="256">
-                    <PropertyPlacement Px="392.5417674823551124" Py="211.3650000000000375" Pz="401.8000000000000682" Q0="-0.5000000000000002" Q1="0.5000000000000001" Q2="-0.4999999999999999" Q3="-0.4999999999999998" A="4.1887902047863905" Ox="-0.5773502691896260" Oy="0.5773502691896258" Oz="-0.5773502691896256"/>
+                    <PropertyPlacement Px="377.5417674823551124" Py="211.3650000000000375" Pz="401.8000000000000682" Q0="-0.5000000000000001" Q1="0.5000000000000000" Q2="-0.5000000000000001" Q3="-0.5000000000000000" A="4.1887902047863914" Ox="-0.5773502691896258" Oy="0.5773502691896257" Oz="-0.5773502691896258"/>
                 </Property>
                 <Property name="PlacementList" type="App::PropertyPlacementList" status="256">
                     <PlacementList file="PlacementList131"/>
@@ -14231,17 +14231,18 @@ AAAAAA==
 AAAAAA==
 8|4|B|ScaleList143
 AAAAAA==
-461672|461672|A|GuiDocument.xml
+461717|461717|A|GuiDocument.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="1" HasExpansion="1">
     <Expand  count="1">
-        <Expand name="Model" count="39">
+        <Expand name="Model" count="40">
             <Expand name="BaseExtrusionFront_1"/>
             <Expand name="TopExtrusionFront_1"/>
             <Expand name="TopExtrusionLeft_3"/>
+            <Expand name="TopExtrusionLeft_4"/>
             <Expand name="LeadScrewNut_1"/>
             <Expand name="LeadScrewNut_2"/>
             <Expand name="BedExtrusionLeft_1"/>
@@ -15015,7 +15016,7 @@ AAAAAA==
                     <Bool value="true"/>
                 </Property>
                 <Property name="Size" type="App::PropertyFloat" status="16777217">
-                    <Float value="555.8043121337890398"/>
+                    <Float value="546.0000000000000000"/>
                 </Property>
                 <Property name="Transparency" type="App::PropertyPercent" status="1">
                     <Integer value="0"/>
@@ -15052,7 +15053,7 @@ AAAAAA==
                     <Bool value="true"/>
                 </Property>
                 <Property name="Size" type="App::PropertyFloat" status="16777217">
-                    <Float value="555.8043121337890398"/>
+                    <Float value="546.0000000000000000"/>
                 </Property>
                 <Property name="Transparency" type="App::PropertyPercent" status="1">
                     <Integer value="0"/>
@@ -15126,7 +15127,7 @@ AAAAAA==
                     <Bool value="true"/>
                 </Property>
                 <Property name="Size" type="App::PropertyFloat" status="16777217">
-                    <Float value="555.8043121337890398"/>
+                    <Float value="546.0000000000000000"/>
                 </Property>
                 <Property name="Transparency" type="App::PropertyPercent" status="1">
                     <Integer value="0"/>
@@ -15258,7 +15259,7 @@ AAAAAA==
                     <Bool value="true"/>
                 </Property>
                 <Property name="Size" type="App::PropertyVector" status="5">
-                    <PropertyVector valueX="555.8043121337890398" valueY="546.0000000000000000" valueZ="625.9500000000000455"/>
+                    <PropertyVector valueX="536.3043121337890398" valueY="546.0000000000000000" valueZ="625.9500000000000455"/>
                 </Property>
                 <Property name="Visibility" type="App::PropertyBool" status="1">
                     <Bool value="false"/>
@@ -15629,7 +15630,7 @@ AAAAAA==
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="TopExtrusionLeft_4" expanded="0" Extensions="True">
+        <ViewProvider name="TopExtrusionLeft_4" expanded="1" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
                 </Extension>
@@ -22670,7 +22671,7 @@ AAAAAA==
             </Properties>
         </ViewProvider>
     </ViewProviderData>
-    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position 330.21225 -164.14967 344.30756&#10;  orientation 0.82300466 0.36313596 0.43680161  1.7736686&#10;  nearDistance 12.617832&#10;  farDistance 641.49255&#10;  aspectRatio 1&#10;  focalDistance 390.5455&#10;  height 103.47505&#10;&#10;}&#10;"/>
+    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position 586.44141 189.49808 558.43005&#10;  orientation 0.59696198 0.02396048 0.80191159  1.600939&#10;  nearDistance 11.33076&#10;  farDistance 805.80859&#10;  aspectRatio 1&#10;  focalDistance 390.5455&#10;  height 103.47514&#10;&#10;}&#10;"/>
 </Document>
 
 12|8|B|DiffuseColor
